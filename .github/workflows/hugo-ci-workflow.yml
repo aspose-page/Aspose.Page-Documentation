@@ -22,6 +22,7 @@ jobs:
           cp -R ${{ secrets.PROJECTPATH }} content/
           hugo --minify --baseURL https://docs.aspose.com/page
           scp -r public/* ${{ secrets.TRANSFERPATH }}
+          rsync --recursive --delete --force -e "ssh" --progress public/ ${{ secrets.TRANSFERPATH }}
       - name: hugo deploy
         uses: appleboy/ssh-action@master
         with:
@@ -30,5 +31,5 @@ jobs:
           key: ${{ secrets.SSHKEY }}
           port: ${{ secrets.SSHPORT }}
           script: |
-            sudo cp -fR ${{ secrets.PUBLICCONTENTPATH }} ${{ secrets.DEPLOYPATH }}
+            sudo rsync --recursive --delete --force --progress ${{ secrets.PUBLICCONTENTPATH }} ${{ secrets.DEPLOYPATH }}
             sudo nginx -s reload
