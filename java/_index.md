@@ -3,9 +3,10 @@ title: Aspose.Page for Java
 type: docs
 weight: 10
 url: /java/
+is_root: true
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **![todo:image_alt_text](home_1)**
 
@@ -15,7 +16,7 @@ Aspose.Page is a Java API is built to allow developers to work with XPS and EPS/
 
 
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Aspose.Page for Java Resources**
 Following are the links to some useful resources you may need to accomplish your tasks.
 

@@ -3,9 +3,10 @@ title: Aspose.Page for .NET
 type: docs
 weight: 10
 url: /net/
+is_root: true
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **![todo:image_alt_text](home_1)**
 
@@ -13,7 +14,7 @@ url: /net/
 
 Aspose.Page is a .NET API and is built to allow developers to work with XPS and EPS/PS documents. Using the API you can create, edit and save existing as well as new XPS documents. Furthermore, you can convert XPS and EPS/PS documents to PDF and Images. Aspose.Page for .NET is implemented using C# and it can be used with any .NET language like C#, VB.NET and J# etc. It can be integrated with any kind of application either it's an ASP.NET Web Application or a Windows Application.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Aspose.Page for .NET Resources**
 Following are the links to some useful resources you may need to accomplish your tasks.
 
