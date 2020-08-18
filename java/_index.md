@@ -3,6 +3,7 @@ title: Aspose.Page for Java
 type: docs
 weight: 10
 url: /java/
+is_root: true
 ---
 
 {{% alert color="primary" %}} 
