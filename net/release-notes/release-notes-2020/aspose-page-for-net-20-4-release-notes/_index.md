@@ -1,15 +1,15 @@
 ---
 title: Aspose.Page for .NET 20.4 Release Notes
 type: docs
-weight: 40
+weight: 100
 url: /net/aspose-page-for-net-20-4-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes information for Aspose.Page for .NET 20.4.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|
@@ -90,7 +90,3 @@ This page contains release notes information for Aspose.Page for .NET 20.4.
 - Property: Aspose.Page.XPS.XpsModel.XpsPathGeometry.Item(System.Int32)
 - Property: Aspose.Page.XPS.XpsModel.XpsList`1.Item(System.Int32)
 - Property: Aspose.Page.XPS.XpsModel.XpsList`1.Count
-
-
-
-
