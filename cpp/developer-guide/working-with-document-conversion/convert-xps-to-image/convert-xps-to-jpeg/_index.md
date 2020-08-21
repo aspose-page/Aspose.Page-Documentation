@@ -5,7 +5,6 @@ weight: 20
 url: /cpp/convert-xps-to-jpeg/
 ---
 
-## **Convert XPS to JPEG**
 Aspose.Page for C++ offers **JpegSaveOptions** class, with which you can convert XPS document to JPEG image. You can specify **Resolution**, **PageNumbers**, **SmoothingMode**, **TextRenderingHint**, and **InterpolationMode** options of JpegSaveOptions and save XPS document as JPEG image using **Save** method of **XpsDocument** class. Following code snippet shows how to convert XPS document to JPEG image:
 
 

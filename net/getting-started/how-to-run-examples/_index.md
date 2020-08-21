@@ -13,7 +13,7 @@ Please make sure you meet the following requirements before downloading and runn
 1. Go to Tools->Options->NuGet Package Manager->Package Sources and make sure that the option **nuget.org** is checked
 1. The example project uses NuGet Automatic Package Restore feature, therefore, you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation ](/page/net/installation/)and manually add the reference to Aspose.Page.dll in the example project.
 ## **Download from GitHub**
-All examples of Aspose.Page for .NET are hosted on [GitHub](https://github.com/aspose-xps/Aspose.XPS-for-.NET).
+All examples of Aspose.Page for .NET are hosted on [GitHub](https://github.com/aspose-page/Aspose.Page-for-.NET).
 
 - You can either clone the repository using your favourite GitHub client or download the ZIP file from [here](https://github.com/aspose-page/Aspose.Page-for-.NET/archive/master.zip).
 - Extract the contents of ZIP file to any folder on your computer. All the examples are located in the **Examples** folder.

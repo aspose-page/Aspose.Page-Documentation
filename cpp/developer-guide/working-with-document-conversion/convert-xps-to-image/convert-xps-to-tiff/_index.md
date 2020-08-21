@@ -5,7 +5,6 @@ weight: 40
 url: /cpp/convert-xps-to-tiff/
 ---
 
-## **Convert XPS to TIFF**
 Aspose.Page for C++ offers **TiffSaveOptions** class, with which you can convert XPS document to TIFF image. You can specify **Resolution**, **PageNumbers**, **SmoothingMode**, **TextRenderingHint**, and **InterpolationMode** options of TiffSaveOptions and save XPS document as TIFF image using **Save** method of **XpsDocument** class. Following code snippet shows how to convert XPS document to TIFF image:
 
 

@@ -5,7 +5,6 @@ weight: 20
 url: /java/convert-xps-to-pdf/
 ---
 
-# **Convert XPS to PDF**
 Aspose.Page for Java offers **PdfSaveOptions** class, with which you can convert XPS document to PDF document. You can specify **setTextCompression()**, **setImageCompression()**, **setJpegQualityLevel()**, and other options of PdfSaveOptions and save XPS document as PDF document using **save** method of **XpsDocument** class. Following code snippet shows how to convert XPS document to PDF document:
 
 

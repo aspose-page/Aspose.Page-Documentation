@@ -5,7 +5,6 @@ weight: 40
 url: /cpp/convert-xps-to-pdf/
 ---
 
-# **Convert XPS to PDF**
 Aspose.Page for C++ lets you convert XPS to PDF. The PdfSaveOptions class is used to convert XPS documents to PDF. It allows you to specify additional saving options using the TextCompression, ImageCompression, JpegQualityLevel and other associated classes. In order to convert XPS to PDF, use the following steps.
 
 1. Load the input XPS document as a stream

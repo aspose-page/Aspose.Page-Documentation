@@ -6,7 +6,7 @@ url: /java/how-to-run-examples/
 ---
 
 ## **Download from GitHub**
-All examples of Aspose.Page for Java are hosted on [Github](https://github.com/aspose-xps/Aspose.Page-for-Java). You can either clone the repository using your favourite Github client or download the ZIP file from [here](https://github.com/aspose-page/Aspose.Page-for-Java/archive/master.zip).
+All examples of Aspose.Page for Java are hosted on [Github](https://github.com/aspose-page/Aspose.Page-for-Java). You can either clone the repository using your favourite Github client or download the ZIP file from [here](https://github.com/aspose-page/Aspose.Page-for-Java/archive/master.zip).
 
 Extract the contents of the ZIP file to any folder on your computer. All the examples are located in the **Examples** folder. The project uses Maven build system. Any modern IDE can easily open or import the project and its dependencies. Below we show you how to use popular IDEs to build and run the examples.
 ## **IntelliJ IDEA**
