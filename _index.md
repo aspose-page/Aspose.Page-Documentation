@@ -11,7 +11,7 @@ url: /productfamily/home/
 
 **Welcome to the Aspose.Page for C++**
 
-Aspose.Page for C++ is a reliable and standalone XPS and PostScript file manipulation and conversion API. It allows you to create, edit and convert XPS files without requiring any additional tools. API allows operations such as manipulation of document pages & elements, create vector graphics, group shapes and specifying colors in different color spaces. Furthermore, It allows the developers to convert PS and EPS files to PDF documents, raster images such as BMP, EMF, GIF, JPEG, PNG, TIFF, and more.
+Aspose.Page for C++ is a reliable and standalone XPS and PostScript file manipulation and conversion API. It allows you to create, edit and convert XPS files without requiring any additional tools. API allows operations such as manipulation of document pages & elements, create vector graphics, group shapes and specifying colors in different color spaces. Furthermore, It allows the developers to convert PS and EPS files to PDF documents, raster images such as BMP, EMF, GIF, JPEG, PNG, TIFF, and more
 
 {{% /alert %}} 
 ## **Aspose.Page for C++ Resources**
