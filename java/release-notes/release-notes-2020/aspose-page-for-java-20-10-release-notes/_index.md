@@ -17,4 +17,4 @@ This release of Aspose.Page for Java is a maintenance release which has been mig
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |PAGENET-206| Load PS document produces 1 empty page.|Bug|
-|PAGEJAVA-95| Error while converting PS to PDF.|
+|PAGEJAVA-95| Error while converting PS to PDF.|Bug|
