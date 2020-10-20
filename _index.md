@@ -17,7 +17,7 @@ Aspose.Page for C++ is a reliable and standalone XPS and PostScript file manipul
 
 ## **Aspose.Page for C++ Resources**
 
-Following are the links to some useful resources you may need to accomplish your tasks..
+Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Page for C++ Online Documentation](/page/cpp/)
 - [Aspose.Page for C++ Features](/page/cpp/features-list/)
