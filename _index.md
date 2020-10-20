@@ -5,7 +5,7 @@ weight: 10
 url: /productfamily/home/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **![todo:image_alt_text](home_1)**
 
@@ -13,9 +13,11 @@ url: /productfamily/home/
 
 Aspose.Page for C++ is a reliable and standalone XPS and PostScript file manipulation and conversion API. It allows you to create, edit and convert XPS files without requiring any additional tools. API allows operations such as manipulation of document pages & elements, create vector graphics, group shapes and specifying colors in different color spaces. Furthermore, It allows the developers to convert PS and EPS files to PDF documents, raster images such as BMP, EMF, GIF, JPEG, PNG, TIFF, and more.
 
-{{% /alert %}} 
+{{% /alert %}}
+
 ## **Aspose.Page for C++ Resources**
-Following are the links to some useful resources you may need to accomplish your tasks.
+
+Following are the links to some useful resources you may need to accomplish your tasks..
 
 - [Aspose.Page for C++ Online Documentation](/page/cpp/)
 - [Aspose.Page for C++ Features](/page/cpp/features-list/)
@@ -26,18 +28,18 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Page for C++ Free Support Forum](https://forum.aspose.com/c/page)
 - [Aspose.Page for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **![todo:image_alt_text](home_2)**
 
 **Welcome to the Aspose.Page for Java**
 
-Aspose.Page is a Java API is built to allow developers to work with XPS and EPS/PS documents. Using the API you can create, edit and save existing as well as new XPS documents. Furthermore, you can convert XPS and EPS/PS documents to PDF and Images. It provides extensive manipulation capabilities and can be integrated with any kind of Desktop GUI Applications, Web Applications and Console Applications. 
+Aspose.Page is a Java API is built to allow developers to work with XPS and EPS/PS documents. Using the API you can create, edit and save existing as well as new XPS documents. Furthermore, you can convert XPS and EPS/PS documents to PDF and Images. It provides extensive manipulation capabilities and can be integrated with any kind of Desktop GUI Applications, Web Applications and Console Applications.
 
+{{% /alert %}}
 
-
-{{% /alert %}} 
 ## **Aspose.Page for Java Resources**
+
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Page for Java Online Documentation](/page/java/)
@@ -48,8 +50,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Page for Java Free Support Forum](https://forum.aspose.com/c/page)
 - [Aspose.Page for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **![todo:image_alt_text](home_3)**
 
@@ -57,8 +58,10 @@ Following are the links to some useful resources you may need to accomplish your
 
 Aspose.Page is a .NET API and is built to allow developers to work with XPS and EPS/PS documents. Using the API you can create, edit and save existing as well as new XPS documents. Furthermore, you can convert XPS and EPS/PS documents to PDF and Images. Aspose.Page for .NET is implemented using C# and it can be used with any .NET language like C#, VB.NET and J# etc. It can be integrated with any kind of application either it's an ASP.NET Web Application or a Windows Application.
 
-{{% /alert %}} 
+{{% /alert %}}
+
 ## **Aspose.Page for .NET Resources**
+
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Page for .NET Online Documentation](/page/net/)
