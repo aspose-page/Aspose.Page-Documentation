@@ -5,4 +5,3 @@ weight: 10
 url: /java/getting-started/
 ---
 
-#### **Articles in this section**
