@@ -17,4 +17,4 @@ The following C++ code shows how to convert XPS to PDF.
 
 
 
-{{< gist "aspose-com-gists" "6f0d8b5420af1af6af2d064587dd6803" "Examples-Aspose.Page.Examples.CSharp-WorkingWithDocumentConversion-XPStoPDF-1.cs" >}}
+{{< gist "aspose-com-gists" "1128d967b432793ca43e26bceca820d0" "example-source-XPStoPDF-XPStoPDF.cpp" >}}
