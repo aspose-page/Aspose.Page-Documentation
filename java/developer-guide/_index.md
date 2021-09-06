@@ -5,4 +5,3 @@ weight: 20
 url: /java/developer-guide/
 ---
 
-#### **Articles in this section**
