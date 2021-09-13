@@ -7,10 +7,8 @@ url: /net/convert/xps-to-png/
 
 {{% alert color="primary" %}} 
 
-You can check the quality of Aspose.Page conversion and view the results online at this links:
-
-[products.aspose.app/page/conversion/xps-to-png](https://products.aspose.app/page/conversion/xps-to-png),
-[products.aspose.app/page/viewer/xps](https://products.aspose.app/page/conversion/xps-to-png). {{% /alert %}} 
+You can check the quality of Aspose.Page XPS to PNG conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/xps-to-png">XPS to PNG Converter</a>
+or <a nofollow href="https://products.aspose.app/page/viewer/xps">XPS Viewer</a> {{% /alert %}}
 
 Aspose.Page .NET XPS to PNG converter allows to convert XPS document to PNG image with using of any language supported by .Net platform: C#, VB, J#.
 <br>It is necessary to do several steps in order to perform XPS to PNG conversion:
@@ -47,7 +45,7 @@ using (Stream xpsStream = File.Open(inputFileName, FileMode.Open, FileAccess.Rea
         PageNumbers = new int[] { 1, 2, 6 }
     };
 
-    // Create rendering device for PDF format
+    // Create rendering device for image
     ImageDevice device = new ImageDevice();
 
     document.Save(device, options);
@@ -66,4 +64,20 @@ using (Stream xpsStream = File.Open(inputFileName, FileMode.Open, FileAccess.Rea
         }
 }
 ```
+{{% alert color="primary" %}}
+See XPS to PNG conversion in [Java](/page/java/convert/xps-to-png/) and [C++](/page/cpp/convert/xps-to-png/).
+{{% /alert %}}
 
+Let's consider [PngSaveOptions](https://apireference.aspose.com/page/net/aspose.page.xps.presentation.image/pngsaveoptions). Using this class we can assign different conversion parameters while converting XPS to PNG.
+<br>
+- **SmoothingMode** assigns a degree of smoothing for lines, curves and edges of filled areas, may be AntiAlias, HighQuality, HighSpeed and Default (none). Default value is HighQuality.
+- **Resolution** controls resolution of resulting image. Default value is 96.
+- **TextRenderingHint** assigns quality of text rendering, may be AntiAlias, AntiAliasGridFit, ClearTypeGridFit, SingleBitPerPixel, SingleBitPerPixelGridFit, SystemDefault. Default value in XPS to PNG conversion is AntiAliasGridFit.
+- **InterpolationMode** defines algorithm that is used when scaling or/and rotating image, may be Bicubic, Bilinear, High, HighQualityBicubic, HighQualityBilinear, Low, NearestNeighbor and Default. Default value is HighQualityBicubic.
+- **PageNumbers** represents an array of numbers of pages which will be saved to PNG.
+
+{{% alert color="primary" %}} 
+Evaluate XPS to PNG conversion online on our <a nofollow href="https://products.aspose.app/page/conversion/xps-to-png">XPS to PNG Converter</a>. You can convert several XPS files to PNG at once and dowload results in a few seconds.
+<br>
+<br>
+You can download examples and data files from [GitHub](https://github.com/aspose-page/Aspose.Page-for-.NET). {{% /alert %}} 

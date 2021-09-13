@@ -4,13 +4,10 @@ type: docs
 weight: 20
 url: /net/convert/ps-to-jpg/
 ---
-
 {{% alert color="primary" %}} 
 
-You can check the quality of Aspose.Page conversion and view the results online at this links:
-
-[products.aspose.app/page/conversion/ps-to-jpg](https://products.aspose.app/page/conversion/ps-to-jpg),
-[products.aspose.app/page/viewer/ps](https://products.aspose.app/page/viewer/ps). {{% /alert %}} 
+You can check the quality of Aspose.Page PS to JPG conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/ps-to-jpg">PostScipt to JPG Converter</a>
+or <a nofollow href="https://products.aspose.app/page/viewer/ps">PostScript Viewer</a> {{% /alert %}} 
 
 Aspose.Page for .NET PS to JPG converter allows to convert PostScript (PS) file to JPEG image with using of any language supported by .Net platform: C#, VB, J#.
 <br>It is necessary to do several steps in order to perform PS to JPG conversion:
@@ -28,7 +25,7 @@ Aspose.Page for .NET PS to JPG converter allows to convert PostScript (PS) file 
 // For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_WorkingWithDocumentConversion();
-// Initialize PDF output stream
+// Specifies image format
 System.Drawing.Imaging.ImageFormat imageFormat = System.Drawing.Imaging.ImageFormat.Jpeg;
 // Initialize PostScript input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "inputForImage.ps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
@@ -81,4 +78,18 @@ if (suppressErrors)
     }
 }
 ```
+{{% alert color="primary" %}}
+See PS to JPG conversion in [Java](/page/java/convert/ps-to-jpg/) and [C++](/page/cpp/convert/ps-to-jpg/).
+{{% /alert %}}
 
+Let's consider [ImageSaveOptions](https://apireference.aspose.com/page/net/aspose.page.eps.device/imagesaveoptions). Using this class we can assign different conversion parameters while converting PS to JPG.
+<br>
+- **AdditionalFontsFolder** specifies locations where to find fonts. System fonts folders are always included by default.
+- **SuppressError** controls behaviour of PS to JPG converter when non-critical errors are appeared. If value is true than it is possible to view a list of such errors after conversion in **Exceptions** field. Default value is true.
+- **Debug** allows outputting debug information to console. Default value is false.
+
+{{% alert color="primary" %}}
+Evaluate PS to JPG conversion online on our <a nofollow href="https://products.aspose.app/page/conversion/ps-to-jpg">PS to JPG Converter</a>. You can convert several PS files to JPG at once and dowload results in a few seconds.
+<br>
+<br>
+You can download examples and data files from [GitHub](https://github.com/aspose-page/Aspose.Page-for-.NET). {{% /alert %}} 

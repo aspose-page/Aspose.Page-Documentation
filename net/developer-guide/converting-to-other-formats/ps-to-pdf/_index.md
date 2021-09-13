@@ -7,9 +7,7 @@ url: /net/convert/ps-to-pdf/
 
 {{% alert color="primary" %}} 
 
-You can check the quality of Aspose.Page conversion and view the results online at this link:
-
-[products.aspose.app/page/conversion/ps-to-pdf](https://products.aspose.app/page/conversion/ps-to-pdf) {{% /alert %}} 
+You can check the quality of Aspose.Page PS to PDF conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/ps-to-pdf">PostScipt to PDF Converter</a> {{% /alert %}} 
 
 Aspose.Page for .NET PS to PDF converter allows to convert PostScript (PS) file to PDF document with using of any language supported by .Net platform: C#, VB, J#.
 <br>It is necessary to do several steps in order to perform PS to PDF conversion:
@@ -19,7 +17,7 @@ Aspose.Page for .NET PS to PDF converter allows to convert PostScript (PS) file 
 4. Use [PdfSaveOptions](https://apireference.aspose.com/page/net/aspose.page.eps.device/pdfsaveoptions) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
 5. Create an instance of [PdfDevice](https://apireference.aspose.com/page/net/aspose.page.eps.device/pdfdevice) from created earlier output stream.
 6. Save PostScript document as PDF with PDF save options.
-7. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of PS to PDF.
+7. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of PS to PDF and saved in **Exceptions** list.
 
 <br>Following code snippet shows how to convert PS to PDF document in C#:
 <br>
@@ -65,5 +63,18 @@ if (suppressErrors)
     }
 }
 ```
+{{% alert color="primary" %}}
+See PS to PDF conversion in [Java](/page/java/convert/ps-to-pdf/) and [C++](/page/cpp/convert/ps-to-pdf/).
+{{% /alert %}}
 
+Let's consider [PdfSaveOptions](https://apireference.aspose.com/page/net/aspose.page.eps.device/pdfsaveoptions). Using this class we can assign different conversion parameters while converting PS to PDF.
+<br>
+- **AdditionalFontsFolder** specifies locations where to find fonts. System fonts folders are always included by default.
+- **SuppressError** controls behaviour of PS to PDF converter when non-critical errors are appeared. If value is true than it is possible to view a list of such errors after conversion in **Exceptions** field. Default value is true.
+- **Debug** allows outputting debug information to console. Default value is false.
 
+{{% alert color="primary" %}}
+Evaluate PS to PDF conversion online on our <a nofollow href="https://products.aspose.app/page/conversion/ps-to-pdf">PS to PDF Converter</a>. You can convert several PS files to PDF at once and dowload results in a few seconds.
+<br>
+<br>
+You can download examples and data files from [GitHub](https://github.com/aspose-page/Aspose.Page-for-.NET). {{% /alert %}} 

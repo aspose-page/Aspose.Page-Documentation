@@ -7,10 +7,9 @@ url: /net/convert/xps-to-tiff/
 
 {{% alert color="primary" %}} 
 
-You can check the quality of Aspose.Page conversion and view the results online at this links:
+You can check the quality of Aspose.Page XPS to TIFF conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/xps-to-tiff">XPS to TIFF Converter</a>
+or <a nofollow href="https://products.aspose.app/page/viewer/xps">XPS Viewer</a> {{% /alert %}}
 
-[products.aspose.app/page/conversion/xps-to-tiff](https://products.aspose.app/page/conversion/xps-to-tiff),
-[products.aspose.app/page/viewer/xps](https://products.aspose.app/page/conversion/xps-to-png). {{% /alert %}} 
 
 Aspose.Page .NET XPS to TIFF converter allows to convert XPS document to TIFF image with using of any language supported by .Net platform: C#, VB, J#.
 <br>It is necessary to do several steps in order to perform XPS to TIFF conversion:
@@ -47,7 +46,7 @@ using (Stream xpsStream = File.Open(inputFileName, FileMode.Open, FileAccess.Rea
         PageNumbers = new int[] { 1, 2, 6 }
     };
 
-    // Create rendering device for PDF format
+    // Create rendering device for image
     ImageDevice device = new ImageDevice();
 
     document.Save(device, options);
@@ -66,3 +65,20 @@ using (Stream xpsStream = File.Open(inputFileName, FileMode.Open, FileAccess.Rea
         }
 }
 ```
+{{% alert color="primary" %}}
+See XPS to TIFF conversion in [Java](/page/java/convert/xps-to-tiff/) and [C++](/page/cpp/convert/xps-to-tiff/).
+{{% /alert %}}
+
+Let's consider [TiffSaveOptions](https://apireference.aspose.com/page/net/aspose.page.xps.presentation.image/tiffsaveoptions). Using this class we can assign different conversion parameters while converting XPS to TIFF.
+<br>
+- **SmoothingMode** assigns a degree of smoothing for lines, curves and edges of filled areas, may be AntiAlias, HighQuality, HighSpeed and Default (none). Default value is HighQuality.
+- **Resolution** controls resolution of resulting image. Default value is 96.
+- **TextRenderingHint** assigns quality of text rendering, may be AntiAlias, AntiAliasGridFit, ClearTypeGridFit, SingleBitPerPixel, SingleBitPerPixelGridFit, SystemDefault. Default value in XPS to TIFF conversion is AntiAliasGridFit.
+- **InterpolationMode** defines algorithm that is used when scaling or/and rotating image, may be Bicubic, Bilinear, High, HighQualityBicubic, HighQualityBilinear, Low, NearestNeighbor and Default. Default value is HighQualityBicubic.
+- **PageNumbers** represents an array of numbers of pages which will be saved to TIFF.
+
+{{% alert color="primary" %}} 
+Evaluate XPS to TIFF conversion online on our <a nofollow href="https://products.aspose.app/page/conversion/xps-to-tiff">XPS to TIFF Converter</a>. You can convert several XPS files to TIFF at once and dowload results in a few seconds.
+<br>
+<br>
+You can download examples and data files from [GitHub](https://github.com/aspose-page/Aspose.Page-for-.NET). {{% /alert %}} 

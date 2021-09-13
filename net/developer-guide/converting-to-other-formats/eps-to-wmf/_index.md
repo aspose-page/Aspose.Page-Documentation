@@ -7,10 +7,8 @@ url: /net/convert/eps-to-wmf/
 
 {{% alert color="primary" %}} 
 
-You can check the quality of Aspose.Page conversion and view the results online at this links:
-
-[products.aspose.app/page/conversion/eps-to-wmf](https://products.aspose.app/page/conversion/eps-to-wmf),
-[products.aspose.app/page/viewer/eps](https://products.aspose.app/page/viewer/eps). {{% /alert %}} 
+You can check the quality of Aspose.Page EPS to WMF conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-wmf">EPS to WMF Converter</a>
+or <a nofollow href="https://products.aspose.app/page/viewer/eps">EPS Viewer</a> {{% /alert %}}
 
 Aspose.Page for .NET EPS to WMF converter allows to convert Encapsulated PostScript (EPS) file to WMF image with using of any language supported by .Net platform: C#, VB, J#.
 <br>It is necessary to do several steps in order to perform EPS to WMF conversion:
@@ -28,7 +26,7 @@ Aspose.Page for .NET EPS to WMF converter allows to convert Encapsulated PostScr
 // For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_WorkingWithDocumentConversion();
-// Initialize PDF output stream
+// Specifies image format
 System.Drawing.Imaging.ImageFormat imageFormat = System.Drawing.Imaging.ImageFormat.Wmf;
 // Initialize PostScript input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "inputForImage.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
@@ -81,4 +79,18 @@ if (suppressErrors)
     }
 }
 ```
+{{% alert color="primary" %}}
+See EPS to WMF conversion in [Java](/page/java/convert/eps-to-wmf/) and [C++](/page/cpp/convert/eps-to-wmf/).
+{{% /alert %}}
 
+Let's consider [ImageSaveOptions](https://apireference.aspose.com/page/net/aspose.page.eps.device/imagesaveoptions). Using this class we can assign different conversion parameters while converting EPS to WMF.
+<br>
+- **AdditionalFontsFolder** specifies locations where to find fonts. System fonts folders are always included by default.
+- **SuppressError** controls behaviour of EPS to WMF converter when non-critical errors are appeared. If value is true than it is possible to view a list of such errors after conversion in **Exceptions** field. Default value is true.
+- **Debug** allows outputting debug information to console. Default value is false.
+
+{{% alert color="primary" %}}
+Evaluate EPS to WMF conversion online on our <a nofollow href="https://products.aspose.app/page/conversion/eps-to-wmf">EPS to WMF Converter</a>. You can convert several EPS files to WMF at once and dowload results in a few seconds.
+<br>
+<br>
+You can download examples and data files from [GitHub](https://github.com/aspose-page/Aspose.Page-for-.NET). {{% /alert %}} 
