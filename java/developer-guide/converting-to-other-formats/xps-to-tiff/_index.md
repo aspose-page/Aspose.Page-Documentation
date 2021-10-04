@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to TIFF
+title: Convert XPS to TIFF using Java
 type: docs
 weight: 40
 url: /java/convert/xps-to-tiff/

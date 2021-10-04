@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to WMF
+title: Convert EPS to WMF using .NET
 type: docs
 weight: 20
 url: /net/convert/eps-to-wmf/

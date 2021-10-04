@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to EMF
+title: Convert EPS to EMF using C++
 type: docs
 weight: 20
 url: /cpp/convert/eps-to-emf/

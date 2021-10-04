@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to PDF
+title: Convert XPS to PDF using Java
 type: docs
 weight: 20
 url: /java/convert/xps-to-pdf/

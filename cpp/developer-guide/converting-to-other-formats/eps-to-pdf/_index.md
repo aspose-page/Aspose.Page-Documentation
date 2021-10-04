@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to PDF
+title: Convert EPS to PDF using C++
 type: docs
 weight: 20
 url: /cpp/convert/eps-to-pdf/

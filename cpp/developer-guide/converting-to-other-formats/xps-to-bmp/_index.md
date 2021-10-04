@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to BMP
+title: Convert XPS to BMP using C++
 type: docs
 weight: 20
 url: /cpp/convert/xps-to-bmp/

@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to JPG
+title: Convert EPS to JPG using Java
 type: docs
 weight: 20
 url: /java/convert/eps-to-jpg/

@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to BMP
+title: Convert EPS to BMP using Java
 type: docs
 weight: 20
 url: /java/convert/eps-to-bmp/

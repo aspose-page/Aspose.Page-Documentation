@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to JPG
+title: Convert EPS to JPG using .NET
 type: docs
 weight: 20
 url: /net/convert/eps-to-jpg/

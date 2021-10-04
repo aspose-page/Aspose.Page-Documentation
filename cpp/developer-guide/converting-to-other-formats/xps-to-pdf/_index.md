@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to PDF
+title: Convert XPS to PDF using C++
 type: docs
 weight: 20
 url: /cpp/convert/xps-to-pdf/

@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to PNG
+title: Convert PostScript to PNG using .NET
 type: docs
 weight: 20
 url: /net/convert/ps-to-png/

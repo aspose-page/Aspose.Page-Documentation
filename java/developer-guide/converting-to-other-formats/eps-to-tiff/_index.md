@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to TIFF
+title: Convert EPS to TIFF using Java
 type: docs
 weight: 20
 url: /java/convert/eps-to-tiff/

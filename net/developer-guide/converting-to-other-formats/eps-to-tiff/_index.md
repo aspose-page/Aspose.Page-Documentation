@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to TIFF
+title: Convert EPS to TIFF using .NET
 type: docs
 weight: 20
 url: /net/convert/eps-to-tiff/

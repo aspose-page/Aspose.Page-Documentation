@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to TIFF
+title: Convert XPS to TIFF using .NET
 type: docs
 weight: 40
 url: /net/convert/xps-to-tiff/

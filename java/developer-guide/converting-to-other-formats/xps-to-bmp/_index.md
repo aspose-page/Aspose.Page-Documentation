@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to BMP
+title: Convert XPS to BMP using Java
 type: docs
 weight: 20
 url: /java/convert/xps-to-bmp/

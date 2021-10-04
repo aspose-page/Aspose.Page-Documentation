@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to TIFF
+title: Convert PostScript to TIFF using Java
 type: docs
 weight: 20
 url: /java/convert/ps-to-tiff/

@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to EMF
+title: Convert EPS to EMF using .NET
 type: docs
 weight: 20
 url: /net/convert/eps-to-emf/

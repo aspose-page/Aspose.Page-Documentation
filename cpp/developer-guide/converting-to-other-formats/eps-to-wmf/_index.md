@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to WMF
+title: Convert EPS to WMF using C++
 type: docs
 weight: 20
 url: /cpp/convert/eps-to-wmf/

@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to TIFF
+title: Convert PostScript to TIFF using .NET
 type: docs
 weight: 20
 url: /net/convert/ps-to-tiff/

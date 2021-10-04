@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to BMP
+title: Convert EPS to BMP using .NET
 type: docs
 weight: 20
 url: /net/convert/eps-to-bmp/

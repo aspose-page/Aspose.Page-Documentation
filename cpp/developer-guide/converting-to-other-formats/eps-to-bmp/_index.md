@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to BMP
+title: Convert EPS to BMP using C++
 type: docs
 weight: 20
 url: /cpp/convert/eps-to-bmp/

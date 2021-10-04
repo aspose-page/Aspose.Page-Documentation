@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to PNG
+title: Convert EPS to PNG using .NET
 type: docs
 weight: 20
 url: /net/convert/eps-to-png/

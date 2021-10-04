@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to JPG
+title: Convert PostScript to JPG using C++
 type: docs
 weight: 20
 url: /cpp/convert/ps-to-jpg/

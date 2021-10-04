@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to BMP
+title: Convert XPS to BMP using .NET
 type: docs
 weight: 20
 url: /net/convert/xps-to-bmp/

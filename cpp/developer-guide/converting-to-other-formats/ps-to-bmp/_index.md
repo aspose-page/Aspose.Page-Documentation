@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to BMP
+title: Convert PostScript to BMP using C++
 type: docs
 weight: 20
 url: /cpp/convert/ps-to-bmp/

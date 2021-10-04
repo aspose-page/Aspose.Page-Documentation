@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to JPG
+title: Convert PostScript to JPG using .NET
 type: docs
 weight: 20
 url: /net/convert/ps-to-jpg/

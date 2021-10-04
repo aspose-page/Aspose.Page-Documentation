@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to JPG
+title: Convert PostScript to JPG using Java
 type: docs
 weight: 20
 url: /java/convert/ps-to-jpg/

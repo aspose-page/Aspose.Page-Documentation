@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to TIFF
+title: Convert EPS to TIFF using C++
 type: docs
 weight: 20
 url: /cpp/convert/eps-to-tiff/

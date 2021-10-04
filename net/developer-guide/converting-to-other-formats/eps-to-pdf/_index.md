@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to PDF
+title: Convert EPS to PDF using .NET
 type: docs
 weight: 20
 url: /net/convert/eps-to-pdf/

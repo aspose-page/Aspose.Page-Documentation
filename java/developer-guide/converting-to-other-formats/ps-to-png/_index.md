@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to PNG
+title: Convert PostScript to PNG using Java
 type: docs
 weight: 20
 url: /java/convert/ps-to-png/

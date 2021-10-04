@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to PDF
+title: Convert EPS to PDF using Java
 type: docs
 weight: 20
 url: /java/convert/eps-to-pdf/

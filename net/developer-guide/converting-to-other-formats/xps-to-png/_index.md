@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to PNG
+title: Convert XPS to PNG using .NET
 type: docs
 weight: 20
 url: /net/convert/xps-to-png/

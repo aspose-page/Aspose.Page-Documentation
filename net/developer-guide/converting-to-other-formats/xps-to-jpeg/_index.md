@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to JPG
+title: Convert XPS to JPG using .NET
 type: docs
 weight: 20
 url: /net/convert/xps-to-jpg/

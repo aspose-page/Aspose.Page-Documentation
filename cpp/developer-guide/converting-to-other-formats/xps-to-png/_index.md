@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to PNG
+title: Convert XPS to PNG using C++
 type: docs
 weight: 20
 url: /cpp/convert/xps-to-png/

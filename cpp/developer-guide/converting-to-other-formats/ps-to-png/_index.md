@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to PNG
+title: Convert PostScript to PNG using C++
 type: docs
 weight: 20
 url: /cpp/convert/ps-to-png/

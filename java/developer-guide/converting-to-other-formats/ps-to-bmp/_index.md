@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to BMP
+title: Convert PostScript to BMP using Java
 type: docs
 weight: 20
 url: /java/convert/ps-to-bmp/

@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to JPG
+title: Convert XPS to JPG using C++
 type: docs
 weight: 20
 url: /cpp/convert/xps-to-jpg/

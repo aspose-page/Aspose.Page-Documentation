@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to PDF
+title: Convert PostScript to PDF using C++
 type: docs
 weight: 20
 url: /cpp/convert/ps-to-pdf/

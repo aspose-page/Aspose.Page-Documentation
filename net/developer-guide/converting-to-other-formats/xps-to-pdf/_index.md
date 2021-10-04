@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to PDF
+title: Convert XPS to PDF using .NET
 type: docs
 weight: 20
 url: /net/convert/xps-to-pdf/

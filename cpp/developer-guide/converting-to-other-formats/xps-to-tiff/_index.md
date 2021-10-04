@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to TIFF
+title: Convert XPS to TIFF using C++
 type: docs
 weight: 40
 url: /cpp/convert/xps-to-tiff/

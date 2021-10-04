@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to TIFF
+title: Convert PostScript to TIFF using C++
 type: docs
 weight: 20
 url: /cpp/convert/ps-to-tiff/

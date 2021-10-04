@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to BMP
+title: Convert PostScript to BMP using .NET
 type: docs
 weight: 20
 url: /net/convert/ps-to-bmp/

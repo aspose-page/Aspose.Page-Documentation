@@ -1,5 +1,5 @@
 ---
-title: Convert PostScript to PDF
+title: Convert PostScript to PDF using Java
 type: docs
 weight: 20
 url: /java/convert/ps-to-pdf/

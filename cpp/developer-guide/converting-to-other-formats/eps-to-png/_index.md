@@ -1,5 +1,5 @@
 ---
-title: Convert EPS to PNG
+title: Convert EPS to PNG using C++
 type: docs
 weight: 20
 url: /cpp/convert/eps-to-png/

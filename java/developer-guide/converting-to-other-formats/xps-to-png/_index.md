@@ -1,5 +1,5 @@
 ---
-title: Convert XPS to PNG
+title: Convert XPS to PNG using Java
 type: docs
 weight: 20
 url: /java/convert/xps-to-png/
