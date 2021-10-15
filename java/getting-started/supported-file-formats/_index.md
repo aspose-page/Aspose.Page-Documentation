@@ -18,7 +18,4 @@ The following table indicates the file formats that Aspose.Page for .Java can lo
 |[TIFF](https://wiki.fileformat.com/image/tiff/)|Tagged Image File Format| |{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[JPEG](https://wiki.fileformat.com/image/jpeg/)|Image Format| |{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[PNG](https://wiki.fileformat.com/image/png/)|Image Format| |{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[EMF](https://wiki.fileformat.com/image/emf/)|Enhanced MetaFile| | |{{< emoticons/tick >}}| |
-|[WMF](https://wiki.fileformat.com/image/wmf/)|Windows Metafile| | |{{< emoticons/tick >}}| |
-|[GIF](https://wiki.fileformat.com/image/gif/)|Graphic Interchange Format| | |{{< emoticons/tick >}}| |
 

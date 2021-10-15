@@ -20,5 +20,4 @@ The following table indicates the file formats that Aspose.Page for .NET can loa
 |[PNG](https://wiki.fileformat.com/image/png/)|Image Format| |{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[EMF](https://wiki.fileformat.com/image/emf/)|Enhanced MetaFile| | |{{< emoticons/tick >}}| |
 |[WMF](https://wiki.fileformat.com/image/wmf/)|Windows Metafile| | |{{< emoticons/tick >}}| |
-|[GIF](https://wiki.fileformat.com/image/gif/)|Graphic Interchange Format| | |{{< emoticons/tick >}}| |
 

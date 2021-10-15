@@ -11,7 +11,7 @@ Aspose.Page Features
 - .NET environment required.
 - Supports Windows Forms and ASP.NET applications.
 - API reference in HTML and Microsoft Help format.
-- Supported .NET Frameworks (2.0, 3.5, 4.0, 4.0_ClientProfile, 4.5.0, 4.5.1, 4.6.0, 4.6.2, 4.7, 4.7.2).
+- Supported .NET Frameworks (2.0, 3.5, 4.0, 4.0_ClientProfile, 4.5.0, 4.5.1, 4.6.0, 4.6.2, 4.7, 4.7.2), .NET Core (2.0, 3.0), .NET 5.
 - 32-bit OS support.
 - 64-bit OS support.
 ### **XPS Features**

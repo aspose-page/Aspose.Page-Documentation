@@ -23,16 +23,9 @@ The easiest way to apply a license is to put the license file in the same folder
 
 When you call the setLicense method, the license name that you pass should be that of your license file. For example, if you change the license file name to "Aspose.Page.Java.lic.xml" pass that filename to the com.aspose.page.License.setLicense(…) method. The license file can be specified for Aspose.Page for Java or you can use Aspose.Total for Java license file.
 
-{{< highlight java >}}
+{{< gist "aspose-com-gists" "bcee4811da013bc7a78dd41af768a9d2" "Examples-src-main-java-com-aspose-page-utilities-Utils-setLicenseFromFile.java" >}}
 
- <script src="https://gist.github.com/aspose-com-gists/bcee4811da013bc7a78dd41af768a9d2.js?file=Examples-src-main-java-com-aspose-page-utilities-Utils-setLicenseFromFile.java"></script>
-
-{{< /highlight >}}
 ### **Loading a License from a Stream Object**
 The following example shows how to load a license from a stream.
 
-{{< highlight java >}}
-
- <script src="https://gist.github.com/aspose-com-gists/bcee4811da013bc7a78dd41af768a9d2.js?file=Examples-src-main-java-com-aspose-page-utilities-Utils-setLicenseFromStream.java"></script>
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "bcee4811da013bc7a78dd41af768a9d2" "Examples-src-main-java-com-aspose-page-utilities-Utils-setLicenseFromStream.java" >}}

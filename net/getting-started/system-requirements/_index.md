@@ -48,3 +48,10 @@ The following .NET Framework versions are supported:
 - .NET Framework 4.7.1
 - .NET Framework 4.7.2
 - .NET Framework 4.8
+
+## **Supported .NET Core Versions**
+The following .NET Core versions are supported:
+
+- .NET Core 2.0
+- .NET Core 3.0
+- .NET 5.0
