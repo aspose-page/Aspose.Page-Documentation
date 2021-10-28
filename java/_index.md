@@ -25,5 +25,5 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Page for Java Release Notes](/page/java/release-notes/)
 - [Aspose.Page for Java Product Page](https://products.aspose.com/page/java)
 - [Install Aspose.Page for Java from Aspose Repository](/page/java/installation/)
-- [Aspose.Page for Java Free Support Forum](https://forum.aspose.com/c/page)
+- [Aspose.Page for Java Free Support Forum](https://forum.aspose.com/c/page/39)
 - [Aspose.Page for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)

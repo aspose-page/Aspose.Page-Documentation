@@ -22,6 +22,6 @@ This page contains release notes for [Aspose.Page for .NET 19.7](https://www.nug
 |PAGEJAVA-39|XPS to PDF - Property PathGeometry undefined: Canvas.Clip Error|Bug|
 |PAGEJAVA-41|The existing image in the XPS document gets removed when we add a new image over it|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Page for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Page support forum](https://forum.aspose.com/c/page).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Page for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Page support forum](https://forum.aspose.com/c/page/39).
 
 

@@ -32,4 +32,4 @@ We are pleased to announce the launch of [Aspose.Page for C++](https://products.
 - Save as PDF
 - Save as raster image
 ## **Got Queries?**
-If you have any queries or inquiries related to API, we are here to help you. Head on to [Aspose.Page forum](https://forum.aspose.com/c/page) for your technical queries to get a prompt response from our Product Support team.
+If you have any queries or inquiries related to API, we are here to help you. Head on to [Aspose.Page forum](https://forum.aspose.com/c/page/39) for your technical queries to get a prompt response from our Product Support team.

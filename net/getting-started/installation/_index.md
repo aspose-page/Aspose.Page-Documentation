@@ -6,7 +6,7 @@ url: /net/installation/
 ---
 
 ## **Evaluate Aspose.Page for .NET**
-You can easily download Aspose.Page for .NET in order to evaluate the API. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to [apply the license](https://docs.aspose.com/page/net/licensing/).
+You can easily download Aspose.Page for .NET in order to evaluate the API. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to [apply the license](/page/net/licensing/).
 
 Unlicensed product allows converting of PostScript files which size is no more than 1KB and resulting PDF document in such cases will contain evaluation mark. Furthermore, it will allow manipulating no more than 4 XPS elements and resulting document or image in such cases will also contain evaluation mark.
 

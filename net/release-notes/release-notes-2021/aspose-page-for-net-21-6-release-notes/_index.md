@@ -19,4 +19,4 @@ This page contains release notes information for Aspose.Page for .NET 21.6.
 |PAGENET-272|Fix Aspose.PDF bugs related to XPS-to-APS conversion|Bug|
 
 ### **Got any Query?**
-In case you have any query or need assistance in getting started with Aspose.Page for .NET, head on to [Aspose.Page forum](https://forum.aspose.com/c/page) to technical help from our support team.
+In case you have any query or need assistance in getting started with Aspose.Page for .NET, head on to [Aspose.Page forum](https://forum.aspose.com/c/page/39) to technical help from our support team.

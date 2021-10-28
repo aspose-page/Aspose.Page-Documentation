@@ -9,9 +9,9 @@ url: /net/how-to-run-examples/
 Please make sure you meet the following requirements before downloading and running the examples.
 
 1. Visual Studio 2017 or higher
-1. NuGet Package Manager installed in Visual Studio. Make sure that the latest NuGet API version is installed in Visual Studio. For details on how to install NuGet package manager please check <http://docs.nuget.org/ndocs/guides/install-nuget>
+1. NuGet Package Manager installed in Visual Studio. Make sure that the latest NuGet API version is installed in Visual Studio. For details on how to install NuGet package manager please check <https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools>
 1. Go to Tools->Options->NuGet Package Manager->Package Sources and make sure that the option **nuget.org** is checked
-1. The example project uses NuGet Automatic Package Restore feature, therefore, you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation ](/page/net/installation/)and manually add the reference to Aspose.Page.dll in the example project.
+1. The example project uses NuGet Automatic Package Restore feature, therefore, you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation](/page/net/installation/)and manually add the reference to Aspose.Page.dll in the example project.
 ## **Download from GitHub**
 All examples of Aspose.Page for .NET are hosted on [GitHub](https://github.com/aspose-page/Aspose.Page-for-.NET).
 
@@ -24,7 +24,7 @@ All examples of Aspose.Page for .NET are hosted on [GitHub](https://github.com/
 - Open RunExamples.cs file, all the examples are called from here.
 - Uncomment the examples you want to run from within the project.
 
-Please feel free to reach out using our [Forums](https://forum.aspose.com/c/page) if you have any issues setting up or running the examples.
+Please feel free to reach out using our [Forums](https://forum.aspose.com/c/page/39) if you have any issues setting up or running the examples.
 ## **Contribute**
 If you like to add or improve an example, we encourage you to contribute to the project. All examples and showcase projects in this repository are open source and can be freely used in your own applications.
 

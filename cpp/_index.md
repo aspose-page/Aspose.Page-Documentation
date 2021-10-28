@@ -24,5 +24,5 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Page for C++ Product Page](https://products.aspose.com/page/cpp)
 - [Install Aspose.Page for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Page.Cpp/)
 - [Aspose.Page for C++ API Reference Guide](https://apireference.aspose.com/cpp/page)
-- [Aspose.Page for C++ Free Support Forum](https://forum.aspose.com/c/page)
+- [Aspose.Page for C++ Free Support Forum](https://forum.aspose.com/c/page/39)
 - [Aspose.Page for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)

@@ -15,7 +15,7 @@ Aspose.Page for C++ is designed to perform equally well, both on server and clie
 ## **Technical Support**
 Aspose provides unlimited free technical support for all its products. Support is available to all users, including evaluation.
 
-If you need any assistance regarding Aspose.Page for C++, please visit our [Aspose.Forums](https://forum.aspose.com/c/page). You can create a new topic over Aspose.Page for C++ forums and your post will be answered within a few hours. All the inquiries over forums are replied directly by Aspose.Page for C++ support team.
+If you need any assistance regarding Aspose.Page for C++, please visit our [Aspose.Forums](https://forum.aspose.com/c/page/39). You can create a new topic over Aspose.Page for C++ forums and your post will be answered within a few hours. All the inquiries over forums are replied directly by Aspose.Page for C++ support team.
 
 When expecting a reply in the forums, please allow for time zone differences.
 
