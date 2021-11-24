@@ -18,3 +18,5 @@ This page contains release notes information for Aspose.Page for Java 21.11.
 |PAGEJAVA-28|EPS to PDF - output is blank|Bug|
 |PAGEJAVA-29|EPS to PDF - output is blank|Bug|
 
+This release of Aspose.Page for Java is a maintenance release which has been migrated from the latest version of Aspose.Page for .NET. It includes all changes from the equivalent .NET version and further improves the overall stability of the API in terms of functionality.
+
