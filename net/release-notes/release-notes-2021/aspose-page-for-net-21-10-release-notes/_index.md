@@ -1,7 +1,7 @@
 ---
 title: Aspose.Page for .NET 21.10 Release Notes
 type: docs
-weight: 120
+weight: 20
 url: /net/aspose-page-for-net-21-10-release-notes/
 ---
 
