@@ -1,7 +1,7 @@
 ---
 title: Aspose.Page for Java 20.3 Release Notes
 type: docs
-weight: 50
+weight: 11
 url: /java/aspose-page-for-java-20-3-release-notes/
 ---
 
