@@ -1,7 +1,7 @@
 ---
 title: Aspose.Page for CPP 20.6 Release Notes
 type: docs
-weight: 20
+weight: 7
 url: /cpp/aspose-page-for-cpp-20-6-release-notes/
 ---
 
