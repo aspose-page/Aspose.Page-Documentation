@@ -1,11 +1,11 @@
 
 ---
-title: What is a PS file?
+title: What is PS file?
 type: docs
-weight: 16
-url: /net/what-is-a-ps-file/
+weight: 15
+url: /net/what-is-ps-file/
 keywords: what is ps file, ps what is it, what is postscript, ps file, ps format, ps language, postscript file, postscript format, postscript language
-description: This page briefly answers the question "What is a PS file?"
+description: This page briefly answers the question "What is PS file?"
 lastmod: "2022-02-11"
 sitemap:
     changefreq: "weekly"
@@ -15,10 +15,10 @@ sitemap:
 ## Introduction
 
 From the article about [page description languages](/page/net/page-description-languages/) you found out that Postscript language is one of PDLs,
-a dynamic one if to be more specific. The article here is going to give you more information about PC format and PC files, their peculiarities, 
+a dynamic one if to be more specific. The article here is going to give you more information about PS format and PS files, their peculiarities, 
 structure and usage.
 
-So, What is the PS file? </br>
+So, What is PS file? </br>
 
 PS file is a file containing page(s) description written in PostScript language from Adobe. PostScript refers to dynamic PDLs that contain not only 
 graphics primitive operators, but also procedures, control operators, and variables.  
@@ -127,7 +127,7 @@ Therefore it supports big sets of font and color space types.
 
 ## Syntax and structure
 
- PostScript uses postfix notation where the operator goes after its operands.
+ PostScript uses BNF (Backus–Naur form) postfix notation where the operator goes after its operands.
 
 </br></br></br>
 <p align="center">

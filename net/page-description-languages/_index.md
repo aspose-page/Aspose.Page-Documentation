@@ -49,18 +49,27 @@ Adobe PostScript (PS) and Encapsulated PostScript (EPS) as a subset of PS. HP's 
 </p>
 
 ## What is the difference between page description language and a markup language?
-A markup language is a way to lay content out on the page, while page description language even doesn't separate marks and content.
+Page description languages and markup languages are different classifications of computer languages.
+While markup languages are used just for separation of content and marks that define a way to process content, PDLs are used for 
+documents where pages are strictly separated, and it doesn't separate marks and content.
 At least such an idea wasn't considered when the PDL concept was developed. 
+So markup language can describe pages if the content of a file is a page content, and it will be at the same PDL, but can also describe some data that 
+doesn't relate to pages. PDL always describes page.
 
 To strictly separate marks and content at the page, marks are represented by tags, which are some keywords enclosed with "<" and ">" or "/>".
 This way markup language file is much more ordered and human-readable. It is the second main difference between markup and page description languages. 
 
-The main intention of page description languages is a rendering of a page to a printing or display device,  while markup languages can be used
+The main intention of page description languages is a rendering of a page to a printing or display device, while markup languages can be used
 without a rendering at all. For example, Extensible Markup language (XML), one of the most popular markup languages, is often used only for storing
-and transferring data. 
+and transferring data.
 
-Another example of popular markup language is HTML, so now you have the answer to the frequently asked question, if HTML is a page description 
-language or not.
+Another example of popular markup language is HTML. It marks content that are not separated on pages. So now you have the answer to the frequently
+asked question, if HTML is a page description language or not.
+
+XPS is a page description language and, at the first sight, can be also treated as markup language because has XML-based interior. 
+But if we stare at this XML we can see that a content of the pages is inserted directly into elements (tags), that is not separated from rules 
+for processing it. It breaks the main property of markup languages. Though Microsoft actively uses term "markup" in XPS specification,
+It is not actually markup in a sense of Markup languages, such as XML or HTML.
 
 ## Conclusion
 
