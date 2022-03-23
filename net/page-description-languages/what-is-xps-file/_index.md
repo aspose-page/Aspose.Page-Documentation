@@ -182,7 +182,7 @@ Navigation over document parts is realized by "DocumentSructure" part and its ch
 	<img src="XPS Document part.png">
 </p>
 <p align="center">
-	<img src="XPS DocumentStructure part.png">
+	<img src="XPS DocumentStructure.png">
 </p>
 </br>
 
