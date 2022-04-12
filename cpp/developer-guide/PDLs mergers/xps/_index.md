@@ -47,7 +47,10 @@ try {
 		// Create rendering device for PDF format
 		System::SharedPtr<Aspose::Page::Xps::Presentation::Pdf::PdfDevice> device = System::MakeObject<Aspose::Page::Xps::Presentation::Pdf::PdfDevice>(pdfStream);
 
-		document->Save(device, options);
+		// Create an array of XPS files that will be merged with the first one
+		System::ArrayPtr<System::String> filesForMerge = System::MakeArray<System::String>({dataDir() + u"input2.xps", dataDir() + u"input3.xps"});
+
+		document->Merge(filesForMerge, device, options);
 	}
 	catch (...)
 	{

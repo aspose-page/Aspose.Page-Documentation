@@ -30,6 +30,9 @@ System::SharedPtr<System::IO::FileStream> pdfStream = System::MakeObject<System:
 System::SharedPtr<System::IO::FileStream> psStream = System::MakeObject<System::IO::FileStream>(dataDir() + u"input.ps", System::IO::FileMode::Open, System::IO::FileAccess::Read);
 System::SharedPtr<PsDocument> document = System::MakeObject<PsDocument>(psStream);
 
+// Create an array of PostScript file that will be merged with the first one
+System::ArrayPtr<System::String> filesForMerge = System::MakeArray<System::String>({dataDir() + u"input2.ps", dataDir() + u"input3.ps"});
+
 // If you want to convert Postscript file despite of minor errors set this flag
 bool suppressErrors = true;
 
@@ -53,7 +56,7 @@ System::SharedPtr<Aspose::Page::EPS::Device::PdfDevice> device = System::MakeObj
 
 	try
 	{
-		document->Save(device, options);
+		document->Merge(filesForMerge, device, options);
 	}
 	catch (...)
 	{

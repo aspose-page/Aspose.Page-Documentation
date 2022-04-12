@@ -30,6 +30,9 @@ System::SharedPtr<System::IO::FileStream> pdfStream = System::MakeObject<System:
 System::SharedPtr<System::IO::FileStream> psStream = System::MakeObject<System::IO::FileStream>(dataDir() + u"input.eps", System::IO::FileMode::Open, System::IO::FileAccess::Read);
 System::SharedPtr<PsDocument> document = System::MakeObject<PsDocument>(psStream);
 
+// Create an array of EPS file that will be merged with the first one
+System::ArrayPtr<System::String> filesForMerge = System::MakeArray<System::String>({dataDir() + u"input2.eps", dataDir() + u"input3.eps"});
+
 // If you want to convert Postscript file despite of minor errors set this flag
 bool suppressErrors = true;
 
@@ -41,7 +44,7 @@ options->set_AdditionalFontsFolders(System::MakeArray<System::String>({ u"{FONT_
 // Default page size is 595x842 and it is not mandatory to set it in PdfDevice
 System::SharedPtr<Aspose::Page::EPS::Device::PdfDevice> device = System::MakeObject<Aspose::Page::EPS::Device::PdfDevice>(pdfStream);
 // But if you need to specify size and image format use following line
-//Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(pdfStream, new System.Drawing.Size(595, 842));
+//System::SharedPtr<Aspose::Page::EPS::Device::PdfDevice> device = System::MakeObject<Aspose::Page::EPS::Device::PdfDevice>(pdfStream, System::MakeObject<System::Drawing::Size>(595, 842));
 
 
 {
@@ -53,7 +56,7 @@ System::SharedPtr<Aspose::Page::EPS::Device::PdfDevice> device = System::MakeObj
 
 	try
 	{
-		document->Save(device, options);
+		document->Merge(filesForMerge, device, options);
 	}
 	catch (...)
 	{
