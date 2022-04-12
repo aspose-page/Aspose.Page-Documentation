@@ -7,7 +7,7 @@ url: /net/merge/xps/
 
 {{% alert color="primary" %}} 
 
-You can check the quality of Aspose.Page XPS merger and view the results via free online <a nofollow href="https://products.aspose.app/page/merge/xps">XPS Merger</a> {{% /alert %}} 
+You can check the quality of Aspose.Page XPS merger and view the results via free online <a nofollow href="https://products.aspose.app/page/merger/xps">XPS Merger</a> {{% /alert %}} 
 
 Aspose.Page .NET XPS Merge allows to merge XPS files to PDF document with using of any language supported by .NET platform: C#, VB, J#.
 <br>It is necessary to do several steps in order to perform XPS to PDF merge:
@@ -66,7 +66,7 @@ Let's consider [PdfSaveOptions](https://apireference.aspose.com/page/net/aspose.
 - **OutlineTreeExpansionLevel** and **OutlineTreeHeight** controls view of document outline.
 
 {{% alert color="primary" %}}
-Evaluate XPS merging online on our <a nofollow href="https://products.aspose.app/page/merge/xps">XPS Merger</a>.
+Evaluate XPS merging online on our <a nofollow href="https://products.aspose.app/page/merger/xps">XPS Merger</a>.
 <br>
 <br>
 You can download examples and data files from [GitHub](https://github.com/aspose-page/Aspose.Page-for-.NET). {{% /alert %}} 

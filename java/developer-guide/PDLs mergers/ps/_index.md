@@ -7,7 +7,7 @@ url: /java/merge/ps/
 
 {{% alert color="primary" %}} 
 
-You can check the quality of Aspose.Page PS Merger and view the results via free online <a nofollow href="https://products.aspose.app/page/merge/ps">PostScipt Merger</a> {{% /alert %}} 
+You can check the quality of Aspose.Page PS Merger and view the results via free online <a nofollow href="https://products.aspose.app/page/merger/ps">PostScipt Merger</a> {{% /alert %}} 
 
 Aspose.Page for Java PS Merger allows to merge PostScript (PS) files to PDF document on any OS for which Java Virtual Machine exists.
 <br>It is necessary to do several steps in order to perform PS to PDF merge:
@@ -76,7 +76,7 @@ Let's consider [PdfSaveOptions](https://apireference.aspose.com/page/java/com.as
 - **Debug** allows outputting debug information to console. Default value is false.
 
 {{% alert color="primary" %}}
-Evaluate PS merging online on our <a nofollow href="https://products.aspose.app/page/merge/ps">PS Merger</a>.
+Evaluate PS merging online on our <a nofollow href="https://products.aspose.app/page/merger/ps">PS Merger</a>.
 <br>
 <br>
 You can download examples and data files from [GitHub](https://github.com/aspose-page/Aspose.Page-for-Java). {{% /alert %}} 

@@ -7,7 +7,7 @@ url: /java/merge/xps/
 
 {{% alert color="primary" %}} 
 
-You can check the quality of Aspose.Page XPS Merger and view the results via free online <a nofollow href="https://products.aspose.app/page/merge/xps">XPS Merger</a> {{% /alert %}} 
+You can check the quality of Aspose.Page XPS Merger and view the results via free online <a nofollow href="https://products.aspose.app/page/merger/xps">XPS Merger</a> {{% /alert %}} 
 
 Aspose.Page Java XPS merger allows to merge XPS files to PDF document on any OS for which Java Virtual Machine exists.
 <br>It is necessary to do several steps in order to perform XPS to PDF merge:
@@ -59,7 +59,7 @@ Let's consider [PdfSaveOptions](https://apireference.aspose.com/page/java/com.as
 - **OutlineTreeExpansionLevel** and **OutlineTreeHeight** controls view of document outline.
 
 {{% alert color="primary" %}}
-Evaluate XPS merging online on our <a nofollow href="https://products.aspose.app/page/merge/xps">XPS Meger</a>.
+Evaluate XPS merging online on our <a nofollow href="https://products.aspose.app/page/merger/xps">XPS Meger</a>.
 <br>
 <br>
 You can download examples and data files from [GitHub](https://github.com/aspose-page/Aspose.Page-for-Java). {{% /alert %}}

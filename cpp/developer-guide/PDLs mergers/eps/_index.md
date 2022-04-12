@@ -7,7 +7,7 @@ url: /cpp/merge/eps/
 
 {{% alert color="primary" %}} 
 
-You can check the quality of Aspose.Page EPS merging and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-pdf">EPS Merger</a> {{% /alert %}} 
+You can check the quality of Aspose.Page EPS merging and view the results via free online <a nofollow href="https://products.aspose.app/page/merger/eps">EPS Merger</a> {{% /alert %}} 
 
 Aspose.Page for C++ EPS merger allows to merge Encapsulated PostScript (EPS) files to PDF document on Windows and Linux.
 <br>It is necessary to do several steps in order to perform EPS to PDF merge:
@@ -72,7 +72,7 @@ Let's consider [PdfSaveOptions](https://apireference.aspose.com/page/cpp/class/a
 - **Debug** allows outputting debug information to console. Default value is false.
 
 {{% alert color="primary" %}}
-Evaluate EPS merging online on our <a nofollow href="https://products.aspose.app/page/merge/eps">EPS Merger</a>.
+Evaluate EPS merging online on our <a nofollow href="https://products.aspose.app/page/merger/eps">EPS Merger</a>.
 <br>
 <br>
 You can download examples and data files from [GitHub](https://github.com/aspose-page/Aspose.Page-for-C). {{% /alert %}} 
