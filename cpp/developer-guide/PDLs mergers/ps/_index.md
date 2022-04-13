@@ -44,7 +44,7 @@ options->set_AdditionalFontsFolders(System::MakeArray<System::String>({ u"{FONT_
 // Default page size is 595x842 and it is not mandatory to set it in PdfDevice
 System::SharedPtr<Aspose::Page::EPS::Device::PdfDevice> device = System::MakeObject<Aspose::Page::EPS::Device::PdfDevice>(pdfStream);
 // But if you need to specify size and image format use following line
-//Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(pdfStream, new System.Drawing.Size(595, 842));
+//System::SharedPtr<Aspose::Page::EPS::Device::PdfDevice> device = System::MakeObject<Aspose::Page::EPS::Device::PdfDevice>(pdfStream, System::Drawing::Size(595, 842));
 
 
 {
