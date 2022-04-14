@@ -17,7 +17,7 @@ Aspose.Page for C++ EPS merger allows to merge Encapsulated PostScript (EPS) fil
 4. Create an instance of [PsDocument](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.ps_document) from created earlier input stream.
 5. Use [PdfSaveOptions](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.pdf_save_options) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
 6. Create an instance of [PdfDevice](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.pdf_device) from created earlier output stream.
-7. Save EPS document as PDF with PDF save options.
+7. Merge EPS document as PDF with PDF save options.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during merging of EPS to PDF and saved in **Exceptions** list.
 
 <br>Following code snippet shows how to merge EPS files to PDF document in C++:
