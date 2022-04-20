@@ -3,6 +3,7 @@ title: Add Gradient in XPS Document
 type: docs
 weight: 10
 url: /net/add-gradient-in-xps-document/
+aliases: /net/working-with-gradient/
 ---
 
 # **Add Horizontal Gradient**
