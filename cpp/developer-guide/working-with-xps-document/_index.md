@@ -1,5 +1,6 @@
 ---
-title: Working with XPS Document
+title: Working with XPS Document | C++
+linktitle: Working with XPS Document
 type: docs
 weight: 70
 url: /cpp/working-with-xps/
