@@ -17,7 +17,7 @@ Aspose.Page for C++ EPS merger allows to merge Encapsulated PostScript (EPS) fil
 4. Create an instance of [PsDocument](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.ps_document) from created earlier input stream.
 5. Use [PdfSaveOptions](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.pdf_save_options) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
 6. Create an instance of [PdfDevice](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.pdf_device) from created earlier output stream.
-7. Save EPS document as PDF with PDF save options.
+7. Merge EPS document as PDF with PDF save options.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during merging of EPS to PDF and saved in **Exceptions** list.
 
 <br>Following code snippet shows how to merge EPS files to PDF document in C++:
@@ -30,6 +30,9 @@ System::SharedPtr<System::IO::FileStream> pdfStream = System::MakeObject<System:
 System::SharedPtr<System::IO::FileStream> psStream = System::MakeObject<System::IO::FileStream>(dataDir() + u"input.eps", System::IO::FileMode::Open, System::IO::FileAccess::Read);
 System::SharedPtr<PsDocument> document = System::MakeObject<PsDocument>(psStream);
 
+// Create an array of EPS file that will be merged with the first one
+System::ArrayPtr<System::String> filesForMerge = System::MakeArray<System::String>({dataDir() + u"input2.eps", dataDir() + u"input3.eps"});
+
 // If you want to convert Postscript file despite of minor errors set this flag
 bool suppressErrors = true;
 
@@ -41,7 +44,7 @@ options->set_AdditionalFontsFolders(System::MakeArray<System::String>({ u"{FONT_
 // Default page size is 595x842 and it is not mandatory to set it in PdfDevice
 System::SharedPtr<Aspose::Page::EPS::Device::PdfDevice> device = System::MakeObject<Aspose::Page::EPS::Device::PdfDevice>(pdfStream);
 // But if you need to specify size and image format use following line
-//Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(pdfStream, new System.Drawing.Size(595, 842));
+//System::SharedPtr<Aspose::Page::EPS::Device::PdfDevice> device = System::MakeObject<Aspose::Page::EPS::Device::PdfDevice>(pdfStream, System::Drawing::Size(595, 842));
 
 
 {
@@ -53,7 +56,7 @@ System::SharedPtr<Aspose::Page::EPS::Device::PdfDevice> device = System::MakeObj
 
 	try
 	{
-		document->Save(device, options);
+		document->Merge(filesForMerge, device, options);
 	}
 	catch (...)
 	{
