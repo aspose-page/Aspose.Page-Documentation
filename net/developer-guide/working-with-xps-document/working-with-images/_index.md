@@ -1,5 +1,6 @@
 ---
-title: Working with Images
+title: Working with Images | .NET
+linktitle: Working with Images 
 type: docs
 weight: 20
 url: /net/working-with-images/

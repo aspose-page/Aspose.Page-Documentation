@@ -1,5 +1,6 @@
 ---
-title: Working with Images
+title: Working with Images | Java
+linktitle: Working with Images
 type: docs
 weight: 20
 url: /java/working-with-images/

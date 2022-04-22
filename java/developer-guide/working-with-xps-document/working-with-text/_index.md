@@ -1,5 +1,6 @@
 ---
-title: Working with Text
+title: Working with Text | Java
+linktitle: Working with Text
 type: docs
 weight: 10
 url: /java/working-with-text/
