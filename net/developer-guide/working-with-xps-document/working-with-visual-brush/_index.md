@@ -1,5 +1,6 @@
 ---
-title: Working with Visual Brush
+title: Working with Visual Brush | .NET
+linktitle: Working with Visual Brush
 type: docs
 weight: 50
 url: /net/working-with-visual-brush/

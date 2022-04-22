@@ -1,5 +1,6 @@
 ---
-title: Working with Visual Brush
+title: Working with Visual Brush | C++
+linktitle: Working with Visual Brush
 type: docs
 weight: 50
 url: /cpp/working-with-visual-brush/

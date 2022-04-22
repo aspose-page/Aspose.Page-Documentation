@@ -1,5 +1,6 @@
 ---
-title: Working with Text
+title: Working with Text | .NET
+linktitle: Working with Text
 type: docs
 weight: 40
 url: /net/working-with-text/
