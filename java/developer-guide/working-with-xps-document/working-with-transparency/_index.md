@@ -1,5 +1,6 @@
 ---
-title: Working with Transparency
+title: Working with Transparency | Java
+linktitle: Working with Transparency
 type: docs
 weight: 60
 url: /java/working-with-transparency/

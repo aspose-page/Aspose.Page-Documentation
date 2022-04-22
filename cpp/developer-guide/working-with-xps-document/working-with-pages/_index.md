@@ -1,5 +1,6 @@
 ---
-title: Working with Pages
+title: Working with Pages | C++
+linktitle: Working with Pages
 type: docs
 weight: 30
 url: /cpp/working-with-pages/

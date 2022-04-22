@@ -1,5 +1,6 @@
 ---
-title: Working with Transparency
+title: Working with Transparency | .NET
+linktitle: Working with Transparency
 type: docs
 weight: 60
 url: /net/working-with-transparency/

@@ -1,5 +1,6 @@
 ---
-title: Working with Images
+title: Working with Images | C++
+linktitle: Working with Images
 type: docs
 weight: 20
 url: /cpp/working-with-images/
