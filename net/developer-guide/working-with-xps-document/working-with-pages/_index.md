@@ -1,5 +1,6 @@
 ---
-title: Working with Pages
+title: Working with Pages | .NET
+linktitle: Working with Pages
 type: docs
 weight: 30
 url: /net/working-with-pages/

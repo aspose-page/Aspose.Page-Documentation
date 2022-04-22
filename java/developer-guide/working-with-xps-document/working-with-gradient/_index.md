@@ -1,5 +1,6 @@
 ---
-title: Working with Gradient
+title: Working with Gradient | Java
+linktitle: Working with Gradient
 type: docs
 weight: 40
 url: /java/working-with-gradient/

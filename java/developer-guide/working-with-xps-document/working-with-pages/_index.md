@@ -1,5 +1,6 @@
 ---
-title: Working with Pages
+title: Working with Pages | Java
+linktitle: Working with Pages
 type: docs
 weight: 30
 url: /java/working-with-pages/
