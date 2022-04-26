@@ -16,7 +16,7 @@ In order to extract XMP metadata from EPS file it is necessary to do several ste
 2. Create an instance of [PsDocument](https://apireference.aspose.com/page/net/aspose.page.eps/psdocument) from created earlier input stream.
 3. Get an instance of [XmpMetadata](https://apireference.aspose.com/page/net/aspose.page.eps.xmp/xmpmetadata) from the PsDocument. If given EPS file doesn't contain XMP metadata the new one
 will be created, filled in with values from PS metadata comments and returned to you.
-4. Now you can view values of  metadata fileds.
+4. Now you can view values of  metadata fields.
 
 <br>Following code snippet shows how to extract XMP metadata from EPS file in C#:
 <br>
