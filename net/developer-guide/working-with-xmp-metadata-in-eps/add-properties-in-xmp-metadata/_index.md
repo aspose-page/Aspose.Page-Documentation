@@ -16,7 +16,7 @@ In order to add properties in XMP metadata of EPS file it is necessary to do sev
 2. Create an instance of [PsDocument](https://apireference.aspose.com/page/net/aspose.page.eps/psdocument) from created earlier input stream.
 3. Get an instance of [XmpMetadata](https://apireference.aspose.com/page/net/aspose.page.eps.xmp/xmpmetadata) from the PsDocument. If given EPS file doesn't contain XMP metadata the new one
 will be created, filled in with values from PS metadata comments and returned to you.
-4. Now you can add properties of metadata fileds.
+4. Now you can add properties of metadata fields.
 5. Initialize an output stream for output EPS file.
 6. Save EPS file with changed XMP metadata.
 
