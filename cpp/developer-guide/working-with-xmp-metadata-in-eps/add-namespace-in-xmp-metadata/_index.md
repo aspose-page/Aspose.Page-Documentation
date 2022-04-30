@@ -25,38 +25,61 @@ will be created, filled in with values from PS metadata comments and returned to
 ```C++
 // For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-C
 // The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_WorkingWithXMPMetadataInEPS();
+System::String dataDir = RunExamples::GetDataDir_WorkingWithXMPMetadataInEPS();
 // Initialize EPS file input stream
-System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_simple_props_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
+System::SharedPtr<System::IO::FileStream> psStream = System::MakeObject<System::IO::FileStream>(dataDir + u"add_simple_props_input.eps", System::IO::FileMode::Open, System::IO::FileAccess::Read);
 // Create PsDocument instance from stream
-PsDocument document = new PsDocument(psStream);            
+System::SharedPtr<PsDocument> document = System::MakeObject<PsDocument>(psStream);
 
-try
+
 {
-    // Get XMP metadata. If EPS file doesn't contain XMP metadata we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title etc)
-    XmpMetadata xmp = document.GetXmpMetadata();
-
-    //Change XMP metadata values
-
-    // Add new XML namespace "tmp".
-    xmp.RegisterNamespaceUri("tmp", "http://www.some.org/schema/tmp#");
-
-    // Add new string property in new namespace.
-    xmp.Add("tmp:newKey", new XmpValue("NewValue"));
-
-    // Save EPS file with changed XMP metadata
-
-    // Create ouput stream
-    using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_namespace_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
+    auto __finally_guard_0 = ::System::MakeScopeGuard([&psStream]()
     {
+        psStream->Close();
+    });
+    
+    try
+    {
+        // Get XMP metadata. If EPS file doesn't contain XMP metadata we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title etc)
+        System::SharedPtr<XmpMetadata> xmp = document->GetXmpMetadata();
+        
+        //Change XMP metadata values
+        
+        // Add new XML namespace "tmp".
+        xmp->RegisterNamespaceUri(u"tmp", u"http://www.some.org/schema/tmp#");
+        
+        // Add new string property in new namespace.
+        xmp->Add(u"tmp:newKey", System::MakeObject<XmpValue>(u"NewValue"));
+        
+        // Save EPS file with changed XMP metadata
+        
+        // Create ouput stream
+        System::SharedPtr<System::IO::FileStream> outPsStream = System::MakeObject<System::IO::FileStream>(RunExamples::GetOutDir() + u"add_namespace_output.eps", System::IO::FileMode::Create, System::IO::FileAccess::Write);
+        
         // Save EPS file
-        document.Save(outPsStream);
+        
+        {
+            auto __finally_guard_1 = ::System::MakeScopeGuard([&outPsStream]()
+            {
+                outPsStream->Close();
+            });
+            
+            try
+            {
+                document->Save(outPsStream);
+                outPsStream->Flush();
+            }
+            catch (...)
+            {
+                throw;
+            }
+        }
+        
     }
-
-}
-finally
-{
-    psStream.Close();
+    catch (...)
+    {
+        throw;
+    }
 }
 ```
 {{% alert color="primary" %}}
