@@ -1,5 +1,6 @@
 ---
-title: Feature List
+title: Feature List | .NET
+linktitle: Feature List
 type: docs
 weight: 30
 url: /net/feature-list/

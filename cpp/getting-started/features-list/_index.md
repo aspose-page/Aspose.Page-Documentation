@@ -1,5 +1,6 @@
 ---
-title: Features List
+title: Features List | C++
+linktitle: Features List
 type: docs
 weight: 30
 url: /cpp/features-list/

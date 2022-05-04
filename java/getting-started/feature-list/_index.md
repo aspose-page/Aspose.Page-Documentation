@@ -1,5 +1,6 @@
 ---
-title: Feature List
+title: Feature List | Java
+linktitle: Feature List
 type: docs
 weight: 30
 url: /java/feature-list/

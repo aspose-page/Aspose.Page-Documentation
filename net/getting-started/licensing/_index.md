@@ -1,5 +1,6 @@
 ---
-title: Licensing
+title: Licensing | .NET
+linktitle: Licensing
 type: docs
 weight: 60
 url: /net/licensing/

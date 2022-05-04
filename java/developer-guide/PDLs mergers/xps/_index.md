@@ -1,5 +1,5 @@
 ---
-title: Merge XPS files to PDF using .NET
+title: Merge XPS files to PDF using Java
 type: docs
 weight: 20
 url: /java/merge/xps/

@@ -1,5 +1,6 @@
 ---
-title: Product Overview
+title: Product Overview | Java
+linktitle: Product Overview
 type: docs
 weight: 10
 url: /java/product-overview/

@@ -1,5 +1,6 @@
 ---
-title: System Requirements
+title: System Requirements | C++
+linktitle: System Requirements
 type: docs
 weight: 40
 url: /cpp/system-requirements/
