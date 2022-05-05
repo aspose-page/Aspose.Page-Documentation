@@ -4,7 +4,7 @@ type: docs
 weight: 19
 url: /net/what-is-pdf-file/
 keywords: what is pdf file, pdf what is it, pdf file, pdf format, what is pdf
-description: PDF is one of, if not, the most popular Page Description languages. The format is known to anyone who has a computer or even a smartphone, as it is supported by most interfaces and systems.
+description: PDF is the most popular Page Description language. The format is known to anyone who has a computer and is supported by most interfaces and systems.
 lastmod: "2022-02-11"
 sitemap:
     changefreq: "weekly"

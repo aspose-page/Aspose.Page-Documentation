@@ -3,6 +3,7 @@ title: Add properties in XMP metadata of EPS file using C++
 type: docs
 weight: 15
 url: /cpp/xmp-metadata/add-properties/
+description: The process of adding properties in XMP metadata of EPS file with Aspose.Page for C++ is explained and illustrated with the code snippets here.
 ---
 
 <!--

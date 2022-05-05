@@ -3,6 +3,7 @@ title: Add array items in XMP metadata of EPS file using .NET
 type: docs
 weight: 17
 url: /net/xmp-metadata/add-array-items/
+description: The process of adding items in XMP metadata of EPS  with Aspose.Page for .NET is explained and illustrated with the code snippets here.
 ---
 
 <!--

@@ -3,6 +3,8 @@ title: Add XMP metadata to EPS file using C++
 type: docs
 weight: 13
 url: /cpp/xmp-metadata/add/
+description: The process of adding XMP metadata to EPS file with Aspose.Page API solution for C++ is explained and illustrated with the code snippets here.
+
 ---
 
 <!--

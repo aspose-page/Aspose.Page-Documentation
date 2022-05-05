@@ -3,6 +3,7 @@ title: Add XML namespace in XMP metadata of EPS file using .NET
 type: docs
 weight: 20
 url: /net/xmp-metadata/add-namespace/
+description: The process of adding XML namespace in XMP metadata of EPS with Aspose.Page for .NET is explained and illustrated with the code snippets here.
 ---
 
 <!--

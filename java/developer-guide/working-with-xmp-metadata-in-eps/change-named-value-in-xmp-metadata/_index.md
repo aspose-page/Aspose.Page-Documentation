@@ -3,6 +3,7 @@ title: Change named value in XMP metadata of EPS file using Java
 type: docs
 weight: 18
 url: /java/xmp-metadata/change-named-value/
+description: The process of changing named value in XMP metadata of EPS file with Aspose.Page API solution for Java is explained and illustrated with the code here.
 ---
 
 <!--

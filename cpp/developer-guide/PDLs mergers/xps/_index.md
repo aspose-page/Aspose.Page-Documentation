@@ -3,6 +3,7 @@ title: Merge XPS files to PDF using C++
 type: docs
 weight: 20
 url: /cpp/merge/xps/
+description: Merger XPS functionality of Aspose.Page API solution for C++ allows you to combine several XPS files into a single PDF document.
 ---
 
 {{% alert color="primary" %}} 

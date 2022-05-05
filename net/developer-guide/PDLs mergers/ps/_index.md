@@ -3,6 +3,7 @@ title: Merge PostScript files to PDF using .NET
 type: docs
 weight: 20
 url: /net/merge/ps/
+description: Merger PS functionality of Aspose.Page API solution for .NET allows you to combine a few PS files into a single PDF document.
 ---
 
 {{% alert color="primary" %}} 

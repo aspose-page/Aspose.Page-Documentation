@@ -3,6 +3,7 @@ title: Add XML namespace in XMP metadata of EPS file using Java
 type: docs
 weight: 20
 url: /java/xmp-metadata/add-namespace/
+description: The process of adding XML namespace in XMP metadata of EPS with Aspose.Page for Java is explained and illustrated with the code snippets here.
 ---
 
 <!--

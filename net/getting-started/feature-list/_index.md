@@ -3,6 +3,7 @@ title: Feature List | .NET
 linktitle: Feature List
 type: docs
 weight: 30
+description: Feature List page provides you with the information on what you can do and with which Page Description Languages working with this API solution for .NET.
 url: /net/feature-list/
 ---
 

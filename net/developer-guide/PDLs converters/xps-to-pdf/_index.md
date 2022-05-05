@@ -3,6 +3,7 @@ title: Convert XPS to PDF using .NET
 type: docs
 weight: 20
 url: /net/convert/xps-to-pdf/
+description: XPS to PDF conversion functionality included in Aspose.Page API solution for .NET is described and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,7 @@ title: Convert EPS to TIFF using Java
 type: docs
 weight: 20
 url: /java/convert/eps-to-tiff/
+description: EPS to TIFF conversion functionality offered by Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

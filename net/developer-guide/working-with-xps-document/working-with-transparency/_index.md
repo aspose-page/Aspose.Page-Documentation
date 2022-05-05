@@ -4,6 +4,7 @@ linktitle: Working with Transparency
 type: docs
 weight: 60
 url: /net/working-with-transparency/
+description: How to work with transparency of an XPS file is a question answered by Aspose.Page API solution. See how to use the functionality in .NET
 aliases: 
 - /net/set-opacity-mask/
 - /net/add-transparent-object-inside-xps-document/

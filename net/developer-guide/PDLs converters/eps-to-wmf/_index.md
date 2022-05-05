@@ -3,6 +3,7 @@ title: Convert EPS to WMF using .NET
 type: docs
 weight: 20
 url: /net/convert/eps-to-wmf/
+description: EPS to WMF conversion functionality offered by Aspose.Page API solution for .NET is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

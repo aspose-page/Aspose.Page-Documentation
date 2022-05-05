@@ -4,7 +4,7 @@ type: docs
 weight: 17
 url: /net/what-is-xps-file/
 keywords: what is xps file, what is xps file, xps what is it, xps file, xps format, xps language
-description: This page briefly answers the question "What is XPS file?"
+description: XPS as one of the PDLs languages is explained in this article. Along with it this page briefly answers the question "What is an XPS file?" 
 lastmod: "2022-02-11"
 sitemap:
     changefreq: "weekly"

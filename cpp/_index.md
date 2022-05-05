@@ -3,6 +3,7 @@ title: Aspose.Page for C++
 type: docs
 weight: 10
 url: /cpp/
+description: API solution to manage Page Description Language files in C++. It Provides you with rich functionality and supports XPS, PS and EPS formats.
 is_root: true
 ---
 

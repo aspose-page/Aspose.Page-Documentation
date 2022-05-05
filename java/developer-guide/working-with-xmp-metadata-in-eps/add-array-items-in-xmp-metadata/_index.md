@@ -3,6 +3,7 @@ title: Add array items in XMP metadata of EPS file using Java
 type: docs
 weight: 17
 url: /java/xmp-metadata/add-array-items/
+description: The process of adding items in XMP metadata of EPS  with Aspose.Page for Java is explained and illustrated with the code snippets here.
 ---
 
 <!--

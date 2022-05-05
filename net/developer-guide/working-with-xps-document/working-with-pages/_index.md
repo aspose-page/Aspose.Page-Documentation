@@ -4,6 +4,7 @@ linktitle: Working with Pages
 type: docs
 weight: 30
 url: /net/working-with-pages/
+description: How to add pages to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in .NET
 aliases: /net/add-pages-to-xps-document/
 ---
 

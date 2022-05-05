@@ -3,6 +3,7 @@ title: Add named value in XMP metadata of EPS file using C++
 type: docs
 weight: 19
 url: /cpp/xmp-metadata/add-named-value/
+description: The process of adding named value in XMP metadata with Aspose.Page for C++ is explained and illustrated with the code snippets here.
 ---
 
 <!--

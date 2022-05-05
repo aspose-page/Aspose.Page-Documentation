@@ -3,6 +3,7 @@ title: Convert PostScript to PDF using C++
 type: docs
 weight: 20
 url: /cpp/convert/ps-to-pdf/
+description: PS to PDF conversion functionality included in Aspose.Page API solution for C++ is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

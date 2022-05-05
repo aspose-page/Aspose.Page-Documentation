@@ -4,6 +4,7 @@ linktitle: Working with Images
 type: docs
 weight: 20
 url: /net/working-with-images/
+description: How to add simple or tiled image to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in .NET
 aliases: /net/add-image-inside-xps-documents/
 ---
 

@@ -3,6 +3,7 @@ title: Convert XPS to JPG using Java
 type: docs
 weight: 20
 url: /java/convert/xps-to-jpg/
+description: XPS to JPG conversion functionality included in Aspose.Page API solution for Java is described and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

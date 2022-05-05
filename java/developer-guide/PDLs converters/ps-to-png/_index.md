@@ -3,6 +3,7 @@ title: Convert PostScript to PNG using Java
 type: docs
 weight: 20
 url: /java/convert/ps-to-png/
+description: PS to PNG conversion functionality included in Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

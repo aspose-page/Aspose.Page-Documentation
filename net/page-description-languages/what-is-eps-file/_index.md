@@ -4,7 +4,7 @@ type: docs
 weight: 16
 url: /net/what-is-eps-file/
 keywords: what is eps file, eps what is it, what is encapsulated postscript, eps file, eps format, encapsulated postscript file, encapsulated postscript format
-description: Encapsulated PostScript or EPS, in short, is one of the Page Description Languages, dynamic one if to be more specific.
+description: Encapsulated PostScript or EPS described in this article, in short, is one of the Page Description Languages, dynamic one if to be more specific.
 lastmod: "2022-02-18"
 sitemap:
     changefreq: "weekly"

@@ -4,6 +4,7 @@ linktitle: Working with Images
 type: docs
 weight: 20
 url: /cpp/working-with-images/
+description: How to add simple or tiled image to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in C++
 aliases: /cpp/add-image-inside-xps-documents/
 ---
 

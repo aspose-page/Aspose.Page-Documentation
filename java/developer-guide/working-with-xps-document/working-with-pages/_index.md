@@ -5,6 +5,7 @@ type: docs
 weight: 30
 url: /java/working-with-pages/
 aliases: /java/add-pages-to-xps-document/
+description: How to add pages to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in Java
 ---
 
 ## **Add Pages**

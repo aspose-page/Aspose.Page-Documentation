@@ -3,6 +3,7 @@ title: Add properties in XMP metadata of EPS file using .NET
 type: docs
 weight: 15
 url: /net/xmp-metadata/add-properties/
+description: The process of adding properties in XMP metadata of EPS file with Aspose.Page for .NET is explained and illustrated with the code snippets here.
 ---
 
 <!--
