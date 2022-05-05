@@ -4,6 +4,7 @@ linktitle: Working with Visual Brush
 type: docs
 weight: 50
 url: /cpp/working-with-visual-brush/
+description: How to work with visual brush of an XPS file is a question answered by Aspose.Page API solution. See how to use the functionality in C++
 aliases: /cpp/add-grid-using-visual-brush/
 ---
 ## **Add Grid using Visual Brush**

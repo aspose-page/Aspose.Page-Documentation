@@ -3,6 +3,7 @@ title: Change simple values in XMP metadata of EPS file using .NET
 type: docs
 weight: 14
 url: /net/xmp-metadata/change-simple-values/
+description: The process of changing simple values in XMP metadata of EPS file with Aspose.Page API solution for .NET is explained and illustrated with the code here.
 ---
 
 <!--

@@ -3,6 +3,7 @@ title: Convert EPS to PNG using C++
 type: docs
 weight: 20
 url: /cpp/convert/eps-to-png/
+description: EPS to PNG conversion functionality offered by Aspose.Page API solution for C++ is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

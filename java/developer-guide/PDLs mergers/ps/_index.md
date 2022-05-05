@@ -3,6 +3,7 @@ title: Merge PostScript files to PDF using Java
 type: docs
 weight: 20
 url: /java/merge/ps/
+description: Merger PS functionality of Aspose.Page API solution for Java allows you to combine several PS files into a single PDF document.
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,7 @@ title: Merge EPS files to PDF using Java
 type: docs
 weight: 20
 url: /java/merge/eps/
+description: Merger EPS functionality of  Aspose.Page API solution for Java allows you to combine several EPS files into a single PDF document.
 ---
 
 {{% alert color="primary" %}} 

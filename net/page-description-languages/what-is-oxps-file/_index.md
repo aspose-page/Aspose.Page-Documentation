@@ -4,7 +4,7 @@ type: docs
 weight: 18
 url: /net/what-is-oxps-file/
 keywords: what is oxps file, oxps what is it, oxps file, oxps format, what is openxps, openxps file
-description: OXPS files are often considered to be the same as XPS files. There are differences between these two formats though. Both formats are covered by our solution along with EPS and PS."
+description: OXPS files are often considered to be the same as XPS files. There are differences between these two formats though. Learn more about these PDLs.
 lastmod: "2022-02-11"
 sitemap:
     changefreq: "weekly"

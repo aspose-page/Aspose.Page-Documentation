@@ -3,6 +3,7 @@ title: Convert PostScript to TIFF using Java
 type: docs
 weight: 20
 url: /java/convert/ps-to-tiff/
+description: PS to TIFF conversion functionality included in Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

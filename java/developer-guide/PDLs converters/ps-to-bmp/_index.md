@@ -3,6 +3,7 @@ title: Convert PostScript to BMP using Java
 type: docs
 weight: 20
 url: /java/convert/ps-to-bmp/
+description: PS to BMP conversion functionality included in Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

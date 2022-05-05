@@ -3,6 +3,7 @@ title: Add XML namespace in XMP metadata of EPS file using C++
 type: docs
 weight: 20
 url: /cpp/xmp-metadata/add-namespace/
+description: The process of adding XML namespace in XMP metadata of EPS with Aspose.Page for C++ is explained and illustrated with the code snippets here.
 ---
 
 <!--

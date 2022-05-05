@@ -4,6 +4,7 @@ linktitle: Working with Transparency
 type: docs
 weight: 60
 url: /java/working-with-transparency/
+description: How to work with transparency of an XPS file is a question answered by Aspose.Page API solution. See how to use the functionality in Java
 aliases:
 - /java/add-transparent-object-inside-xps-document/
 - /java/set-opacity-mask/

@@ -4,7 +4,7 @@ linktitle: Working with XPS Document
 type: docs
 weight: 70
 url: /cpp/working-with-xps/
-description: How to work with XPS Documents using Aspose.Page for C++ API solution? There are articles on how to work with text, gradient, image, transparency, and pages of XPS files.
+description: How to work with XPS Documents using Aspose.Page for C++ API solution? There are articles on how to work with text, gradient, image, and pages of XPS files.
 ---
 
 `XPS` extension is linked to the XML Paper Specification (XPS). The format is known as an open graphic format of the fixed based on XML layout.

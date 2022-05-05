@@ -1,4 +1,3 @@
-
 ---
 title: Comparison of Page Description Languages
 type: docs

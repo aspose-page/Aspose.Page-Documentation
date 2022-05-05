@@ -3,6 +3,7 @@ title: Convert PostScript to PDF using .NET
 type: docs
 weight: 20
 url: /net/convert/ps-to-pdf/
+description: PS to PDF conversion functionality included in Aspose.Page API solution for .NET is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

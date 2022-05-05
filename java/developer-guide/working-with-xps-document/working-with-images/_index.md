@@ -5,6 +5,7 @@ type: docs
 weight: 20
 url: /java/working-with-images/
 aliases: /java/add-image-inside-xps-documents/
+description: How to add simple or tiled image to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in Java
 ---
 
 ## **Add Image inside XPS Documents**

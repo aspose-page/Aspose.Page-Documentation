@@ -3,6 +3,7 @@ title: Convert EPS to EMF using Java
 type: docs
 weight: 20
 url: /java/convert/eps-to-emf/
+description: EPS to EMF conversion functionality offered by Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

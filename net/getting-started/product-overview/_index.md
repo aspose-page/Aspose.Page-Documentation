@@ -1,5 +1,6 @@
 ---
-title: Product Overview
+title: Product Overview | .NET
+linktitle: Product Overview
 type: docs
 weight: 10
 url: /net/product-overview/

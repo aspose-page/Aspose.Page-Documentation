@@ -3,6 +3,7 @@ title: Get XMP metadata from EPS file using Java
 type: docs
 weight: 12
 url: /java/xmp-metadata/get/
+description: The process of getting XMP metadata from EPS file with Aspose.Page API solution for Java is explained and illustrated with the code here.
 ---
 
 <!--

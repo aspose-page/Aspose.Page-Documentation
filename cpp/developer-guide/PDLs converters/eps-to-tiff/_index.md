@@ -3,6 +3,7 @@ title: Convert EPS to TIFF using C++
 type: docs
 weight: 20
 url: /cpp/convert/eps-to-tiff/
+description: EPS to TIFF conversion functionality offered by Aspose.Page API solution for C++ is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

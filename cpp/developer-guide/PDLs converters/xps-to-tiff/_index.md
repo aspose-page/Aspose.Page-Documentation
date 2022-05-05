@@ -3,6 +3,7 @@ title: Convert XPS to TIFF using C++
 type: docs
 weight: 40
 url: /cpp/convert/xps-to-tiff/
+description: XPS to TIFF conversion functionality included in Aspose.Page API solution for C++ is described and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

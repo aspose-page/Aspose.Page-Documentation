@@ -1,5 +1,6 @@
 ---
-title: Product Overview
+title: Product Overview | C++
+linktitle: Product Overview
 type: docs
 weight: 10
 url: /cpp/product-overview/

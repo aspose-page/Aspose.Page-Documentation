@@ -3,6 +3,7 @@ title: Convert PostScript to PDF using Java
 type: docs
 weight: 20
 url: /java/convert/ps-to-pdf/
+description: PS to PDF conversion functionality included in Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

@@ -4,6 +4,7 @@ linktitle: Working with Transparency
 type: docs
 weight: 60
 url: /cpp/working-with-transparency/
+description: How to work with transparency of an XPS file is a question answered by Aspose.Page API solution. See how to use the functionality in C++
 aliases:
 - /cpp/set-opacity-mask/
 - /cpp/add-transparent-object-inside-xps-document/

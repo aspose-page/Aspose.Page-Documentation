@@ -1,8 +1,10 @@
 ---
-title: Features List
+title: Features List | C++
+linktitle: Features List
 type: docs
 weight: 30
 url: /cpp/features-list/
+description: Feature List page provides you with the information on what you can do and with which Page Description Languages working with this API solution for C++.
 ---
 
 Aspose.Page for C++ is a versatile API that lets you work with XPS, EPS and PS files in your C++ applications. The API does not require you to install any other application and lets you work on a variety of platforms.

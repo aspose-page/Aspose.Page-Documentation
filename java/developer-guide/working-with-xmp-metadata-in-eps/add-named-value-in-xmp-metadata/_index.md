@@ -3,6 +3,7 @@ title: Add named value in XMP metadata of EPS file using Java
 type: docs
 weight: 19
 url: /java/xmp-metadata/add-named-value/
+description: The process of adding named value in XMP metadata with Aspose.Page for Java is explained and illustrated with the code snippets here.
 ---
 
 <!--
