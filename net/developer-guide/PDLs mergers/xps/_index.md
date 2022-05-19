@@ -50,7 +50,7 @@ using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", S
     string[] filesToMerge = new string[] { dataDir + "input2.xps", dataDir + "input3.xps" };
 
 		// Merge XPS files to output PDF document
-    document.Save(filesToMerge, device, options);
+    document.Merge(filesToMerge, device, options);
 }
 ```
 {{% alert color="primary" %}}
