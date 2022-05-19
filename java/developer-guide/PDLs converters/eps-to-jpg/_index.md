@@ -3,6 +3,7 @@ title: Convert EPS to JPG using Java
 type: docs
 weight: 20
 url: /java/convert/eps-to-jpg/
+description: EPS to JPG conversion functionality offered by Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

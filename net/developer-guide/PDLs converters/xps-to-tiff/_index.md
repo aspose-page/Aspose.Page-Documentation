@@ -3,6 +3,7 @@ title: Convert XPS to TIFF using .NET
 type: docs
 weight: 40
 url: /net/convert/xps-to-tiff/
+description: XPS to TIFF conversion functionality included in Aspose.Page API solution for .NET is described and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

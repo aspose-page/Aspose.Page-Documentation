@@ -3,6 +3,7 @@ title: Merge EPS files to PDF using .NET
 type: docs
 weight: 20
 url: /net/merge/eps/
+description: Merger EPS functionality of  Aspose.Page API solution for .NET allows you to combine several EPS files into a single PDF document.
 ---
 
 {{% alert color="primary" %}} 

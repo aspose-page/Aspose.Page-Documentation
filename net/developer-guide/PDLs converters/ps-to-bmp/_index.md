@@ -3,6 +3,7 @@ title: Convert PostScript to BMP using .NET
 type: docs
 weight: 20
 url: /net/convert/ps-to-bmp/
+description: PS to BMP conversion functionality included in Aspose.Page API solution for .NET is explained and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

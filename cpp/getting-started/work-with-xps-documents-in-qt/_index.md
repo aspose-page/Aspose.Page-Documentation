@@ -1,5 +1,6 @@
 ---
-title: Work with XPS Documents in Qt
+title: Work with XPS Documents in Qt | C++
+linktitle: Work with XPS Documents in Qt
 type: docs
 weight: 80
 url: /cpp/work-with-xps-documents-in-qt/

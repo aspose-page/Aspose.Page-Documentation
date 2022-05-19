@@ -4,7 +4,7 @@ linktitle: PDL Mergers
 type: docs
 weight: 70
 url: /Java/merge/
-description: To merge a file of a Page Description Language format to the single one in PDF format use this API for Java solution. Go to see the examples depicted in the code.
+description: To merge a file of a PDL format to the single one in PDF format use this API for Java solution. See the examples depicted in the code.
 ---
 
 In this paragraph, you will find the description and code examples of merging PDLs files functionality. The information here is aimed to help you with integrating it into your own solution.

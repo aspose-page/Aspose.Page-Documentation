@@ -4,6 +4,7 @@ linktitle: Working with Text
 type: docs
 weight: 40
 url: /net/working-with-text/
+description: How to add text to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in .NET
 aliases: /net/add-text-in-xps-document/
 ---
 

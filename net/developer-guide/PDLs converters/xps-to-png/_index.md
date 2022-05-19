@@ -3,6 +3,7 @@ title: Convert XPS to PNG using .NET
 type: docs
 weight: 20
 url: /net/convert/xps-to-png/
+description: XPS to PNG conversion functionality included in Aspose.Page API solution for .NET is described and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

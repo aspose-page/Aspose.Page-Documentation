@@ -3,6 +3,7 @@ title: Add XMP metadata to EPS file using .NET
 type: docs
 weight: 13
 url: /net/xmp-metadata/add/
+description: The process of adding XMP metadata to EPS file with Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
 ---
 
 <!--

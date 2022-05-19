@@ -1,11 +1,10 @@
-
 ---
 title: What is PS file?
 type: docs
 weight: 15
 url: /net/what-is-ps-file/
 keywords: what is ps file, ps what is it, what is postscript, ps file, ps format, ps language, postscript file, postscript format, postscript language
-description: This page briefly answers the question "What is PS file?"
+description: PS as one of the PDLs languages is thoroughly explained here. Along with it this page briefly answers the question "What is a PS file?"
 lastmod: "2022-02-11"
 sitemap:
     changefreq: "weekly"
@@ -127,7 +126,7 @@ Therefore it supports big sets of font and color space types.
 
 ## Syntax and structure
 
- PostScript uses BNF (Backus–Naur form) postfix notation where the operator goes after its operands.
+ PostScript uses BNF (Backusï¿½Naur form) postfix notation where the operator goes after its operands.
 
 </br></br></br>
 <p align="center">

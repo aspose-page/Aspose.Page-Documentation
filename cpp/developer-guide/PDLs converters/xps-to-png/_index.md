@@ -3,6 +3,7 @@ title: Convert XPS to PNG using C++
 type: docs
 weight: 20
 url: /cpp/convert/xps-to-png/
+description: XPS to PNG conversion functionality included in Aspose.Page API solution for C++ is described and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

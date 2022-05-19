@@ -1,5 +1,6 @@
 ---
-title: Licensing
+title: Licensing | C++
+linktitle: Licensing
 type: docs
 weight: 60
 url: /cpp/licensing/

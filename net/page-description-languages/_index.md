@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /net/page-description-languages/
 keywords: page description language, pdl is, pdl
-description: This page introducts Page Description Languages (PDL)
+description: Page Description Languages describe the appearance of pages at a higher level than an array of pixels. This chapter explains and compares you all the PDLs.
 lastmod: "2022-02-11"
 sitemap:
     changefreq: "weekly"

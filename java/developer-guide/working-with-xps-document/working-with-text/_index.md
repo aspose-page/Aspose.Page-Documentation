@@ -4,6 +4,7 @@ linktitle: Working with Text
 type: docs
 weight: 10
 url: /java/working-with-text/
+description: How to add text to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in Java
 aliases: /java/add-text-in-xps-document/
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: System Requirements
+title: System Requirements | Java
+linktitle: System Requirements
 type: docs
 weight: 40
 url: /java/system-requirements/

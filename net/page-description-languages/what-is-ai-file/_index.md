@@ -4,7 +4,7 @@ type: docs
 weight: 19
 url: /net/what-is-ai-file/
 keywords: what is ai file, what is ai file, ai what is it, ai file, ai format, what is ai
-description: If you have ever worked with Adobe Illustrator editor you probably know such a file format as AI. This is one of the written in Postscript Language formats and is described detailly in this article.
+description: If you have ever worked with Adobe Illustrator editor you may faced AI format. This is one of the written in PDL formats and is described in this article.
 lastmod: "2022-02-11"
 sitemap:
     changefreq: "weekly"

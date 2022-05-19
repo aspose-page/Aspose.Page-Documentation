@@ -3,6 +3,7 @@ title: Get XMP metadata from EPS file using .NET
 type: docs
 weight: 12
 url: /net/xmp-metadata/get/
+description: The process of getting XMP metadata from EPS file with Aspose.Page API solution for .NET is explained and illustrated with the code here.
 ---
 
 <!--

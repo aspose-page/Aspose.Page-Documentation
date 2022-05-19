@@ -3,6 +3,7 @@ title: Get XMP metadata from EPS file using C++
 type: docs
 weight: 12
 url: /cpp/xmp-metadata/get/
+description: The process of getting XMP metadata from EPS file with Aspose.Page API solution for C++ is explained and illustrated with the code here.
 ---
 
 <!--
@@ -16,52 +17,70 @@ In order to extract XMP metadata from EPS file it is necessary to do several ste
 2. Create an instance of [PsDocument](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.ps_document) from created earlier input stream.
 3. Get an instance of [XmpMetadata](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.x_m_p.xmp_metadata) from the PsDocument. If given EPS file doesn't contain XMP metadata the new one
 will be created, filled in with values from PS metadata comments and returned to you.
-4. Now you can view values of  metadata fileds.
+4. Now you can view values of  metadata fields.
 
 <br>Following code snippet shows how to extract XMP metadata from EPS file in C++:
 <br>
 ```C++
 // For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-C
 // The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_WorkingWithXMPMetadataInEPS();
+System::String dataDir = RunExamples::GetDataDir_WorkingWithXMPMetadataInEPS();
 // Initialize EPS file input stream
-System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "get_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
+System::SharedPtr<System::IO::FileStream> psStream = System::MakeObject<System::IO::FileStream>(dataDir + u"get_input.eps", System::IO::FileMode::Open, System::IO::FileAccess::Read);
 // Create PsDocument instance from stream
-PsDocument document = new PsDocument(psStream);            
+System::SharedPtr<PsDocument> document = System::MakeObject<PsDocument>(psStream);
 
-try
+
 {
-    // Get XMP metadata. If EPS file doesn't contain XMP metadata we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title etc)
-    XmpMetadata xmp = document.GetXmpMetadata();
-
-    // Get "CreatorTool" value
-    if (xmp.Contains("xmp:CreatorTool"))
-        Console.WriteLine("CreatorTool: " + xmp["xmp:CreatorTool"].ToStringValue());
-    
-    // Get "CreateDate" value
-    if (xmp.Contains("xmp:CreateDate"))
-        Console.WriteLine("CreateDate: " + xmp["xmp:CreateDate"].ToStringValue());
-
-    // Get a width of a thumbnail image if exists
-    if (xmp.Contains("xmp:Thumbnails") && xmp["xmp:Thumbnails"].IsArray)
+    auto __finally_guard_0 = ::System::MakeScopeGuard([&psStream]()
     {
-        XmpValue val = xmp["xmp:Thumbnails"].ToArray()[0];
-        if (val.IsNamedValues && val.ToDictionary().ContainsKey("xmpGImg:width"))
-            Console.WriteLine("Thumbnail Width: " + val.ToDictionary()["xmpGImg:width"].ToInteger());
+        psStream->Close();
+    });
+    
+    try
+    {
+        // Get XMP metadata. If EPS file doesn't contain XMP metadata we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title etc)
+        System::SharedPtr<XmpMetadata> xmp = document->GetXmpMetadata();
+        
+        // Get "CreatorTool" value
+        if (xmp->Contains(u"xmp:CreatorTool"))
+        {
+            System::Console::WriteLine(System::String(u"CreatorTool: ") + xmp->idx_get(u"xmp:CreatorTool")->ToStringValue());
+        }
+        
+        // Get "CreateDate" value
+        if (xmp->Contains(u"xmp:CreateDate"))
+        {
+            System::Console::WriteLine(System::String(u"CreateDate: ") + xmp->idx_get(u"xmp:CreateDate")->ToStringValue());
+        }
+        
+        // Get a width of a thumbnail image if exists
+        if (xmp->Contains(u"xmp:Thumbnails") && xmp->idx_get(u"xmp:Thumbnails")->get_IsArray())
+        {
+            System::SharedPtr<XmpValue> val = xmp->idx_get(u"xmp:Thumbnails")->ToArray()->idx_get(0);
+            if (val->get_IsNamedValues() && val->ToDictionary()->ContainsKey(u"xmpGImg:width"))
+            {
+                System::Console::WriteLine(System::String(u"Thumbnail Width: ") + val->ToDictionary()->idx_get(u"xmpGImg:width")->ToInteger());
+            }
+        }
+        
+        // Get "format" value
+        if (xmp->Contains(u"dc:format"))
+        {
+            System::Console::WriteLine(System::String(u"Format: ") + xmp->idx_get(u"dc:format")->ToStringValue());
+        }
+        
+        // Get "DocumentID" value
+        if (xmp->Contains(u"xmpMM:DocumentID"))
+        {
+            System::Console::WriteLine(System::String(u"DocumentID: ") + xmp->idx_get(u"xmpMM:DocumentID")->ToStringValue());
+        }
+        
     }
-
-    // Get "format" value
-    if (xmp.Contains("dc:format"))
-        Console.WriteLine("Format: " + xmp["dc:format"].ToStringValue());
-
-    // Get "DocumentID" value
-    if (xmp.Contains("xmpMM:DocumentID"))
-        Console.WriteLine("DocumentID: " + xmp["xmpMM:DocumentID"].ToStringValue());
-
-}
-finally
-{
-    psStream.Close();
+    catch (...)
+    {
+        throw;
+    }
 }
 ```
 {{% alert color="primary" %}}

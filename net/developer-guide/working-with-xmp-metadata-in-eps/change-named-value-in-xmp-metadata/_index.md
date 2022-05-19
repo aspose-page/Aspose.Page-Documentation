@@ -3,6 +3,7 @@ title: Change named value in XMP metadata of EPS file using .NET
 type: docs
 weight: 18
 url: /net/xmp-metadata/change-named-value/
+description: The process of changing named value in XMP metadata of EPS file with Aspose.Page API solution for .NET is explained and illustrated with the code here.
 ---
 
 <!--

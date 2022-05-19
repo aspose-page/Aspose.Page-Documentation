@@ -5,6 +5,7 @@ type: docs
 weight: 30
 url: /cpp/working-with-pages/
 aliases: /cpp/add-pages-to-xps-document/
+description: How to add pages to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in C++
 ---
 ## **Add Pages to XPS Document**
 

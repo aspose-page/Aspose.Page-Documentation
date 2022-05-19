@@ -4,7 +4,7 @@ linktitle: Working with XPS Document
 type: docs
 weight: 70
 url: /net/working-with-xps/
-description: How to work with XPS Documents using Aspose.Page for .NET API solution? There are articles on how to work with text, gradient, image, transparency, and pages of XPS files.
+description: There are articles on how to work with text, gradient, image, transparency, and pages of XPS files using Aspose.Page for .NET API solution.
 ---
 
 `XPS` extension is linked to the XML Paper Specification (XPS). The format is known as an open graphic format of the fixed based on XML layout.

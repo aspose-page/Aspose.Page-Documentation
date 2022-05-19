@@ -4,6 +4,7 @@ linktitle: Working with Text
 type: docs
 weight: 10
 url: /cpp/working-with-text/
+description: How to add text to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in C++
 aliases: /cpp/add-text-in-xps-document/
 ---
 ## **Add Text**

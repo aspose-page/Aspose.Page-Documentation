@@ -1,8 +1,9 @@
 ---
-title: Merge XPS files to PDF using .NET
+title: Merge XPS files to PDF using Java
 type: docs
 weight: 20
 url: /java/merge/xps/
+description: Merger XPS functionality of Aspose.Page API solution for .NET allows you to combine several XPS files into a single PDF document.
 ---
 
 {{% alert color="primary" %}} 

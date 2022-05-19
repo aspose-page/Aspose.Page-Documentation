@@ -1,5 +1,6 @@
 ---
-title: Aspose.Page for CPP 22.4 Release Notes
+title: Aspose.Page for CPP 22.4 Release Notes 
+linktitle: Aspose.Page for CPP 22.4 Release Notes
 type: docs
 weight: 10
 url: /cpp/aspose-page-for-cpp-22-4-release-notes/

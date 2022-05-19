@@ -3,6 +3,7 @@ title: Convert XPS to PDF using Java
 type: docs
 weight: 20
 url: /java/convert/xps-to-pdf/
+description: XPS to PDF conversion functionality included in Aspose.Page API solution for Java is described and illustrated with the code snippets here.
 ---
 
 {{% alert color="primary" %}} 

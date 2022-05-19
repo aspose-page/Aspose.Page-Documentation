@@ -3,6 +3,7 @@ title: Merge EPS files to PDF using C++
 type: docs
 weight: 20
 url: /cpp/merge/eps/
+description: Merger EPS functionality of  Aspose.Page API solution for C++ allows you to combine several EPS files into a single PDF document.
 ---
 
 {{% alert color="primary" %}} 

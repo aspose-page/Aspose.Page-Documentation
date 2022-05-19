@@ -3,6 +3,7 @@ title: Add properties in XMP metadata of EPS file using Java
 type: docs
 weight: 15
 url: /java/xmp-metadata/add-properties/
+description: The process of adding properties in XMP metadata of EPS file with Aspose.Page for Java is explained and illustrated with the code snippets here.
 ---
 
 <!--
