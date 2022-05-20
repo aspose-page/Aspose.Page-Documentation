@@ -6,11 +6,10 @@ url: /net/xmp-metadata/change-simple-values/
 description: The process of changing simple values in XMP metadata of EPS file with Aspose.Page API solution for .NET is explained and illustrated with the code here.
 ---
 
-<!--
+
 {{% alert color="primary" %}} 
 
-You can check the quality of Aspose.Page EPS to PDF conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-pdf">EPS to PDF Converter</a> {{% /alert %}}
--->
+You can check the quality of Aspose.Page XMP Metadata working with <a nofollow href="https://products.aspose.app/page/metadata/eps">Metadata</a> web app {{% /alert %}}
 
 In order to change simple values in XMP metadata of EPS file it is necessary to do several steps:
 1. Initialize an input stream for input EPS file.
@@ -70,12 +69,9 @@ finally
 {{% alert color="primary" %}}
 See changing simple values in XMP metadata in [Java](/page/java/xmp-metadata/change-simple-values/) and [C++](/page/cpp/xmp-metadata/change-simple-values/).
 {{% /alert %}}
-<!--
 {{% alert color="primary" %}}
-Evaluate EPS to PDF conversion online on our <a nofollow href="https://products.aspose.app/page/conversion/eps-to-pdf">EPS to PDF Converter</a>. You can convert several EPS files to PDF at once and dowload results in a few seconds.
+Evaluate XMP metadata working online on our <a nofollow href="https://products.aspose.app/page/metadata/eps">Metadata</a> application.
  {{% /alert %}}
--->
-<br>
-<br>
+
 {{% alert color="primary" %}}
 You can download examples and data files from [GitHub](https://github.com/aspose-page/Aspose.Page-for-.NET). {{% /alert %}}
