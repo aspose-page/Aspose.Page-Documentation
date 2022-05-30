@@ -1,16 +1,51 @@
 ---
-title: Merge XPS files to PDF using .NET
+title: Merge XPS files using .NET
 type: docs
 weight: 20
 url: /net/merge/xps/
-description: Merger XPS functionality of Aspose.Page API solution for .NET allows you to combine several XPS files into a single PDF document.
+description: Merger XPS functionality of Aspose.Page API solution for .NET allows you to combine several XPS files into a single XPS or PDF document.
 ---
 
 {{% alert color="primary" %}} 
 
 You can check the quality of Aspose.Page XPS merger and view the results via free online <a nofollow href="https://products.aspose.app/page/merger/xps">XPS Merger</a> {{% /alert %}} 
 
-Aspose.Page .NET XPS Merge allows to merge XPS files to PDF document with using of any language supported by .NET platform: C#, VB, J#.
+Aspose.Page .NET XPS Merge allows to merge XPS files to XPS document with using of any language supported by .NET platform: C#, VB, J#.
+<br>It is necessary to do several steps in order to perform XPS merge:
+1. Initialize an input stream for the first input XPS document.
+2. Initialize an output stream for output XPS document.
+3. Create an array of XPS files that will be merged with the first one.
+4. Create an instance of [XpsDocument](https://apireference.aspose.com/page/net/aspose.page.xps/xpsdocument) from created earlier input stream.
+5. Merge XPS files with created document and save it. 
+
+<br>Following code snippet shows how to merge XPS files in C#:
+<br>
+```C#
+// For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_WorkingWithDocumentMerging();
+// Initialize XPS output stream
+using (System.IO.Stream outStream = System.IO.File.Open(dataDir + "mergedXPSfiles.xps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
+// Initialize XPS input stream
+using (System.IO.Stream inStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open, System.IO.FileAccess.Read))
+{
+    // Load the first XPS document from the stream
+    XpsDocument document = new XpsDocument(inStream, new XpsLoadOptions());
+    // or load XPS document directly from file. No xpsStream is needed then.
+    // XpsDocument document = new XpsDocument(inputFileName, new XpsLoadOptions());
+    
+    // Create an array of XPS files that will be merged with the first one
+    string[] filesToMerge = new string[] { dataDir + "input2.xps", dataDir + "input3.xps" };
+
+		// Merge XPS files to output XPS document
+    document.Merge(filesToMerge, outStream);
+}
+```
+{{% alert color="primary" %}}
+See XPS merge in [Java](/page/java/merge/xps/) and [C++](/page/cpp/merge/xps/).
+{{% /alert %}}
+
+Aspose.Page .NET XPS Merge also allows to merge XPS files to PDF document.
 <br>It is necessary to do several steps in order to perform XPS to PDF merge:
 1. Initialize an input stream for the first input XPS document.
 2. Initialize an output stream for output PDF document.

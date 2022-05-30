@@ -1,16 +1,46 @@
 ---
-title: Merge XPS files to PDF using Java
+title: Merge XPS files using Java
 type: docs
 weight: 20
 url: /java/merge/xps/
-description: Merger XPS functionality of Aspose.Page API solution for .NET allows you to combine several XPS files into a single PDF document.
+description: Merger XPS functionality of Aspose.Page API solution for .NET allows you to combine several XPS files into a single XPS or PDF document.
 ---
 
 {{% alert color="primary" %}} 
 
 You can check the quality of Aspose.Page XPS Merger and view the results via free online <a nofollow href="https://products.aspose.app/page/merger/xps">XPS Merger</a> {{% /alert %}} 
 
-Aspose.Page Java XPS merger allows to merge XPS files to PDF document on any OS for which Java Virtual Machine exists.
+Aspose.Page Java XPS merger allows to merge XPS files to XPS document on any OS for which Java Virtual Machine exists.
+<br>It is necessary to do several steps in order to perform XPS merge:
+1. Initialize an input stream for the first input XPS document.
+2. Initialize an output stream for output XPS document.
+3. Create an array of XPS files that will be merged with the first one.
+4. Create an instance of [XpsDocument](https://apireference.aspose.com/page/java/com.aspose.xps/xpsdocument) from created earlier input stream.
+5. Merge XPS files with created document and save it. 
+
+<br>Following code snippet shows how to merge XPS files to PDF document in Java:
+<br>
+```Java
+// For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir();
+// Initialize XPS output stream
+FileOutputStream xpsStream = new FileOutputStream(dataDir + "mergedXPSfiles.xps");
+
+// Load the first XPS document
+XpsDocument document = new XpsDocument(dataDir + "input.xps");
+
+// Create an array of XPS files that will be merged with the first one
+string[] filesToMerge = new string[] { dataDir + "input2.xps", dataDir + "input3.xps" };
+
+// Merge XPS files
+document.merge(filesToMerge, xpsStream);
+```
+{{% alert color="primary" %}}
+See XPS merge in [.NET](/page/net/merge/xps/) and [C++](/page/cpp/merge/xps/).
+{{% /alert %}}
+
+Aspose.Page Java XPS merger allows also to merge XPS files to PDF document.
 <br>It is necessary to do several steps in order to perform XPS to PDF merge:
 1. Initialize an input stream for the first input XPS document.
 2. Initialize an output stream for output PDF document.

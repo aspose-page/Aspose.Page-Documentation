@@ -1,16 +1,65 @@
 ---
-title: Merge XPS files to PDF using C++
+title: Merge XPS files using C++
 type: docs
 weight: 20
 url: /cpp/merge/xps/
-description: Merger XPS functionality of Aspose.Page API solution for C++ allows you to combine several XPS files into a single PDF document.
+description: Merger XPS functionality of Aspose.Page API solution for C++ allows you to combine several XPS files into a single XPS or PDF document.
 ---
 
 {{% alert color="primary" %}} 
 
 You can check the quality of Aspose.Page XPS merging and view the results via free online <a nofollow href="https://products.aspose.app/page/merger/xps">XPS Merger</a> {{% /alert %}} 
 
-Aspose.Page C++ XPS merger allows to merge XPS files to PDF document on Windows and Linux.
+Aspose.Page C++ XPS merger allows to merge XPS files to XPS document on Windows and Linux.
+<br>It is necessary to do several steps in order to perform XPS merge:
+1. Initialize an output stream for output XPS document.
+2. Initialize an input stream for the first input XPS document.
+3. Create an array of XPS files that will be merged with the first one.
+4. Create an instance of [XpsDocument](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) from created earlier input stream.
+7. Merge XPS files with created document and save it.
+
+<br>Following code snippet shows how to merge XPS files in C++:
+<br>
+```C++
+//For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-C
+// Output stream
+System::SharedPtr<System::IO::Stream> outStream = System::IO::File::Open(RunExamples::outDir() + u"mergedXPSfiles.xps", System::IO::FileMode::Create, System::IO::FileAccess::Write);
+// Clearing resources under 'using' statement
+System::Details::DisposeGuard<1> __dispose_guard_1({ outStream });
+// ------------------------------------------
+try {
+	System::SharedPtr<System::IO::Stream> inStream = System::IO::File::Open(RunExamples::dataDir() + u"input.xps", System::IO::FileMode::Open, System::IO::FileAccess::Read);
+	// Clearing resources under 'using' statement
+	System::Details::DisposeGuard<1> __dispose_guard_0({ inStream });
+	// ------------------------------------------
+
+	try
+	{
+		// Load XPS document form the stream
+		System::SharedPtr<XpsDocument> document = System::MakeObject<XpsDocument>(xpsStream, System::MakeObject<XpsLoadOptions>());
+		// or load XPS document directly from file. No xpsStream is needed then.
+		// XpsDocument document = new XpsDocument(inputFileName, new XpsLoadOptions());
+
+		// Create an array of XPS files that will be merged with the first one
+		System::ArrayPtr<System::String> filesForMerge = System::MakeArray<System::String>({dataDir() + u"input2.xps", dataDir() + u"input3.xps"});
+
+		document->Merge(filesForMerge, outStream);
+	}
+	catch (...)
+	{
+		__dispose_guard_0.SetCurrentException(std::current_exception());
+	}
+}
+catch (...)
+{
+	__dispose_guard_1.SetCurrentException(std::current_exception());
+}
+```
+{{% alert color="primary" %}}
+See XPS merge in [.Net](/page/net/merge/xps/) and [Java](/page/java/merge/xps/).
+{{% /alert %}}
+
+Aspose.Page C++ XPS merger allows also to merge XPS files into PDF document on Windows and Linux.
 <br>It is necessary to do several steps in order to perform XPS to PDF merge:
 1. Initialize an output stream for output PDF document.
 2. Initialize an input stream for the first input XPS document.
