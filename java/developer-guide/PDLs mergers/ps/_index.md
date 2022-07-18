@@ -15,9 +15,9 @@ Aspose.Page for Java PS Merger allows to merge PostScript (PS) files to PDF docu
 1. Initialize an input stream for the first input PS file.
 2. Initialize an output stream for output PDF document.
 3. Create an array of PS files that will be merged with the first one.
-4. Create an instance of [PsDocument](https://apireference.aspose.com/page/java/com.aspose.eps/psdocument) from created earlier input stream.
-5. Use [PdfSaveOptions](https://apireference.aspose.com/page/java/com.aspose.eps.device/pdfsaveoptions) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
-6. Create an instance of [PdfDevice](https://apireference.aspose.com/page/java/com.aspose.eps.device/pdfdevice) from created earlier output stream.
+4. Create an instance of [PsDocument](https://reference.aspose.com/page/java/com.aspose.eps/psdocument) from created earlier input stream.
+5. Use [PdfSaveOptions](https://reference.aspose.com/page/java/com.aspose.eps.device/pdfsaveoptions) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
+6. Create an instance of [PdfDevice](https://reference.aspose.com/page/java/com.aspose.eps.device/pdfdevice) from created earlier output stream.
 7. Merge PostScript files with created document and save it as PDF with PDF save options.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during merging of PS files to PDF document and saved in **Exceptions** list.
 
@@ -70,7 +70,7 @@ Aspose.Page for Java PS Merger allows to merge PostScript (PS) files to PDF docu
 See PS merge in [.NET](/page/net/merge/ps/) and [C++](/page/cpp/merge/ps/).
 {{% /alert %}}
 
-Let's consider [PdfSaveOptions](https://apireference.aspose.com/page/java/com.aspose.eps.device/pdfsaveoptions). Using this class we can assign different conversion parameters while merging PS files to PDF.
+Let's consider [PdfSaveOptions](https://reference.aspose.com/page/java/com.aspose.eps.device/pdfsaveoptions). Using this class we can assign different conversion parameters while merging PS files to PDF.
 <br>
 - **AdditionalFontsFolder** specifies locations where to find fonts. System fonts folders are always included by default.
 - **SuppressError** controls behaviour of PS to PDF merger when non-critical errors are appeared. If value is true than it is possible to view a list of such errors after merging in **Exceptions** field. Default value is true.

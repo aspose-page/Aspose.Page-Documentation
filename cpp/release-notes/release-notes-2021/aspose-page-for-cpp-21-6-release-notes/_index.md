@@ -15,4 +15,4 @@ Aspose.Page for C++ 21.6 is ready for use with products ver 21.6. Based on lates
 
 PSDictionary, PSPackedArreay rest memory leaks fixed.
 
-You can consult Aspose.Page for C++ [API reference](https://apireference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.

@@ -17,4 +17,4 @@ Aspose.Page for C++ 21.10 is based on the latest [Aspose.Page for .NET 21.10] (/
 | :- | :- | :- |
 |PAGECPP-43|TextureBrush was been creating in clamp wrapmode|Bug|
 
-You can consult Aspose.Page for C++ [API reference](https://apireference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.

@@ -14,9 +14,9 @@ or <a nofollow href="https://products.aspose.app/page/viewer/eps">EPS Viewer</a>
 Aspose.Page for C++ EPS to WMF converter allows to convert Encapsulated PostScript (EPS) file to WMF image on Windows and Linux.
 <br>It is necessary to do several steps in order to perform EPS to WMF conversion:
 1. Initialize an input stream for input EPS file.
-2. Create an instance of [PsDocument](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.ps_document) from created earlier input stream.
-4. Use [ImageSaveOptions](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.image_save_options) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
-5. Create an instance of [ImageDevice](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.image_device) specifying image type and size if it is necessary.
+2. Create an instance of [PsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.e_p_s.ps_document) from created earlier input stream.
+4. Use [ImageSaveOptions](https://reference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.image_save_options) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
+5. Create an instance of [ImageDevice](https://reference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.image_device) specifying image type and size if it is necessary.
 6. Save PostScript document as image with image save options to an array of arrays of bytes. One array of bytes for one page of input document.
 7. Save resulting 2-dimensional arrays of bytes to WMF files creating for every bytes array a new file output stream.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to WMF.
@@ -95,7 +95,7 @@ int32_t i = 0;
 See EPS to WMF conversion in [.Net](/page/net/convert/eps-to-wmf/) and [Java](/page/java/convert/eps-to-wmf/).
 {{% /alert %}}
 
-Let's consider [ImageSaveOptions](https://apireference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.image_save_options). Using this class we can assign different conversion parameters while converting EPS to WMF.
+Let's consider [ImageSaveOptions](https://reference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.image_save_options). Using this class we can assign different conversion parameters while converting EPS to WMF.
 <br>
 - **AdditionalFontsFolder** specifies locations where to find fonts. System fonts folders are always included by default.
 - **SuppressError** controls behaviour of EPS to WMF converter when non-critical errors are appeared. If value is true than it is possible to view a list of such errors after conversion in **Exceptions** field. Default value is true.

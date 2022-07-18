@@ -13,7 +13,7 @@ An XPS document can comprise of one or more pages. Aspose.Page for C++ allows ad
 ### **Add Pages**
 The XpsDocument class of API exposes the InsertPage method that is used to add pages to an XPS document. In order to add pages to XPS document, use the following steps.
 
-1. Create an object of [XpsDocument](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) class
+1. Create an object of [XpsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) class
 1. Use the AddPage method to add a new page to the collection of the pages of the document
 1. Save the document using the Save method of XpsDocument class
 

@@ -14,9 +14,9 @@ Aspose.Page Java XPS to PDF converter allows to convert XPS document to PDF docu
 <br>It is necessary to do several steps in order to perform XPS to PDF conversion:
 1. Initialize an input stream for input XPS document.
 2. Initialize an output stream for output PDF document.
-3. Create an instance of [XpsDocument](https://apireference.aspose.com/page/java/com.aspose.xps/xpsdocument) from created earlier input stream.
-4. Specify **TextCompression**, **ImageCompression**, **JpegQualityLevel**, and other options of [PdfSaveOptions](https://apireference.aspose.com/page/java/com.aspose.xps.rendering/pdfsaveoptions).
-5. Create an instance of [PdfDevice](https://apireference.aspose.com/page/java/com.aspose.xps.rendering/pdfdevice) from created earlier output stream.
+3. Create an instance of [XpsDocument](https://reference.aspose.com/page/java/com.aspose.xps/xpsdocument) from created earlier input stream.
+4. Specify **TextCompression**, **ImageCompression**, **JpegQualityLevel**, and other options of [PdfSaveOptions](https://reference.aspose.com/page/java/com.aspose.xps.rendering/pdfsaveoptions).
+5. Create an instance of [PdfDevice](https://reference.aspose.com/page/java/com.aspose.xps.rendering/pdfdevice) from created earlier output stream.
 6. Save XPS document as PDF with PDF save options. 
 
 <br>Following code snippet shows how to convert XPS to PDF document in Java:
@@ -47,12 +47,12 @@ document.save(device, options);
 See XPS to PDF conversion in [.NET](/page/net/convert/xps-to-pdf/) and [C++](/page/cpp/convert/xps-to-pdf/).
 {{% /alert %}}
 
-Let's consider [PdfSaveOptions](https://apireference.aspose.com/page/java/com.aspose.xps.rendering/pdfsaveoptions). Using this class we can assign different conversion parameters while converting XPS to PDF.
+Let's consider [PdfSaveOptions](https://reference.aspose.com/page/java/com.aspose.xps.rendering/pdfsaveoptions). Using this class we can assign different conversion parameters while converting XPS to PDF.
 <br>
 - **JpegQualityLevel** controls a quality of images in PDF document if **ImageCompression** algorithm is JPEG and can be from 0 to 100.
-- **ImageCompression** algorithm encapsulated in [PdfImageCompression](https://apireference.aspose.com/page/java/com.aspose.xps.rendering/pdfimagecompression) Enumeration, may be Run Length Encoding (RLE), Flate, Lempel-Ziv-Welch (LZW) with base or optimized pedictor, JPEG , none (raw image bytes) and auto (the most appropriate compression for each image). Default is auto compression.
-- **TextCompression** algorithm encapsulated in [PdfTextCompression](https://apireference.aspose.com/page/java/com.aspose.xps.rendering/pdftextcompression) Enumeration, may be Run Length Encoding (RLE), Flate, Lempel-Ziv-Welch (LZW) and none. Default value in XPS to PDF conversion is Flate.
-- **EncryptionDetails** encapsulated in [PdfEncryptionDetails](https://apireference.aspose.com/page/java/com.aspose.xps.rendering/pdfencryptiondetails). It allows setting encryption algorithm, permisions, owner and user passwords for PDF document.
+- **ImageCompression** algorithm encapsulated in [PdfImageCompression](https://reference.aspose.com/page/java/com.aspose.xps.rendering/pdfimagecompression) Enumeration, may be Run Length Encoding (RLE), Flate, Lempel-Ziv-Welch (LZW) with base or optimized pedictor, JPEG , none (raw image bytes) and auto (the most appropriate compression for each image). Default is auto compression.
+- **TextCompression** algorithm encapsulated in [PdfTextCompression](https://reference.aspose.com/page/java/com.aspose.xps.rendering/pdftextcompression) Enumeration, may be Run Length Encoding (RLE), Flate, Lempel-Ziv-Welch (LZW) and none. Default value in XPS to PDF conversion is Flate.
+- **EncryptionDetails** encapsulated in [PdfEncryptionDetails](https://reference.aspose.com/page/java/com.aspose.xps.rendering/pdfencryptiondetails). It allows setting encryption algorithm, permisions, owner and user passwords for PDF document.
 - **PageNumbers** represents an array of numbers of pages which will be saved to PDF.
 - **OutlineTreeExpansionLevel** and **OutlineTreeHeight** controls view of document outline.
 
