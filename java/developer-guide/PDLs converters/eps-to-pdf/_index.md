@@ -14,9 +14,9 @@ Aspose.Page for Java EPS to PDF converter allows to convert Encapsulated PostScr
 <br>It is necessary to do several steps in order to perform EPS to PDF conversion:
 1. Initialize an input stream for input EPS file.
 2. Initialize an output stream for output PDF document.
-3. Create an instance of [PsDocument](https://apireference.aspose.com/page/java/com.aspose.eps/psdocument) from created earlier input stream.
-4. Use [PdfSaveOptions](https://apireference.aspose.com/page/java/com.aspose.eps.device/pdfsaveoptions) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
-5. Create an instance of [PdfDevice](https://apireference.aspose.com/page/java/com.aspose.eps.device/pdfdevice) from created earlier output stream.
+3. Create an instance of [PsDocument](https://reference.aspose.com/page/java/com.aspose.eps/psdocument) from created earlier input stream.
+4. Use [PdfSaveOptions](https://reference.aspose.com/page/java/com.aspose.eps.device/pdfsaveoptions) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
+5. Create an instance of [PdfDevice](https://reference.aspose.com/page/java/com.aspose.eps.device/pdfdevice) from created earlier output stream.
 6. Save PostScript document as PDF with PDF save options.
 7. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to PDF and saved in **Exceptions** list.
 
@@ -66,7 +66,7 @@ if (suppressErrors) {
 See EPS to PDF conversion in [.NET](/page/net/convert/eps-to-pdf/) and [C++](/page/cpp/convert/eps-to-pdf/).
 {{% /alert %}}
 
-Let's consider [PdfSaveOptions](https://apireference.aspose.com/page/java/com.aspose.eps.device/pdfsaveoptions). Using this class we can assign different conversion parameters while converting EPS to PDF.
+Let's consider [PdfSaveOptions](https://reference.aspose.com/page/java/com.aspose.eps.device/pdfsaveoptions). Using this class we can assign different conversion parameters while converting EPS to PDF.
 <br>
 - **AdditionalFontsFolder** specifies locations where to find fonts. System fonts folders are always included by default.
 - **SuppressError** controls behaviour of EPS to PDF converter when non-critical errors are appeared. If value is true than it is possible to view a list of such errors after conversion in **Exceptions** field. Default value is true.

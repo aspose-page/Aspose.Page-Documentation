@@ -15,4 +15,4 @@ Aspose.Page for C++ 21.8 is based on the latest Aspose.Page for .NET 21.8 exclud
 
 Dynamic casts to PSDictionary, PSPackedArray were avoiding for best performance.
 
-You can consult Aspose.Page for C++ [API reference](https://apireference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.

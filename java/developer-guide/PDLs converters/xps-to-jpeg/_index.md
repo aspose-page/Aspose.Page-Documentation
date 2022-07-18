@@ -14,9 +14,9 @@ or <a nofollow href="https://products.aspose.app/page/viewer/xps">XPS Viewer</a>
 Aspose.Page Java XPS to JPG converter allows to convert XPS document to JPG image on any OS for which Java Virtual Machine exists.
 <br>It is necessary to do several steps in order to perform XPS to JPG conversion:
 1. Initialize an input stream for input XPS document.
-2. Create an instance of [XpsDocument](https://apireference.aspose.com/page/java/com.aspose.xps/xpsdocument) from created earlier input stream.
-4. Specify **SmoothingMode**, **Resolution** and other options of [JpegSaveOptions](https://apireference.aspose.com/page/java/com.aspose.xps.rendering/jpegsaveoptions).
-5. Create an instance of [ImageDevice](https://apireference.aspose.com/page/java/com.aspose.xps.rendering/imagedevice).
+2. Create an instance of [XpsDocument](https://reference.aspose.com/page/java/com.aspose.xps/xpsdocument) from created earlier input stream.
+4. Specify **SmoothingMode**, **Resolution** and other options of [JpegSaveOptions](https://reference.aspose.com/page/java/com.aspose.xps.rendering/jpegsaveoptions).
+5. Create an instance of [ImageDevice](https://reference.aspose.com/page/java/com.aspose.xps.rendering/imagedevice).
 6. Save XPS document as image with JPEG save options to an array of arrays of bytes. One array of bytes for one page of input document.
 7. Save resulting 2-dimensional arrays of bytes to JPG files creating for every bytes array a new file output stream.
 
@@ -57,7 +57,7 @@ for (int i = 0; i < device.getResult().length; i++) {
 See XPS to JPG conversion in [.NET](/page/net/convert/xps-to-jpg/) and [C++](/page/cpp/convert/xps-to-jpg/).
 {{% /alert %}}
 
-Let's consider [JpegSaveOptions](https://apireference.aspose.com/page/java/com.aspose.xps.rendering/jpegsaveoptions). Using this class we can assign different conversion parameters while converting XPS to JPG.
+Let's consider [JpegSaveOptions](https://reference.aspose.com/page/java/com.aspose.xps.rendering/jpegsaveoptions). Using this class we can assign different conversion parameters while converting XPS to JPG.
 <br>
 - **SmoothingMode** assigns a degree of smoothing for lines, curves and edges of filled areas, may be AntiAlias, HighQuality, HighSpeed and Default (none). Default value is HighQuality.
 - **Resolution** controls resolution of resulting image. Default value is 96.

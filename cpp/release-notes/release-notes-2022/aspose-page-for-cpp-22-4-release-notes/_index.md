@@ -18,4 +18,4 @@ Aspose.Page for C++ 22.4 is is based on the latest [Aspose.Page for .NET 22.4](/
 <br>Support to merge multiple EPS/XPS documents to PDF was added. [The developer guide on using merge.](/page/cpp/merge/)
 
 
-You can consult Aspose.Page for C++ [API reference](https://apireference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.

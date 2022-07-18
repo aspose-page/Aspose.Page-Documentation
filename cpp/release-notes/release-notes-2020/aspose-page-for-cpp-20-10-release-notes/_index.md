@@ -18,4 +18,4 @@ This page contains release notes information for Aspose.Page for C++ 20.10.
 |PAGENET-206|Load PS document produces 1 empty page.|Bug|
 
 
-You can consult Aspose.Page for C++ [API reference](https://apireference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.

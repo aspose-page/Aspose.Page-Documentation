@@ -19,4 +19,4 @@ This release is based on updates from Aspose.Page for .NET and uses the latest v
 |PAGEJAVA-87|Exception fixed during image to XPS file conversion|Bug|
 |PDFCPP-1186|Fixed memory leaks that were found during the internal investigation|Bug|
 
-Complete [API Reference Guide](https://apireference.aspose.com/cpp/page/) for Aspose.Page for C++ can be consulted for developer reference.
+Complete [API Reference Guide](https://reference.aspose.com/cpp/page/) for Aspose.Page for C++ can be consulted for developer reference.
