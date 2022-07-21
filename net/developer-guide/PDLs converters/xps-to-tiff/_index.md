@@ -15,9 +15,9 @@ or <a nofollow href="https://products.aspose.app/page/viewer/xps">XPS Viewer</a>
 Aspose.Page .NET XPS to TIFF converter allows to convert XPS document to TIFF image with using of any language supported by .Net platform: C#, VB, J#.
 <br>It is necessary to do several steps in order to perform XPS to TIFF conversion:
 1. Initialize an input stream for input XPS document.
-2. Create an instance of [XpsDocument](https://apireference.aspose.com/page/net/aspose.page.xps/xpsdocument) from created earlier input stream.
-4. Specify **SmoothingMode**, **Resolution** and other options of [TiffSaveOptions](https://apireference.aspose.com/page/net/aspose.page.xps.presentation.image/tiffsaveoptions).
-5. Create an instance of [ImageDevice](https://apireference.aspose.com/page/net/aspose.page.xps.presentation.image/imagedevice).
+2. Create an instance of [XpsDocument](https://reference.aspose.com/page/net/aspose.page.xps/xpsdocument) from created earlier input stream.
+4. Specify **SmoothingMode**, **Resolution** and other options of [TiffSaveOptions](https://reference.aspose.com/page/net/aspose.page.xps.presentation.image/tiffsaveoptions).
+5. Create an instance of [ImageDevice](https://reference.aspose.com/page/net/aspose.page.xps.presentation.image/imagedevice).
 6. Save XPS document as image with TIFF save options to an array of arrays of bytes. One array of bytes for one page of input document.
 7. Save resulting 2-dimensional arrays of bytes to TIFF files creating for every bytes array a new file output stream.
 
@@ -70,7 +70,7 @@ using (Stream xpsStream = File.Open(inputFileName, FileMode.Open, FileAccess.Rea
 See XPS to TIFF conversion in [Java](/page/java/convert/xps-to-tiff/) and [C++](/page/cpp/convert/xps-to-tiff/).
 {{% /alert %}}
 
-Let's consider [TiffSaveOptions](https://apireference.aspose.com/page/net/aspose.page.xps.presentation.image/tiffsaveoptions). Using this class we can assign different conversion parameters while converting XPS to TIFF.
+Let's consider [TiffSaveOptions](https://reference.aspose.com/page/net/aspose.page.xps.presentation.image/tiffsaveoptions). Using this class we can assign different conversion parameters while converting XPS to TIFF.
 <br>
 - **SmoothingMode** assigns a degree of smoothing for lines, curves and edges of filled areas, may be AntiAlias, HighQuality, HighSpeed and Default (none). Default value is HighQuality.
 - **Resolution** controls resolution of resulting image. Default value is 96.

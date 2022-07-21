@@ -24,7 +24,7 @@ If you want to test Aspose.Page for C++ without the evaluation version limitatio
 
 {{% /alert %}} 
 ## **Applying a License**
-The license can be applied by providing an explicit path to the .lic file. You can use the [License.SetLicense](https://apireference.aspose.com/cpp/words/class/aspose.words.license/) method to licensing the API.
+The license can be applied by providing an explicit path to the .lic file. You can use the [License.SetLicense](https://reference.aspose.com/cpp/words/class/aspose.words.license/) method to licensing the API.
 ### **When to Apply a License**
 Follow these simple rules:
 

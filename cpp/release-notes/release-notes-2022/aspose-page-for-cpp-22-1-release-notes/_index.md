@@ -14,4 +14,4 @@ This page contains release notes information for Aspose.Page for C++ 22.1.
 
 Aspose.Page for C++ 22.1 is ready for use with Aspose c++ products ver 22.1. The product dll files are signed with Aspose certificate.
 
-You can consult Aspose.Page for C++ [API reference](https://apireference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.

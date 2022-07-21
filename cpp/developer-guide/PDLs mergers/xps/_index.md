@@ -15,7 +15,7 @@ Aspose.Page C++ XPS merger allows to merge XPS files to XPS document on Windows 
 1. Initialize an output stream for output XPS document.
 2. Initialize an input stream for the first input XPS document.
 3. Create an array of XPS files that will be merged with the first one.
-4. Create an instance of [XpsDocument](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) from created earlier input stream.
+4. Create an instance of [XpsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) from created earlier input stream.
 7. Merge XPS files with created document and save it.
 
 <br>Following code snippet shows how to merge XPS files in C++:
@@ -64,9 +64,9 @@ Aspose.Page C++ XPS merger allows also to merge XPS files into PDF document on W
 1. Initialize an output stream for output PDF document.
 2. Initialize an input stream for the first input XPS document.
 3. Create an array of XPS files that will be merged with the first one.
-4. Create an instance of [XpsDocument](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) from created earlier input stream.
-5. Specify **TextCompression**, **ImageCompression**, **JpegQualityLevel**, and other options of [PdfSaveOptions](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.presentation.pdf.pdf_save_options).
-6. Create an instance of [PdfDevice](https://apireference.aspose.com/page/cpp/aspose.page.xps.presentation.pdf/pdfdevice) from created earlier output stream.
+4. Create an instance of [XpsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) from created earlier input stream.
+5. Specify **TextCompression**, **ImageCompression**, **JpegQualityLevel**, and other options of [PdfSaveOptions](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.presentation.pdf.pdf_save_options).
+6. Create an instance of [PdfDevice](https://reference.aspose.com/page/cpp/aspose.page.xps.presentation.pdf/pdfdevice) from created earlier output stream.
 7. Merge XPS files with created document and save it as PDF with PDF save options.
 
 <br>Following code snippet shows how to merge XPS files to PDF document in C++:
@@ -116,12 +116,12 @@ catch (...)
 See XPS merge in [.Net](/page/net/merge/xps/) and [Java](/page/java/merge/xps/).
 {{% /alert %}}
 
-Let's consider [PdfSaveOptions](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.presentation.pdf.pdf_device). Using this class we can assign different conversion parameters while merging XPS to PDF.
+Let's consider [PdfSaveOptions](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.presentation.pdf.pdf_device). Using this class we can assign different conversion parameters while merging XPS to PDF.
 <br>
 - **JpegQualityLevel** controls a quality of images in PDF document if **ImageCompression** algorithm is JPEG and can be from 0 to 100.
-- **ImageCompression** algorithm encapsulated in [PdfImageCompression](https://apireference.aspose.com/page/cpp/namespace/aspose.page.x_p_s.presentation.pdf#ab2200bafd8809e7ff3bf07043d5af4ca) Enumeration, may be Run Length Encoding (RLE), Flate, Lempel-Ziv-Welch (LZW) with base or optimized pedictor, JPEG , none (raw image bytes) and auto (the most appropriate compression for each image). Default is auto compression.
-- **TextCompression** algorithm encapsulated in [PdfTextCompression](https://apireference.aspose.com/page/cpp/namespace/aspose.page.x_p_s.presentation.pdf#ad0737945642d29436c5880622affebf7) Enumeration, may be Run Length Encoding (RLE), Flate, Lempel-Ziv-Welch (LZW) and none. Default value in XPS to PDF merging is Flate.
-- **EncryptionDetails** encapsulated in [PdfEncryptionDetails](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.presentation.pdf.pdf_encryption_details). It allows setting encryption algorithm, permisions, owner and user passwords for PDF document.
+- **ImageCompression** algorithm encapsulated in [PdfImageCompression](https://reference.aspose.com/page/cpp/namespace/aspose.page.x_p_s.presentation.pdf#ab2200bafd8809e7ff3bf07043d5af4ca) Enumeration, may be Run Length Encoding (RLE), Flate, Lempel-Ziv-Welch (LZW) with base or optimized pedictor, JPEG , none (raw image bytes) and auto (the most appropriate compression for each image). Default is auto compression.
+- **TextCompression** algorithm encapsulated in [PdfTextCompression](https://reference.aspose.com/page/cpp/namespace/aspose.page.x_p_s.presentation.pdf#ad0737945642d29436c5880622affebf7) Enumeration, may be Run Length Encoding (RLE), Flate, Lempel-Ziv-Welch (LZW) and none. Default value in XPS to PDF merging is Flate.
+- **EncryptionDetails** encapsulated in [PdfEncryptionDetails](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.presentation.pdf.pdf_encryption_details). It allows setting encryption algorithm, permisions, owner and user passwords for PDF document.
 - **OutlineTreeExpansionLevel** and **OutlineTreeHeight** controls view of document outline.
 
 {{% alert color="primary" %}}

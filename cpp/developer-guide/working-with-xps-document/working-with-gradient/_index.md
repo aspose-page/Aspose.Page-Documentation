@@ -9,10 +9,10 @@ aliases: /cpp/add-gradient-in-xps-document/
 ---
 ## **Add Gradient in XPS Document**
 ### **Add Horizontal Gradient**
-Aspose.Page for C++ lets you add horizontal gradient to an XPS document. The [XpsGrandientBrush](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_model.xps_gradient_brush/) class is used to specify the XpsGredientStop and [XpsPath](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_model.xps_path) information to the [XpsDocument](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) object which represents the XPS file. The following C++ code shows how to add horizontal gradient information to a document.
+Aspose.Page for C++ lets you add horizontal gradient to an XPS document. The [XpsGrandientBrush](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_model.xps_gradient_brush/) class is used to specify the XpsGredientStop and [XpsPath](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_model.xps_path) information to the [XpsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) object which represents the XPS file. The following C++ code shows how to add horizontal gradient information to a document.
 
-1. Create an object of [XpsDocument](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) class
-1. Specify the XpsGradientStop and [XpsPath](https://apireference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_model.xps_path) parameters for the XPS document
+1. Create an object of [XpsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) class
+1. Specify the XpsGradientStop and [XpsPath](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_model.xps_path) parameters for the XPS document
 1. Set the rendering information
 1. Save the document
 
