@@ -13,8 +13,8 @@ You can check the quality of Aspose.Page XMP Metadata working with <a nofollow h
 
 In order to add array items in XMP metadata of EPS file it is necessary to do several steps:
 1. Initialize an input stream for input EPS file.
-2. Create an instance of [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument) from created earlier input stream.
-3. Get an instance of [XmpMetadata](https://reference.aspose.com/page/net/aspose.page.eps.xmp/xmpmetadata) from the PsDocument. If given EPS file doesn't contain XMP metadata the new one
+2. Create an instance of [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) from created earlier input stream.
+3. Get an instance of [XmpMetadata](https://reference.aspose.com/page/net/aspose.page.eps.xmp/xmpmetadata/) from the PsDocument. If given EPS file doesn't contain XMP metadata the new one
 will be created, filled in with values from PS metadata comments and returned to you.
 4. Now you can add items to array metadata fields.
 5. Initialize an output stream for output EPS file.

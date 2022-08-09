@@ -14,4 +14,4 @@ This page contains release notes information for Aspose.Page for C++ 22.2.
 
 Aspose.Page for C++ 22.2 is is based on the latest [Aspose.Page for .NET 22.2](/page/net/aspose-page-for-net-22-2-release-notes/) and ready for use with Aspose c++ products ver 22.2.
 
-You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/page/cpp/) for documentation.

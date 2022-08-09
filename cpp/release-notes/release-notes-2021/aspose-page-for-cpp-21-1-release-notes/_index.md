@@ -14,4 +14,4 @@ This page contains release notes information for Aspose.Page for C++ 21.1.
 Aspose.Page for C++ 21.1 is ready for use with products ver 21.1.
 
 
-You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/page/cpp/) for documentation.

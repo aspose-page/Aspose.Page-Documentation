@@ -14,9 +14,9 @@ or <a nofollow href="https://products.aspose.app/page/viewer/eps">EPS Viewer</a>
 Aspose.Page for .NET EPS to EMF converter allows to convert Encapsulated PostScript (EPS) file to EMF image with using of any language supported by .Net platform: C#, VB, J#.
 <br>It is necessary to do several steps in order to perform EPS to EMF conversion:
 1. Initialize an input stream for input EPS file.
-2. Create an instance of [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument) from created earlier input stream.
-4. Use [ImageSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/imagesaveoptions) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
-5. Create an instance of [ImageDevice](https://reference.aspose.com/page/net/aspose.page.eps.device/imagedevice) specifying image type and size if it is necessary.
+2. Create an instance of [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) from created earlier input stream.
+4. Use [ImageSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/imagesaveoptions/) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
+5. Create an instance of [ImageDevice](https://reference.aspose.com/page/net/aspose.page.eps.device/imagedevice/) specifying image type and size if it is necessary.
 6. Save PostScript document as image with image save options to an array of arrays of bytes. One array of bytes for one page of input document.
 7. Save resulting 2-dimensional arrays of bytes to EMF files creating for every bytes array a new file output stream.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to EMF.
@@ -84,7 +84,7 @@ if (suppressErrors)
 See EPS to EMF conversion in [Java](/page/java/convert/eps-to-emf/) and [C++](/page/cpp/convert/eps-to-emf/).
 {{% /alert %}}
 
-Let's consider [ImageSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/imagesaveoptions). Using this class we can assign different conversion parameters while converting EPS to EMF.
+Let's consider [ImageSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/imagesaveoptions/). Using this class we can assign different conversion parameters while converting EPS to EMF.
 <br>
 - **AdditionalFontsFolder** specifies locations where to find fonts. System fonts folders are always included by default.
 - **SuppressError** controls behaviour of EPS to EMF converter when non-critical errors are appeared. If value is true than it is possible to view a list of such errors after conversion in **Exceptions** field. Default value is true.

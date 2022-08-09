@@ -13,4 +13,4 @@ This page contains release notes information for Aspose.Page for C++ 20.9.
 ## **Improvements and Changes**
 We have improved this month's release by porting it from the latest code base of Aspose.Page for .NET 20.9. This includes all the enhancements and bug fixes that were part of the .NET version of the API.
 
-You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/page/cpp/) for documentation.

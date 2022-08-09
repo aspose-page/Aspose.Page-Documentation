@@ -19,4 +19,4 @@ The dependency 'CodePorting.Native Cs2Cpp' was renamed to CodePorting.Translator
 
 Some library classes were improved by using implementations of StackArray and ArrayView classes.
 
-You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/page/cpp/) for documentation.

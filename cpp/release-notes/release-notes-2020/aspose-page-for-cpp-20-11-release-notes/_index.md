@@ -14,4 +14,4 @@ This page contains release notes information for Aspose.Page for C++ 20.11.
 Since this monthly release 20.11 Aspose.Page for  C++ is available for the Linux platform.
 
 
-You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/page/cpp/) for documentation.

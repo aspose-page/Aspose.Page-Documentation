@@ -16,4 +16,4 @@ Aspose.Page for C++ 21.4 is ready for use with products ver 21.4.
 EPS PostScript Processor bugs are fixed. Some memory leaks fixed.
 
 
-You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/page/cpp/) for documentation.

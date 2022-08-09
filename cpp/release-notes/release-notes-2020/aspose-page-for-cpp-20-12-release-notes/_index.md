@@ -14,4 +14,4 @@ This page contains release notes information for Aspose.Page for C++ 20.12.
 Aspose.Page for C++ 20.12 is based on latest .NET version 20.12.
 
 
-You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/page/cpp/) for documentation.

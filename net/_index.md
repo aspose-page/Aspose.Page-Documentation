@@ -24,6 +24,6 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Page for .NET Release Notes](/page/net/release-notes/)
 - [Aspose.Page for .NET Product Page](https://products.aspose.com/page/net/)
 - [Install Aspose.Page for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Page/)
-- [Aspose.Page for .NET API Reference Guide](https://reference.aspose.com/page/net)
+- [Aspose.Page for .NET API Reference Guide](https://reference.aspose.com/page/net/)
 - [Aspose.Page for .NET Free Support Forum](https://forum.aspose.com/c/page/39)
 - [Aspose.Page for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)

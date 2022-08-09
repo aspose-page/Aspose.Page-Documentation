@@ -11,8 +11,8 @@ This page contains release notes information for Aspose.Page for C++ 21.8.
 
 {{% /alert %}}
 ## **Improvements and Changes**
-Aspose.Page for C++ 21.8 is based on the latest Aspose.Page for .NET 21.8 excluding convert eps to emf/wmf implementation.
+Aspose.Page for C++ 21.8ï¿½is based on the latest Aspose.Page for .NET 21.8 excluding convert eps to emf/wmf implementation.
 
-Dynamic casts to PSDictionary, PSPackedArray were avoiding for best performance.
+Dynamic casts to PSDictionary, PSPackedArray wereï¿½avoiding for best performance.
 
-You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/cpp/page/) for documentation.
+You can consult Aspose.Page for C++ [API reference](https://reference.aspose.com/page/cpp/) for documentation.

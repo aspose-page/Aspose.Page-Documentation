@@ -16,7 +16,7 @@ It is possible to set opacity mask on an XPS document. Aspose.Page for C++ can b
 
 1. Create a new object of XpsDocument class
 1. Add a canvas to the document object using the XpsCanvas class
-1. Create an object [XpsPath](https://reference.aspose.com/cpp/page/class/aspose.page.x_p_s.xps_model.xps_path/) class with required parameters
+1. Create an object [XpsPath](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_model.xps_path/) class with required parameters
 1. Set the opacity mask on the path
 1. Create an XpsImageBrush class object
 1. Save the document to disc using Save method
@@ -28,9 +28,9 @@ It is possible to set opacity mask on an XPS document. Aspose.Page for C++ can b
 ## **Add Transparent Object inside XPS Document**
 
 ### **Add Transparent Object**
-Aspose.Page for C++ lets you add transparent objects to an XPS document in your applications. The [XpsPath](https://reference.aspose.com/cpp/page/class/aspose.page.x_p_s.xps_model.xps_path/) class is used to achieve this using simple code. In order to add a transparent object to the XPS document, the following steps can be used.
+Aspose.Page for C++ lets you add transparent objects to an XPS document in your applications. The [XpsPath](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_model.xps_path/) class is used to achieve this using simple code. In order to add a transparent object to the XPS document, the following steps can be used.
 
-1. Create a new object using the [XpsDocument](https://reference.aspose.com/cpp/page/class/aspose.page.x_p_s.xps_document/) class
+1. Create a new object using the [XpsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document/) class
 1. Create an XpsPath object with required parameters
 1. Set rendering transformation information for the path
 1. Use the set_Opacity method to specify the opacity value

@@ -14,9 +14,9 @@ or <a nofollow href="https://products.aspose.app/page/viewer/xps">XPS Viewer</a>
 Aspose.Page .NET XPS to PNG converter allows to convert XPS document to PNG image with using of any language supported by .Net platform: C#, VB, J#.
 <br>It is necessary to do several steps in order to perform XPS to PNG conversion:
 1. Initialize an input stream for input XPS document.
-2. Create an instance of [XpsDocument](https://reference.aspose.com/page/net/aspose.page.xps/xpsdocument) from created earlier input stream.
-4. Specify **SmoothingMode**, **Resolution** and other options of [PngSaveOptions](https://reference.aspose.com/page/net/aspose.page.xps.presentation.image/pngsaveoptions).
-5. Create an instance of [ImageDevice](https://reference.aspose.com/page/net/aspose.page.xps.presentation.image/imagedevice).
+2. Create an instance of [XpsDocument](https://reference.aspose.com/page/net/aspose.page.xps/xpsdocument/) from created earlier input stream.
+4. Specify **SmoothingMode**, **Resolution** and other options of [PngSaveOptions](https://reference.aspose.com/page/net/aspose.page.xps.presentation.image/pngsaveoptions/).
+5. Create an instance of [ImageDevice](https://reference.aspose.com/page/net/aspose.page.xps.presentation.image/imagedevice/).
 6. Save XPS document as image with PNG save options to an array of arrays of bytes. One array of bytes for one page of input document.
 7. Save resulting 2-dimensional arrays of bytes to PNG files creating for every bytes array a new file output stream.
 
@@ -69,7 +69,7 @@ using (Stream xpsStream = File.Open(inputFileName, FileMode.Open, FileAccess.Rea
 See XPS to PNG conversion in [Java](/page/java/convert/xps-to-png/) and [C++](/page/cpp/convert/xps-to-png/).
 {{% /alert %}}
 
-Let's consider [PngSaveOptions](https://reference.aspose.com/page/net/aspose.page.xps.presentation.image/pngsaveoptions). Using this class we can assign different conversion parameters while converting XPS to PNG.
+Let's consider [PngSaveOptions](https://reference.aspose.com/page/net/aspose.page.xps.presentation.image/pngsaveoptions/). Using this class we can assign different conversion parameters while converting XPS to PNG.
 <br>
 - **SmoothingMode** assigns a degree of smoothing for lines, curves and edges of filled areas, may be AntiAlias, HighQuality, HighSpeed and Default (none). Default value is HighQuality.
 - **Resolution** controls resolution of resulting image. Default value is 96.
