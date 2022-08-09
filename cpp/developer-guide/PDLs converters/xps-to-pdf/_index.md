@@ -16,7 +16,7 @@ Aspose.Page C++ XPS to PDF converter allows to convert XPS document to PDF docum
 2. Initialize an input stream for input XPS document.
 3. Create an instance of [XpsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) from created earlier input stream.
 4. Specify **TextCompression**, **ImageCompression**, **JpegQualityLevel**, and other options of [PdfSaveOptions](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.presentation.pdf.pdf_save_options).
-5. Create an instance of [PdfDevice](https://reference.aspose.com/page/cpp/aspose.page.xps.presentation.pdf/pdfdevice) from created earlier output stream.
+5. Create an instance of [PdfDevice](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.presentation.pdf.pdf_device) from created earlier output stream.
 6. Save XPS document as PDF with PDF save options. 
 
 <br>Following code snippet shows how to convert XPS to PDF document in C++:

@@ -66,7 +66,7 @@ Aspose.Page C++ XPS merger allows also to merge XPS files into PDF document on W
 3. Create an array of XPS files that will be merged with the first one.
 4. Create an instance of [XpsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.xps_document) from created earlier input stream.
 5. Specify **TextCompression**, **ImageCompression**, **JpegQualityLevel**, and other options of [PdfSaveOptions](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.presentation.pdf.pdf_save_options).
-6. Create an instance of [PdfDevice](https://reference.aspose.com/page/cpp/aspose.page.xps.presentation.pdf/pdfdevice) from created earlier output stream.
+6. Create an instance of [PdfDevice](https://reference.aspose.com/page/cpp/class/aspose.page.x_p_s.presentation.pdf.pdf_device) from created earlier output stream.
 7. Merge XPS files with created document and save it as PDF with PDF save options.
 
 <br>Following code snippet shows how to merge XPS files to PDF document in C++:
