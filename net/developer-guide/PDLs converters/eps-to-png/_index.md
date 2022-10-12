@@ -15,7 +15,7 @@ This article explains how to **convert EPS to PNG using C#**. It covers the foll
 - [C# EPS to Image](#c-eps-to-image)
 - [C# PNG from EPS](#c-eps-to-png)
 - [C# How to Convert EPS to PNG Programmatically](#c-eps-to-png)
-- [C# Save EPS as BMP](#c-eps-to-png)
+- [C# Save EPS as PNG](#c-eps-to-png)
 
 <a name="c-eps-to-image"><strong>C# EPS to Image</strong></a>
 
