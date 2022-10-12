@@ -10,12 +10,12 @@ description: EPS to PNG conversion functionality offered by Aspose.Page API solu
 
 This article explains how to **convert EPS to PNG using C++**. It covers the following topics.
 
-- [C++ EPS to PNG](#cpp-eps-to-jpg)
-- [C++ Convert EPS to PNG](#cpp-eps-to-jpg)
+- [C++ EPS to PNG](#cpp-eps-to-png)
+- [C++ Convert EPS to PNG](#cpp-eps-to-png)
 - [C++ EPS to Image](#cpp-eps-to-image)
-- [C++ PNG from EPS](#cpp-eps-to-jpg)
-- [C++ How to Convert EPS to PNG Programmatically](#cpp-eps-to-jpg)
-- [C++ Save EPS as PNG](#cpp-eps-to-jpg)
+- [C++ PNG from EPS](#cpp-eps-to-png)
+- [C++ How to Convert EPS to PNG Programmatically](#cpp-eps-to-png)
+- [C++ Save EPS as PNG](#cpp-eps-to-png)
 
 <a name="cpp-eps-to-image"><h3>C++ EPS to Image</h3></a>
 
@@ -27,7 +27,7 @@ The EPS to Image conversion using C++ in other formats like BMP, EMF, TIFF, WMF 
 - [C++ EPS to EMF](https://docs.aspose.com/page/cpp/convert/eps-to-emf/)
 - [C++ EPS to WMF](https://docs.aspose.com/page/cpp/convert/eps-to-wmf/)
 
-## C++ EPS to JPG Convesion
+## C++ EPS to PNG Convesion
 
 {{% alert color="primary" %}} 
 
@@ -36,7 +36,7 @@ or <a nofollow href="https://products.aspose.app/page/viewer/eps">EPS Viewer</a>
 
 Aspose.Page for C++ EPS to PNG converter allows to convert Encapsulated PostScript (EPS) file to PNG image on Windows and Linux.
 
-<a name="cpp-eps-to-jpg"><strong>Steps: EPS to PNG Converter API Code in C++</strong></a>
+<a name="cpp-eps-to-png"><strong>Steps: EPS to PNG Converter API Code in C++</strong></a>
 
 It is necessary to do several steps in order to perform EPS to PNG conversion:
 
