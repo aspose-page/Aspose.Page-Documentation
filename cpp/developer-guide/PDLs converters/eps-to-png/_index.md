@@ -19,13 +19,13 @@ This article explains how to **convert EPS to PNG using C++**. It covers the fol
 
 <a name="cpp-eps-to-image"><h3>C++ EPS to Image</h3></a>
 
-The EPS to Image conversion using C# in other formats like BMP, EMF, TIFF, WMF etc. are covered in these articles.
+The EPS to Image conversion using C++ in other formats like BMP, EMF, TIFF, WMF etc. are covered in these articles.
 
-- [C# EPS to JPG](https://docs.aspose.com/page/cpp/convert/eps-to-jpg/)
-- [C# EPS to BMP](https://docs.aspose.com/page/cpp/convert/eps-to-bmp/)
-- [C# EPS to TIFF](https://docs.aspose.com/page/cpp/convert/eps-to-tiff/)
-- [C# EPS to EMF](https://docs.aspose.com/page/cpp/convert/eps-to-emf/)
-- [C# EPS to WMF](https://docs.aspose.com/page/cpp/convert/eps-to-wmf/)
+- [C++ EPS to JPG](https://docs.aspose.com/page/cpp/convert/eps-to-jpg/)
+- [C++ EPS to BMP](https://docs.aspose.com/page/cpp/convert/eps-to-bmp/)
+- [C++ EPS to TIFF](https://docs.aspose.com/page/cpp/convert/eps-to-tiff/)
+- [C++ EPS to EMF](https://docs.aspose.com/page/cpp/convert/eps-to-emf/)
+- [C++ EPS to WMF](https://docs.aspose.com/page/cpp/convert/eps-to-wmf/)
 
 ## C++ EPS to JPG Convesion
 
