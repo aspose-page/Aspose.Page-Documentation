@@ -8,27 +8,29 @@ description: EPS to PDF conversion functionality offered by Aspose.Page API solu
 
 ## Overview
 
-This article explains how to convert EPS to PDF using C#. It covers the following topics.
+This article explains how to **convert EPS to PDF using C#**. It covers the following topics.
 
-- [C# EPS to PDF](#c-eps-to-pdf-converter-api)
-- [C# Convert EPS to PDF](#c-eps-to-pdf-converter-api)
-- [C# PDF from EPS](#c-eps-to-pdf-converter-api)
-- [C# How to Convert EPS to PDF Programmatically](#c-eps-to-pdf-converter-api)
-- [C# Save EPS as PDF](#c-eps-to-pdf-converter-api)
-- [C# Generate PDF from EPS](#c-eps-to-pdf-converter-api)
+- [C# EPS to PDF](#csharp-eps-to-pdf)
+- [C# Convert EPS to PDF](#csharp-eps-to-pdf)
+- [C# PDF from EPS](#csharp-eps-to-pdf)
+- [C# How to Convert EPS to PDF Programmatically](#csharp-eps-to-pdf)
+- [C# Save EPS as PDF](#csharp-eps-to-pdf)
+- [C# Generate PDF from EPS](#csharp-eps-to-pdf)
 
 **Also See**
 
 - [C# XPS to PDF](https://docs.aspose.com/page/net/convert/xps-to-pdf/)
 
 
-## C# EPS to PDF Converter API
+## C# EPS to PDF Conversion
 
 {{% alert color="primary" %}} 
 
 You can check the quality of Aspose.Page EPS to PDF conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-pdf">EPS to PDF Converter</a> {{% /alert %}} 
 
 Aspose.Page for .NET EPS to PDF converter allows to convert Encapsulated PostScript (EPS) file to PDF document with using of any language supported by .Net platform: C#, VB, J#.
+
+<a name="csharp-eps-to-pdf"><strong>Steps: EPS to PDF Converter API Code in C#</strong></a>
 
 It is necessary to do several steps in order to perform EPS to PDF conversion:
 
@@ -40,7 +42,7 @@ It is necessary to do several steps in order to perform EPS to PDF conversion:
 6. Save PostScript document as PDF with PDF save options.
 7. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to PDF and saved in **Exceptions** list.
 
-Following C# code snippet shows how to convert EPS to PDF document in C#:
+Following C# code snippet shows how to **convert EPS to PDF document in C#**:
 
 ```C#
 / For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-.NET
