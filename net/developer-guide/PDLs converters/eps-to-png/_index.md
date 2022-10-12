@@ -54,8 +54,10 @@ Following C# code snippet shows how to **convert EPS to PNG files in C#**:
 // For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_WorkingWithDocumentConversion();
+
 // Specifies image format
 System.Drawing.Imaging.ImageFormat imageFormat = System.Drawing.Imaging.ImageFormat.Png;
+
 // Initialize PostScript input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "inputForImage.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 
@@ -72,6 +74,7 @@ options.AdditionalFontsFolders = new string[] { @"{FONT_FOLDER}" };
 
 // Default image size is 595x842 and it is not mandatory to set it in ImageDevice
 ImageDevice device = new ImageDevice(new System.Drawing.Size(imageFormat);
+
 // But if you need to specify size use constructor with two parameters
 //ImageDevice device = new ImageDevice(new System.Drawing.Size(595, 842), imageFormat);
 
