@@ -10,14 +10,14 @@ description: EPS to PNG conversion functionality offered by Aspose.Page API solu
 
 This article explains how to convert EPS to PNG using C#. It covers the following topics.
 
-- [C# EPS to BMP](#c-eps-to-bmp-converter-api)
-- [C# Convert EPS to BMP](#c-eps-to-bmp-converter-api)
+- [C# EPS to BMP](#c-eps-to-png)
+- [C# Convert EPS to BMP](#c-eps-to-png)
 - [C# EPS to Image](#c-eps-to-image)
-- [C# BMP from EPS](#c-eps-to-bmp-converter-api)
-- [C# How to Convert EPS to BMP Programmatically](#c-eps-to-bmp-converter-api)
-- [C# Save EPS as BMP](#c-eps-to-bmp-converter-api)
+- [C# BMP from EPS](#c-eps-to-png)
+- [C# How to Convert EPS to BMP Programmatically](#c-eps-to-png)
+- [C# Save EPS as BMP](#c-eps-to-png)
 
-<strong href="#c-eps-to-image">C# EPS to Image</strong>
+<a name="c-eps-to-image"><strong>C# EPS to Image</strong></a>
 
 The EPS to Image conversion using C# in other formats like JPG, BMP, TIFF, EMF etc. are covered in these articles.
 
@@ -44,6 +44,7 @@ Aspose.Page for .NET EPS to PNG converter allows to convert Encapsulated PostScr
 7. Save resulting 2-dimensional arrays of bytes to PNG files creating for every bytes array a new file output stream.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to PNG.
 
+<a name="c-eps-to-png"></a>
 **Following C# code snippet shows how to convert EPS to PNG files in C#:**
 
 ```C#
