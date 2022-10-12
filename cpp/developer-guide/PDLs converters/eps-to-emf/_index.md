@@ -12,7 +12,7 @@ This article explains how to **convert EPS to EMF using C++**. It covers the fol
 - [C++ EPS to EMF](#cpp-eps-to-emf)
 - [C++ Convert EPS to EMF](#cpp-eps-to-emf)
 - [C++ EPS to Image](#cpp-eps-to-image)
-- [C++ EPS from EPS](#cpp-eps-to-emf)
+- [C++ EMF from EPS](#cpp-eps-to-emf)
 - [C++ How to Convert EPS to EMF Programmatically](#cpp-eps-to-emf)
 - [C++ Save EPS as EMF](#cpp-eps-to-emf)
 
