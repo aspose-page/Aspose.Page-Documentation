@@ -27,9 +27,9 @@ This article explains how to **convert EPS to PDF using C++**. It covers the fol
 
 You can check the quality of Aspose.Page EPS to PDF conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-pdf">EPS to PDF Converter</a> {{% /alert %}} 
 
-<a name="cpp-eps-to-pdf"><strong>Steps: EPS to PDF Converter API Code in C++</strong></a>
-
 Aspose.Page for C++ EPS to PDF converter allows to convert Encapsulated PostScript (EPS) file to PDF document on Windows and Linux.
+
+<a name="cpp-eps-to-pdf"><strong>Steps: EPS to PDF Converter API Code in C++</strong></a>
 
 It is necessary to do several steps in order to perform EPS to PDF conversion:
 
