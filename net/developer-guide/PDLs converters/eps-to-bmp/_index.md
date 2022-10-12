@@ -13,13 +13,13 @@ This article explains how to convert EPS to BMP using C#. It covers the followin
 - [C# EPS to BMP](#c-eps-to-bmp-converter-api)
 - [C# Convert EPS to BMP](#c-eps-to-bmp-converter-api)
 - [C# EPS to Image](#c-eps-to-image)
-- [C# BMP from EMF](#c-eps-to-bmp-converter-api)
+- [C# BMP from EPS](#c-eps-to-bmp-converter-api)
 - [C# How to Convert EPS to BMP Programmatically](#c-eps-to-bmp-converter-api)
 - [C# Save EPS as BMP](#c-eps-to-bmp-converter-api)
 
 ### C# EPS to Image
 
-The EPS to Image conversion in other formats like JPG, EMF, TIFF, PNG etc. are covered in these articles.
+The EPS to Image conversion using C# in other formats like JPG, EMF, TIFF, PNG etc. are covered in these articles.
 
 - [C# EPS to JPG](https://docs.aspose.com/page/net/convert/eps-to-jpg/)
 - [C# EPS to PNG](https://docs.aspose.com/page/net/convert/eps-to-png/)
