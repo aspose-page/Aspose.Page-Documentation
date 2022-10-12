@@ -6,13 +6,40 @@ url: /cpp/convert/eps-to-bmp/
 description: EPS to BMP conversion functionality offered by Aspose.Page API solution for C++ is explained and illustrated with the code snippets here.
 ---
 
+## Overview
+
+This article explains how to **convert EPS to BMP using C++**. It covers the following topics.
+
+- [C++ EPS to BMP](#cpp-eps-to-bmp)
+- [C++ Convert EPS to BMP](#cpp-eps-to-bmp)
+- [C++ EPS to Image](#cpp-eps-to-image)
+- [C++ BMP from EPS](#cpp-eps-to-bmp)
+- [C++ How to Convert EPS to BMP Programmatically](#cpp-eps-to-bmp)
+- [C++ Save EPS as BMP](#cpp-eps-to-bmp)
+
+<a name="cpp-eps-to-image"><h3>C++ EPS to Image</h3></a>
+
+The EPS to Image conversion using C++ in other formats like JPG, PNG, TIFF, WMF etc. are covered in these articles.
+
+- [C++ EPS to JPG](https://docs.aspose.com/page/cpp/convert/eps-to-jpg/)
+- [C++ EPS to PNG](https://docs.aspose.com/page/cpp/convert/eps-to-png/)
+- [C++ EPS to TIFF](https://docs.aspose.com/page/cpp/convert/eps-to-tiff/)
+- [C++ EPS to EMF](https://docs.aspose.com/page/cpp/convert/eps-to-emf/)
+- [C++ EPS to WMF](https://docs.aspose.com/page/cpp/convert/eps-to-wmf/)
+
+## C++ EPS to JPG Convesion
+
 {{% alert color="primary" %}} 
 
 You can check the quality of Aspose.Page EPS to BMP conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-bmp">EPS to BMP Converter</a>
 or <a nofollow href="https://products.aspose.app/page/viewer/eps">EPS Viewer</a> {{% /alert %}}
 
 Aspose.Page for C++ EPS to BMP converter allows to convert Encapsulated PostScript (EPS) file to BMP image on Windows and Linux.
-<br>It is necessary to do several steps in order to perform EPS to BMP conversion:
+
+<a name="cpp-eps-to-bmp"><strong>Steps: EPS to BMP Converter API Code in C++</strong></a>
+
+It is necessary to do several steps in order to perform EPS to BMP conversion:
+
 1. Initialize an input stream for input EPS file.
 2. Create an instance of [PsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.e_p_s.ps_document) from created earlier input stream.
 4. Use [ImageSaveOptions](https://reference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.image_save_options) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
@@ -21,8 +48,8 @@ Aspose.Page for C++ EPS to BMP converter allows to convert Encapsulated PostScri
 7. Save resulting 2-dimensional arrays of bytes to BMP files creating for every bytes array a new file output stream.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to BMP.
 
-<br>Following code snippet shows how to convert EPS to BMP files in C++:
-<br>
+Following C++ code snippet shows how to **convert EPS to BMP files in C++**:
+
 ```C++
 For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-C
 // Specify image format
