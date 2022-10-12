@@ -6,13 +6,40 @@ url: /cpp/convert/eps-to-jpg/
 description: EPS to JPG conversion functionality offered by Aspose.Page API solution for C++ is explained and illustrated with the code snippets here.
 ---
 
+## Overview
+
+This article explains how to **convert EPS to JPG using C++**. It covers the following topics.
+
+- [C++ EPS to JPG](#cpp-eps-to-jpg)
+- [C++ Convert EPS to JPG](#cpp-eps-to-jpg)
+- [C++ EPS to Image](#cpp-eps-to-image)
+- [C++ JPG from EPS](#cpp-eps-to-jpg)
+- [C++ How to Convert EPS to JPG Programmatically](#cpp-eps-to-jpg)
+- [C++ Save EPS as JPG](#cpp-eps-to-jpg)
+
+<a name="cpp-eps-to-image"><h3>C++ EPS to Image</h3></a>
+
+The EPS to Image conversion using C++ in other formats like BMP, PNG, EMF, TIFF, WMF etc. are covered in these articles.
+
+- [C++ EPS to PNG](https://docs.aspose.com/page/cpp/convert/eps-to-png/)
+- [C++ EPS to BMP](https://docs.aspose.com/page/cpp/convert/eps-to-bmp/)
+- [C++ EPS to TIFF](https://docs.aspose.com/page/cpp/convert/eps-to-tiff/)
+- [C++ EPS to EMF](https://docs.aspose.com/page/cpp/convert/eps-to-emf/)
+- [C++ EPS to WMF](https://docs.aspose.com/page/cpp/convert/eps-to-wmf/)
+
+## C++ EPS to JPG Convesion
+
 {{% alert color="primary" %}} 
 
 You can check the quality of Aspose.Page EPS to JPG conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-jpg">EPS to JPG Converter</a>
 or <a nofollow href="https://products.aspose.app/page/viewer/eps">EPS Viewer</a> {{% /alert %}}
 
 Aspose.Page for C++ EPS to JPG converter allows to convert Encapsulated PostScript (EPS) file to JPEG image on Windows and Linux.
-<br>It is necessary to do several steps in order to perform EPS to JPG conversion:
+
+<a name="cpp-eps-to-jpg"><strong>Steps: EPS to JPG Converter API Code in C++</strong></a>
+
+It is necessary to do several steps in order to perform EPS to JPG conversion:
+
 1. Initialize an input stream for input EPS file.
 2. Create an instance of [PsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.e_p_s.ps_document) from created earlier input stream.
 4. Use [ImageSaveOptions](https://reference.aspose.com/page/cpp/class/aspose.page.e_p_s.device.image_save_options) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
@@ -21,12 +48,14 @@ Aspose.Page for C++ EPS to JPG converter allows to convert Encapsulated PostScri
 7. Save resulting 2-dimensional arrays of bytes to JPEG files creating for every bytes array a new file output stream.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to JPG.
 
-<br>Following code snippet shows how to convert EPS to JPG files in C++:
-<br>
+Following C++ code snippet shows how to **convert EPS to JPG files in C++**:
+
 ```C++
 For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-C
+
 // Specify image format
 System::SharedPtr<System::Drawing::Imaging::ImageFormat> imageFormat = System::Drawing::Imaging::ImageFormat::get_Jpeg();
+
 // Initialize PostScript input stream
 System::SharedPtr<System::IO::FileStream> psStream = System::MakeObject<System::IO::FileStream>(dataDir() + u"inputForImage.eps", System::IO::FileMode::Open, System::IO::FileAccess::Read);
 
@@ -43,6 +72,7 @@ options->set_AdditionalFontsFolders(System::MakeArray<System::String>({ u"{FONT_
 
 // Default image size is 595x842 and it is not mandatory to set it in ImageDevice
 System::SharedPtr<Aspose::Page::EPS::Device::ImageDevice> device = System::MakeObject<Aspose::Page::EPS::Device::ImageDevice>(imageFormat);
+
 // But if you need to specify size use constructor with two parameters
 //System::SharedPtr<Aspose::Page::EPS::Device::ImageDevice> device = System::MakeObject<Aspose::Page::EPS::Device::ImageDevice>(System::MakeObject<System::Drawing::Size>(595,842), imageFormat);
 
