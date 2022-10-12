@@ -23,7 +23,6 @@ The EPS to Image conversion using C# in other formats like JPG, EMF, TIFF, PNG e
 
 - [C# EPS to JPG](https://docs.aspose.com/page/net/convert/eps-to-jpg/)
 - [C# EPS to PNG](https://docs.aspose.com/page/net/convert/eps-to-png/)
-- [C# EPS to BMP](https://docs.aspose.com/page/net/convert/eps-to-bmp/)
 - [C# EPS to TIFF](https://docs.aspose.com/page/net/convert/eps-to-tiff/)
 - [C# EPS to EMF](https://docs.aspose.com/page/net/convert/eps-to-emf/)
 - [C# EPS to WMF](https://docs.aspose.com/page/net/convert/eps-to-tiff/)
