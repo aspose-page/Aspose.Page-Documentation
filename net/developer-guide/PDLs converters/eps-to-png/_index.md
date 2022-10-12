@@ -36,7 +36,7 @@ or <a nofollow href="https://products.aspose.app/page/viewer/eps">EPS Viewer</a>
 
 Aspose.Page for .NET EPS to PNG converter allows to convert Encapsulated PostScript (EPS) file to PNG image with using of any language supported by .Net platform: C#, VB, J#.
 
-<a name="c-eps-to-png">**Steps: EPS to PNG Converter API Code in C#**</a>
+<a name="c-eps-to-png"><strong>Steps: EPS to PNG Converter API Code in C#<strong></a>
 
 It is necessary to do several steps in order to perform EPS to PNG conversion:
 
