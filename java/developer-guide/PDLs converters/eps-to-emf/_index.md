@@ -6,13 +6,40 @@ url: /java/convert/eps-to-emf/
 description: EPS to EMF conversion functionality offered by Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
 ---
 
+## Overview
+
+This article explains how to **convert EPS to EMF using Java**. It covers the following topics.
+
+- [Java EPS to EMF](#java-eps-to-emf)
+- [Java Convert EPS to EMF](#java-eps-to-emf)
+- [Java EPS to Image](#java-eps-to-image)
+- [Java EMF from EPS](#java-eps-to-emf)
+- [Java How to Convert EPS to EMF Programmatically](#java-eps-to-emf)
+- [Java Save EPS as EMF](#java-eps-to-emf)
+
+<a name="java-eps-to-image"><h3>Java EPS to Image</h3></a>
+
+The EPS to Image conversion using Java in other formats like JPG, PNG, TIFF, WMF etc. are covered in these articles.
+
+- [Java EPS to JPG](https://docs.aspose.com/page/java/convert/eps-to-jpg/)
+- [Java EPS to PNG](https://docs.aspose.com/page/java/convert/eps-to-png/)
+- [Java EPS to BMP](https://docs.aspose.com/page/java/convert/eps-to-bmp/)
+- [Java EPS to TIFF](https://docs.aspose.com/page/java/convert/eps-to-tiff/)
+- [Java EPS to WMF](https://docs.aspose.com/page/java/convert/eps-to-wmf/)
+
+## Java EPS to EMF Convesion
+
 {{% alert color="primary" %}} 
 
 You can check the quality of Aspose.Page EPS to EMF conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-emf">EPS to EMF Converter</a>
 or <a nofollow href="https://products.aspose.app/page/viewer/eps">EPS Viewer</a> {{% /alert %}}
 
 Aspose.Page for Java EPS to EMF converter allows to convert Encapsulated PostScript (EPS) file to EMF image on any OS for which Java Virtual Machine exists.
-<br>It is necessary to do several steps in order to perform EPS to EMF conversion:
+
+<a name="java-eps-to-emf"><strong>Steps: EPS to EMF Converter API Code in Java</strong></a>
+
+It is necessary to do several steps in order to perform EPS to EMF conversion:
+
 1. Initialize an input stream for input EPS file.
 2. Create an instance of [PsDocument](https://reference.aspose.com/page/java/com.aspose.eps/psdocument) from created earlier input stream.
 4. Use [ImageSaveOptions](https://reference.aspose.com/page/java/com.aspose.eps.device/imagesaveoptions) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
@@ -21,8 +48,8 @@ Aspose.Page for Java EPS to EMF converter allows to convert Encapsulated PostScr
 7. Save resulting 2-dimensional arrays of bytes to EMF files creating for every bytes array a new file output stream.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to EMF.
 
-<br>Following code snippet shows how to convert EPS to EMF files in Java:
-<br>
+Following Java code snippet shows how to **convert EPS to EMF files in Java**:
+
 ```Java
 // For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-Java
 // The path to the documents directory.
