@@ -6,12 +6,33 @@ url: /cpp/convert/eps-to-pdf/
 description: EPS to PDF conversion functionality offered by Aspose.Page API solution for C++ is explained and illustrated with the code snippets here.
 ---
 
+## Overview
+
+This article explains how to **convert EPS to PDF using C++**. It covers the following topics.
+
+- [C++ EPS to PDF](#cpp-eps-to-pdf)
+- [C++ Convert EPS to PDF](#cpp-eps-to-pdf)
+- [C++ PDF from EPS](#cpp-eps-to-pdf)
+- [C++ How to Convert EPS to PDF Programmatically](#cpp-eps-to-pdf)
+- [C++ Save EPS as PDF](#cpp-eps-to-pdf)
+- [C++ Generate PDF from EPS](#cpp-eps-to-pdf)
+
+**Also See**
+
+- [C++ XPS to PDF](https://docs.aspose.com/page/cpp/convert/xps-to-pdf/)
+
+## C++ EPS to PDF Conversion
+
 {{% alert color="primary" %}} 
 
 You can check the quality of Aspose.Page EPS to PDF conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-pdf">EPS to PDF Converter</a> {{% /alert %}} 
 
 Aspose.Page for C++ EPS to PDF converter allows to convert Encapsulated PostScript (EPS) file to PDF document on Windows and Linux.
-<br>It is necessary to do several steps in order to perform EPS to PDF conversion:
+
+<a name="cpp-eps-to-pdf"><strong>Steps: EPS to PDF Converter API Code in C++</strong></a>
+
+It is necessary to do several steps in order to perform EPS to PDF conversion:
+
 1. Initialize an input stream for input EPS file.
 2. Initialize an output stream for output PDF document.
 3. Create an instance of [PsDocument](https://reference.aspose.com/page/cpp/class/aspose.page.e_p_s.ps_document) from created earlier input stream.
@@ -20,8 +41,8 @@ Aspose.Page for C++ EPS to PDF converter allows to convert Encapsulated PostScri
 6. Save PostScript document as PDF with PDF save options.
 7. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to PDF and saved in **Exceptions** list.
 
-<br>Following code snippet shows how to convert EPS to PDF document in C++:
-<br>
+Following C++ code snippet shows how to **convert EPS to PDF document in C++**:
+
 ```C++
 For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-C
 // Initialize PDF output stream

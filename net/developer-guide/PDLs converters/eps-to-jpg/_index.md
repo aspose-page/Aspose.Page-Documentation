@@ -6,13 +6,40 @@ url: /net/convert/eps-to-jpg/
 description: EPS to JPG conversion functionality offered by Aspose.Page API solution for .NET is explained and illustrated with the code snippets here.
 ---
 
+## Overview
+
+This article explains how to **convert EPS to JPG using C#**. It covers the following topics.
+
+- [C# EPS to JPG](#csharp-eps-to-jpg)
+- [C# Convert EPS to JPG](#csharp-eps-to-jpg)
+- [C# EPS to Image](#c-eps-to-image)
+- [C# JPG from EPS](#csharp-eps-to-jpg)
+- [C# How to Convert EPS to JPG Programmatically](#csharp-eps-to-jpg)
+- [C# Save EPS as JPG](#csharp-eps-to-jpg)
+
+<a name="c-eps-to-image"><h3>C# EPS to Image</h3></a>
+
+The EPS to Image conversion using C# in other formats like BMP, EMF, TIFF, PNG etc. are covered in these articles.
+
+- [C# EPS to PNG](https://docs.aspose.com/page/net/convert/eps-to-png/)
+- [C# EPS to BMP](https://docs.aspose.com/page/net/convert/eps-to-bmp/)
+- [C# EPS to TIFF](https://docs.aspose.com/page/net/convert/eps-to-tiff/)
+- [C# EPS to EMF](https://docs.aspose.com/page/net/convert/eps-to-emf/)
+- [C# EPS to WMF](https://docs.aspose.com/page/net/convert/eps-to-wmf/)
+
+## C# EPS to JPG Convesion
+
 {{% alert color="primary" %}} 
 
 You can check the quality of Aspose.Page EPS to JPG conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-jpg">EPS to JPG Converter</a>
 or <a nofollow href="https://products.aspose.app/page/viewer/eps">EPS Viewer</a> {{% /alert %}}
 
 Aspose.Page for .NET EPS to JPG converter allows to convert Encapsulated PostScript (EPS) file to JPEG image with using of any language supported by .Net platform: C#, VB, J#.
-<br>It is necessary to do several steps in order to perform EPS to JPG conversion:
+
+<a name="csharp-eps-to-jpg"><strong>Steps: EPS to PNG Converter API Code in C#</strong></a>
+
+It is necessary to do several steps in order to perform EPS to JPG conversion:
+
 1. Initialize an input stream for input EPS file.
 2. Create an instance of [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) from created earlier input stream.
 4. Use [ImageSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/imagesaveoptions/) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
@@ -21,14 +48,16 @@ Aspose.Page for .NET EPS to JPG converter allows to convert Encapsulated PostScr
 7. Save resulting 2-dimensional arrays of bytes to JPEG files creating for every bytes array a new file output stream.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to JPG.
 
-<br>Following code snippet shows how to convert EPS to JPG files in C#:
-<br>
+Following C# code snippet shows how to **convert EPS to JPG files in C#**:
+
 ```C#
 // For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_WorkingWithDocumentConversion();
+
 // Specifies image format
 System.Drawing.Imaging.ImageFormat imageFormat = System.Drawing.Imaging.ImageFormat.Jpeg;
+
 // Initialize PostScript input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "inputForImage.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 
@@ -45,6 +74,7 @@ options.AdditionalFontsFolders = new string[] { @"{FONT_FOLDER}" };
 
 // Default image size is 595x842 and it is not mandatory to set it in ImageDevice
 ImageDevice device = new ImageDevice(new System.Drawing.Size(imageFormat);
+
 // But if you need to specify size use constructor with two parameters
 //ImageDevice device = new ImageDevice(new System.Drawing.Size(595, 842), imageFormat);
 

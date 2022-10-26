@@ -6,13 +6,40 @@ url: /java/convert/eps-to-bmp/
 description: EPS to BMP conversion functionality offered by Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
 ---
 
+## Overview
+
+This article explains how to **convert EPS to BMP using Java**. It covers the following topics.
+
+- [Java EPS to BMP](#java-eps-to-bmp)
+- [Java Convert EPS to BMP](#java-eps-to-bmp)
+- [Java EPS to Image](#java-eps-to-image)
+- [Java BMP from EPS](#java-eps-to-bmp)
+- [Java How to Convert EPS to BMP Programmatically](#java-eps-to-bmp)
+- [Java Save EPS as BMP](#java-eps-to-bmp)
+
+<a name="java-eps-to-image"><h3>Java EPS to Image</h3></a>
+
+The EPS to Image conversion using Java in other formats like JPG, PNG, TIFF, WMF etc. are covered in these articles.
+
+- [Java EPS to JPG](https://docs.aspose.com/page/java/convert/eps-to-jpg/)
+- [Java EPS to PNG](https://docs.aspose.com/page/java/convert/eps-to-png/)
+- [Java EPS to TIFF](https://docs.aspose.com/page/java/convert/eps-to-tiff/)
+- [Java EPS to EMF](https://docs.aspose.com/page/java/convert/eps-to-emf/)
+- [Java EPS to WMF](https://docs.aspose.com/page/java/convert/eps-to-wmf/)
+
+## Java EPS to JPG Convesion
+
 {{% alert color="primary" %}} 
 
 You can check the quality of Aspose.Page EPS to BMP conversion and view the results via free online <a nofollow href="https://products.aspose.app/page/conversion/eps-to-bmp">EPS to BMP Converter</a>
 or <a nofollow href="https://products.aspose.app/page/viewer/eps">EPS Viewer</a> {{% /alert %}}
 
 Aspose.Page for Java EPS to BMP converter allows to convert Encapsulated PostScript (EPS) file to BMP image on any OS for which Java Virtual Machine exists.
-<br>It is necessary to do several steps in order to perform EPS to BMP conversion:
+
+<a name="java-eps-to-bmp"><strong>Steps: EPS to BMP Converter API Code in Java</strong></a>
+
+It is necessary to do several steps in order to perform EPS to BMP conversion:
+
 1. Initialize an input stream for input EPS file.
 2. Create an instance of [PsDocument](https://reference.aspose.com/page/java/com.aspose.eps/psdocument) from created earlier input stream.
 4. Use [ImageSaveOptions](https://reference.aspose.com/page/java/com.aspose.eps.device/imagesaveoptions) to specify **AdditionalFontsFolder** and **SuppressError** boolean value.
@@ -21,8 +48,8 @@ Aspose.Page for Java EPS to BMP converter allows to convert Encapsulated PostScr
 7. Save resulting 2-dimensional arrays of bytes to BMP files creating for every bytes array a new file output stream.
 8. If **SuppressErrors** value was true, as it is by default, It is possible to see what errors were thrown during conversion of EPS to BMP.
 
-<br>Following code snippet shows how to convert EPS to BMP files in Java:
-<br>
+Following Java code snippet shows how to **convert EPS to BMP files in Java**:
+
 ```Java
 // For complete examples and data files, please go to https://github.com/aspose-page/Aspose.Page-for-Java
 // The path to the documents directory.

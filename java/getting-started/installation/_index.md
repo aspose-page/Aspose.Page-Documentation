@@ -7,7 +7,7 @@ url: /java/installation/
 ---
 
 ## **Installing Aspose.Page for Java from Aspose Repository**
-Aspose hosts all Java APIs on [Aspose Artifactory](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/). You can easily use [Aspose.Page for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-page) API directly in your Maven Projects with simple configurations.
+Aspose hosts all Java APIs on [Aspose Maven](https://releases.aspose.com/java/repo/com/aspose/). You can easily use [Aspose.Page for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-page/) API directly in your Maven Projects with simple configurations.
 ### **Specify Aspose Repository Configuration**
 First, you need to specify the Aspose Repository configuration/location in your Maven pom.xml as follows:
 
@@ -21,7 +21,7 @@ First, you need to specify the Aspose Repository configuration/location in your 
 
          <name>repo</name>
 
-         <url>http://repository.aspose.com/repo/</url>
+         <url>https://releases.aspose.com/java/repo/</url>
 
      </repository>
 
