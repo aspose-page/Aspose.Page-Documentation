@@ -7,7 +7,7 @@ url: /cpp/aspose-page-for-cpp-22-11-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes information for Aspose.Page for C++ 22.10.
+This page contains release notes information for Aspose.Page for C++ 22.11.
 
 
 {{% /alert %}}
