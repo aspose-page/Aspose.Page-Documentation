@@ -1,5 +1,5 @@
 ---
-title: Add array items in XMP metadata of EPS file using .NET
+title: Add array items in XMP metadata of EPS| .NET
 type: docs
 weight: 17
 url: /net/xmp-metadata/add-array-items/

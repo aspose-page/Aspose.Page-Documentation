@@ -1,5 +1,5 @@
 ---
-title: Add XML namespace in XMP metadata of EPS file using C++
+title: Add XML namespace in XMP metadata of EPS |C++
 type: docs
 weight: 20
 url: /cpp/xmp-metadata/add-namespace/

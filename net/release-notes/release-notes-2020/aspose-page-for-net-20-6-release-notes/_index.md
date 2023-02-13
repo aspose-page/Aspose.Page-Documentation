@@ -3,6 +3,7 @@ title: Aspose.Page for .NET 20.6 Release Notes
 type: docs
 weight: 80
 url: /net/aspose-page-for-net-20-6-release-notes/
+description: C# .NET API Solution for developers to manipulate and process PS, EPS, and XPS files. Release Notes of Aspose.Page API solution for .NET | Release 2020.06
 ---
 
 {{% alert color="primary" %}}

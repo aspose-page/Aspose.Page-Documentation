@@ -3,6 +3,7 @@ title: Aspose.Page for CPP 20.11 Release Notes
 type: docs
 weight: 2
 url: /cpp/aspose-page-for-cpp-20-11-release-notes/
+description: C++ Library for the developers to manipulate and process PS, EPS, and XPS files. Release Notes of Aspose.Page API solution for C++ | Release 2020.11
 ---
 
 {{% alert color="primary" %}}

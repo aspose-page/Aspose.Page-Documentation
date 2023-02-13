@@ -1,5 +1,5 @@
 ---
-title: Add array items in XMP metadata of EPS file using C++
+title: Add array items in XMP metadata of EPS| C++
 type: docs
 weight: 17
 url: /cpp/xmp-metadata/add-array-items/

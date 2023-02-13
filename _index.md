@@ -1,8 +1,9 @@
 ---
-title: Aspose.Page Product family
+title: Aspose.Page Product family | Documentation
 type: docs
 weight: 10
 url: /productfamily/home/
+description: .NET, Java, and C++ Libraries for developers to manipulate and process PS, EPS, and XPS files. Develop and deploy on Windows, Linux, MacOS or Android.
 ---
 
 {{% alert color="primary" %}}

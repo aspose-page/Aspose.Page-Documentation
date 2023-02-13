@@ -1,9 +1,9 @@
 ---
-title: Change array items in XMP metadata of EPS file using .NET
+title: Change array items in XMP metadata of EPS| .NET
 type: docs
 weight: 16
 url: /net/xmp-metadata/change-array-items/
-description: The process of changing array items in XMP metadata of EPS file with Aspose.Page API solution for .NET is explained and illustrated with the code snippets here.
+description: The process of changing array items in XMP metadata of EPS file with Aspose.Page API solution for .NET is explained and illustrated with the code snippets.
 ---
 
 

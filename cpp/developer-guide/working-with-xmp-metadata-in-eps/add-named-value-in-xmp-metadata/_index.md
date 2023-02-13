@@ -1,5 +1,5 @@
 ---
-title: Add named value in XMP metadata of EPS file using C++
+title: Add named value in XMP metadata of EPS | C++
 type: docs
 weight: 19
 url: /cpp/xmp-metadata/add-named-value/

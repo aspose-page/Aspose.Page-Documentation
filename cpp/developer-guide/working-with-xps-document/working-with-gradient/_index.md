@@ -4,7 +4,7 @@ linktitle: Working with Gradient
 type: docs
 weight: 40
 url: /cpp/working-with-gradient/
-description: How to add vertical, horizontal or linear gradient to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in C++
+description: How to add vertical, horizontal or linear gradient to an XPS file is a question answered by Aspose.Page API solution. Learn the functionality for C++
 aliases: /cpp/add-gradient-in-xps-document/
 ---
 ## **Add Gradient in XPS Document**

@@ -1,9 +1,10 @@
 ---
-title: Licensing | C++
+title: Licensing of Aspose.Page | C++
 linktitle: Licensing
 type: docs
 weight: 60
 url: /cpp/licensing/
+description: C++ Library for the developers to process PS, EPS, and XPS files. Learn how to evaluate Aspose.Page API solution for C++.
 ---
 
 ## **Evaluate Aspose.Page**

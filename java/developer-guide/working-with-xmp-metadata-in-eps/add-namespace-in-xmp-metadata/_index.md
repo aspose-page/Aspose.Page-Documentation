@@ -1,5 +1,5 @@
 ---
-title: Add XML namespace in XMP metadata of EPS file using Java
+title: Add XML namespace in XMP metadata of EPS |Java
 type: docs
 weight: 20
 url: /java/xmp-metadata/add-namespace/

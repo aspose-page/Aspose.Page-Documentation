@@ -4,6 +4,7 @@ linktitle: Supported File Formats
 type: docs
 weight: 20
 url: /java/supported-file-formats/
+description: Java Library for the developers to process PS, EPS, and XPS files. Learn output and input file formats supported by Aspose.Page API solution for Java.
 ---
 
 ## **Supported File Formats**

@@ -1,5 +1,5 @@
 ---
-title: Change named value in XMP metadata of EPS file using .NET
+title: Change named value in XMP metadata of EPS|.NET
 type: docs
 weight: 18
 url: /net/xmp-metadata/change-named-value/

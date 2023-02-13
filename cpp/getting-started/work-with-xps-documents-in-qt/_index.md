@@ -4,6 +4,7 @@ linktitle: Work with XPS Documents in Qt
 type: docs
 weight: 80
 url: /cpp/work-with-xps-documents-in-qt/
+description: C++ Library for the developers to process XPS files. Learn how to work with XPS Documents in Qt within Aspose.Page API solution for C++.
 ---
 
 Aspose.Page for C++ can be used for creating cross-platform applications to create, read, and convert XPS files to other formats using Qt. Qt applications can target a variety of desktop, mobile, web, and embedded system applications. This article shows how to integrate our C++ Page library to work with XPS files in Qt applications.

@@ -1,5 +1,5 @@
 ---
-title: Add XML namespace in XMP metadata of EPS file using .NET
+title: Add XML namespace in XMP metadata of EPS |.NET
 type: docs
 weight: 20
 url: /net/xmp-metadata/add-namespace/

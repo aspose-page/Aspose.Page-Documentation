@@ -3,6 +3,7 @@ title: Aspose.Page for CPP 22.5 Release Notes
 type: docs
 weight: 9
 url: /cpp/aspose-page-for-cpp-22-5-release-notes/
+description: C++ Library for the developers to manipulate and process PS, EPS, and XPS files. Release Notes of Aspose.Page API solution for C++ | Release 2022.05
 ---
 
 {{% alert color="primary" %}}

@@ -4,6 +4,7 @@ linktitle: Licensing
 type: docs
 weight: 60
 url: /net/licensing/
+description: C# .NET Library for the developers to process PS, EPS, and XPS files. Learn how to evaluate Aspose.Page API solution for .NET.
 ---
 
 ## **Evaluation Version Limitations**

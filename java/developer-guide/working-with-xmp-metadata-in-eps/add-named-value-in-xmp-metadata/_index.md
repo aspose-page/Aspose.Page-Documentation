@@ -1,5 +1,5 @@
 ---
-title: Add named value in XMP metadata of EPS file using Java
+title: Add named value in XMP metadata of EPS | Java
 type: docs
 weight: 19
 url: /java/xmp-metadata/add-named-value/

@@ -1,5 +1,5 @@
 ---
-title: Introduction to Page Description Languages (PDLs)
+title: Introduction to Page Description Languages
 type: docs
 weight: 10
 url: /net/page-description-languages/
