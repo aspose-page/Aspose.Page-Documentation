@@ -4,6 +4,7 @@ linktitle: Supported File Formats
 type: docs
 weight: 20
 url: /cpp/supported-file-formats/
+description: C++ Library for the developers to process PS, EPS, and XPS files. Learn output and input file formats supported by Aspose.Page API solution for C++.
 ---
 
 ## **Supported File Formats by Aspose.Page for C++**

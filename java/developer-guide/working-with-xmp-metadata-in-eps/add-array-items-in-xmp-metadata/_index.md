@@ -1,5 +1,5 @@
 ---
-title: Add array items in XMP metadata of EPS file using Java
+title: Add array items in XMP metadata of EPS| Java
 type: docs
 weight: 17
 url: /java/xmp-metadata/add-array-items/

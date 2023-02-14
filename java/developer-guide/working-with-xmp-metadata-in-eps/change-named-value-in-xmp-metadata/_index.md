@@ -1,5 +1,5 @@
 ---
-title: Change named value in XMP metadata of EPS file using Java
+title: Change named value in XMP metadata of EPS|Java
 type: docs
 weight: 18
 url: /java/xmp-metadata/change-named-value/

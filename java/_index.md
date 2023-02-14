@@ -3,7 +3,7 @@ title: Aspose.Page for Java
 type: docs
 weight: 10
 url: /java/
-description: API solution to manage Page Description Language files in Java. It Provides you with rich functionality and supports XPS, PS and EPS formats.
+description: API solution to manipulate Page Description Language files in Java. It Provides you with rich functionality and supports XPS, PS and EPS formats.
 is_root: true
 ---
 

@@ -4,6 +4,7 @@ linktitle: System Requirements
 type: docs
 weight: 40
 url: /java/system-requirements/
+description: Java Library for the developers to process PS, EPS, and XPS files. Learn system requirements to start using Aspose.Page API solution for Java.
 ---
 
 ## **Overview**

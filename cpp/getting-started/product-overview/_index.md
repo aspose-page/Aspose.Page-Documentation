@@ -4,6 +4,7 @@ linktitle: Product Overview
 type: docs
 weight: 10
 url: /cpp/product-overview/
+description: C++ Library for the developers to process PS, EPS, and XPS files. Learn the overvoew of Aspose.Page API solution for C++.
 ---
 
 {{% alert color="primary" %}} 

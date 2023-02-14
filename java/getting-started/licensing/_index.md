@@ -4,6 +4,7 @@ linktitle: Licensing
 type: docs
 weight: 60
 url: /java/licensing/
+description: Java Library for the developers to process PS, EPS, and XPS files. Learn how to evaluate Aspose.Page API solution for Java.
 ---
 
 ## **Evaluation Version Limitations**

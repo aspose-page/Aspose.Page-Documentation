@@ -4,6 +4,7 @@ linktitle: Supported File Formats
 type: docs
 weight: 20
 url: /net/supported-file-formats/
+description: C# .NET Library for the developers to process PS, EPS, and XPS files. Learn output and input file formats supported by Aspose.Page API solution for .NET.
 ---
 
 ## **Supported File Formats**

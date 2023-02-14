@@ -4,6 +4,7 @@ linktitle: System Requirements
 type: docs
 weight: 40
 url: /cpp/system-requirements/
+description: C++ Library for the developers to process PS, EPS, and XPS files. Learn system requirements to start using Aspose.Page API solution for C++.
 ---
 
 ## **System Requirements**

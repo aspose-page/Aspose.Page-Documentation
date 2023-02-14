@@ -1,5 +1,5 @@
 ---
-title: Change named value in XMP metadata of EPS file using C++
+title: Change named value in XMP metadata of EPS|C++
 type: docs
 weight: 18
 url: /cpp/xmp-metadata/change-named-value/

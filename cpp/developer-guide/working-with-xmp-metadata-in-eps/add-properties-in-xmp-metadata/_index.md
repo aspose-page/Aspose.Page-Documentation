@@ -1,5 +1,5 @@
 ---
-title: Add properties in XMP metadata of EPS file using C++
+title: Add properties in XMP metadata of EPS | C++
 type: docs
 weight: 15
 url: /cpp/xmp-metadata/add-properties/

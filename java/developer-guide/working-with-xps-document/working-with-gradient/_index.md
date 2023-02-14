@@ -3,7 +3,7 @@ title: Working with Gradient | Java
 linktitle: Working with Gradient
 type: docs
 weight: 40
-description: How to add vertical, horizontal or linear gradient to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in Java
+description: How to add vertical, horizontal or linear gradient to an XPS file is a question answered by Aspose.Page API solution.  Learn the functionality for Java
 url: /java/working-with-gradient/
 ---
 

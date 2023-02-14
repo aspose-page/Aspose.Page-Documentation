@@ -4,7 +4,7 @@ linktitle: PDL Converters
 type: docs
 weight: 70
 url: /net/convert/
-description: To convert a file of PDL format to the one you can work easier like PDF, BMP, JPG, etc. use this API for .NET solution. See the examples depicted in the code.
+description: To convert a file of PDL format to the one you can work easier like PDF, BMP, JPG, etc. use this API for .NET. See the examples depicted in the code.
 ---
 
 Aspose.Page API solution has conversion functionality that can be added to your own app or software. This chapter has separate articles devoted to the conversion with the code examples, to make the integration process as easy as possible for you.

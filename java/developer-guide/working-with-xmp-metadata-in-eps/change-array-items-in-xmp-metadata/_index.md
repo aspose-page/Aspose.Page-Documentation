@@ -1,9 +1,9 @@
 ---
-title: Change array items in XMP metadata of EPS file using Java
+title: Change array items in XMP metadata of EPS| Java
 type: docs
 weight: 16
 url: /java/xmp-metadata/change-array-items/
-description: The process of changing array items in XMP metadata of EPS file with Aspose.Page API solution for Java is explained and illustrated with the code snippets here.
+description: The process of changing array items in XMP metadata of EPS file with Aspose.Page API solution for Java is explained and illustrated with the code snippets.
 ---
 
 <!--

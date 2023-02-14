@@ -1,5 +1,5 @@
 ---
-title: Add properties in XMP metadata of EPS file using Java
+title: Add properties in XMP metadata of EPS | Java
 type: docs
 weight: 15
 url: /java/xmp-metadata/add-properties/
