@@ -1,5 +1,5 @@
 ---
-title: Change simple values in XMP metadata of EPS file using C++
+title: Change simple values in XMP EPS metadata |C++
 type: docs
 weight: 14
 url: /cpp/xmp-metadata/change-simple-values/

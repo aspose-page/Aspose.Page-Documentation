@@ -1,5 +1,5 @@
 ---
-title: Change simple values in XMP metadata of EPS file using Java
+title: Change simple values in XMP EPS metadata |Java
 type: docs
 weight: 14
 url: /java/xmp-metadata/change-simple-values/

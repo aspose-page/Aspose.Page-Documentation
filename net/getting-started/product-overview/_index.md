@@ -4,6 +4,7 @@ linktitle: Product Overview
 type: docs
 weight: 10
 url: /net/product-overview/
+description: C# .NET Library for the developers to process PS, EPS, and XPS files. Learn the overvoew of Aspose.Page API solution for .NET.
 ---
 
 {{% alert color="primary" %}} 

@@ -1,5 +1,5 @@
 ---
-title: Add named value in XMP metadata of EPS file using .NET
+title: Add named value in XMP metadata of EPS | .NET
 type: docs
 weight: 19
 url: /net/xmp-metadata/add-named-value/

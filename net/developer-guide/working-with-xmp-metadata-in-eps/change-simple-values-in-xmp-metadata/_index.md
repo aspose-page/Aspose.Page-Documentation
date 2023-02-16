@@ -1,5 +1,5 @@
 ---
-title: Change simple values in XMP metadata of EPS file using .NET
+title: Change simple values in XMP EPS metadata |.NET
 type: docs
 weight: 14
 url: /net/xmp-metadata/change-simple-values/

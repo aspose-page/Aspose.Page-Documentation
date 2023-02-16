@@ -4,6 +4,7 @@ linktitle: How to Run Examples
 type: docs
 weight: 70
 url: /net/how-to-run-examples/
+description: C# .NET Library for the developers to process PS, EPS, and XPS files. Learn how to run examples within Aspose.Page API solution for .NET.
 ---
 
 ## **Software Requirements**

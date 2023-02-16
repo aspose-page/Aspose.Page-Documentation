@@ -1,5 +1,5 @@
 ---
-title: Add properties in XMP metadata of EPS file using .NET
+title: Add properties in XMP metadata of EPS | .NET
 type: docs
 weight: 15
 url: /net/xmp-metadata/add-properties/

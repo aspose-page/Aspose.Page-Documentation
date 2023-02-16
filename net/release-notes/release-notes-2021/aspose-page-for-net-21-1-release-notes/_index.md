@@ -3,6 +3,7 @@ title: Aspose.Page for .NET 21.1 Release Notes
 type: docs
 weight: 70
 url: /net/aspose-page-for-net-21-1-release-notes/
+description: C# .NET API Solution for developers to manipulate and process PS, EPS, and XPS files. Release Notes of Aspose.Page API solution for .NET | Release 2021.01
 ---
 
 {{% alert color="primary" %}}

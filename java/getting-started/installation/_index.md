@@ -4,6 +4,7 @@ linktitle: Installation
 type: docs
 weight: 50
 url: /java/installation/
+description: JavaLibrary for the developers to process PS, EPS, and XPS files. Learn how to install Aspose.Page API solution for Java.
 ---
 
 ## **Installing Aspose.Page for Java from Aspose Repository**

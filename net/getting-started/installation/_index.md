@@ -4,6 +4,7 @@ linktitle: Installation
 type: docs
 weight: 50
 url: /net/installation/
+description: C# .NET Library for the developers to process PS, EPS, and XPS files. Learn how to install Aspose.Page API solution for .NET.
 ---
 
 ## **Evaluate Aspose.Page for .NET**

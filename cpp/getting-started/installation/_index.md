@@ -4,6 +4,7 @@ linktitle: Installation
 type: docs
 weight: 50
 url: /cpp/installation/
+description: C++ Library for the developers to process PS, EPS, and XPS files. Learn how to install Aspose.Page API solution for C++.
 ---
 
 ## **Installing Aspose.Page for C++**

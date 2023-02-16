@@ -4,7 +4,7 @@ linktitle: Working with Gradient
 type: docs
 weight: 10
 url: /net/working-with-gradient/
-description: How to add vertical, horizontal or linear gradient to an XPS file is a question answered by Aspose.Page API solution.  See how to use the functionality in .NET
+description: How to add vertical, horizontal or linear gradient to an XPS file is a question answered by Aspose.Page API solution.  Learn the functionality for .NET
 aliases: /net/add-gradient-in-xps-document/
 ---
 

@@ -3,6 +3,7 @@ title: Aspose.Page for Java 19.7 Release Notes
 type: docs
 weight: 60
 url: /java/aspose-page-for-java-19-7-release-notes/
+description: Java Library for the developers to manipulate and process PS, EPS, and XPS files. Release Notes of Aspose.Page API solution for Java | Release 2019.07
 ---
 
 {{% alert color="primary" %}} 

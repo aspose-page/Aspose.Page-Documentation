@@ -1,9 +1,9 @@
 ---
-title: Change array items in XMP metadata of EPS file using C++
+title: Change array items in XMP metadata of EPS| C++
 type: docs
 weight: 16
 url: /cpp/xmp-metadata/change-array-items/
-description: The process of changing array items in XMP metadata of EPS file with Aspose.Page API solution for C++ is explained and illustrated with the code snippets here.
+description: The process of changing array items in XMP metadata of EPS file with Aspose.Page API solution for C++ is explained and illustrated with the code snippets.
 ---
 
 <!--
