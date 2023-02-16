@@ -11,6 +11,7 @@ This page contains release notes information for Aspose.Page for .NET 23.1.
 
 {{% /alert %}}
 ## **Improvements and Changes**
+**Warning!** In the next realease we will discontinue to deliver libraries for .NET Framework 2.0, 3.5 and 3.5CP.
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
