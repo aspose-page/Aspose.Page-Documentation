@@ -4,7 +4,8 @@ linktitle: Working with PS Document
 type: docs
 weight: 70
 url: /net/working-with-ps/
-description: These are articles on how to work with text, shapes, texture and hatch patterns, gradients, images, transparency, and pages in PS or EPS files using Aspose.Page for .NET API solution.
+description: These articles is about working with text, shapes, tiling patterns, gradients, images and pages in PS or EPS files using Aspose.Page for .NET API solution.
+keywords: working with PS document .NET, working with PostScript document .NET, working with EPS file .NET
 ---
 
 `PS` and `EPS` extensions are linked to the PostScript and Encapsulated PostScript languages respectively that were developed by Adobe.

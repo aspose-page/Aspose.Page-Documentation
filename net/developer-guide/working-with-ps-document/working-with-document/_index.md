@@ -4,7 +4,8 @@ linktitle: Working with Document
 type: docs
 weight: 20
 url: /net/ps/working-with-document/
-description: How to add pages to an PS file is a question answered by Aspose.Page API solution.  See how to use the functionality in .NET
+description: How to add pages to an PS file is a question answered by Aspose.Page API solution.  See how to use the functionality in .NET.
+keywords: working with document in PS .NET, working with document in PostScript .NET, working with document in EPS .NET
 aliases: /net/ps/create-ps-document/
 ---
 
@@ -64,16 +65,17 @@ See working with PS document in [Java](/page/java/ps/working-with-document/) and
 <br>
 Let's look at [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/) class that encapsulates possible options helping to create right PostScript document.
 <br>
-- **SaveFormat** specifies an output format of document. Can be PS or EPS. In Aspose.Page library differences between these two formats are reflected only in PostScript comments and file extension. Also in accordance to EPS file specification EPS files should be 1-paged. PS format is used by default.
+- **SaveFormat** specifies an output format of document. Can be PS or EPS. In Aspose.Page library differences between these two formats are reflected only in PostScript comments and a file extension.
+Also in accordance to EPS file specification EPS files should be 1-paged. PS format is used by default.
 
-- **PageSize** specifies a size of pages in PS document. However we can assign different page size for every page if it is required. Page size can be obtained from [PageConstants](https://reference.aspose.com/page/net/aspose.page.eps/pageconstants/) class like in following example.
+- **PageSize** specifies a size of the pages in PS document. However we can assign different page size for every page if it is required. The page size can be obtained from [PageConstants](https://reference.aspose.com/page/net/aspose.page.eps/pageconstants/) class like in following example:
 ```C#
 options.PageSize = PageConstants.GetSize(PageConstants.SIZE_International, PageConstants.ORIENTATION_PORTRAIT);
 ```
 Default page size is "A4" in "Portrait" orientation.
 <br>
 <br>
-- **Margins** specifies blank fields between page boundaries and left, up, right, bottom edges of the page content. It can be obtained from PageConstants class.
+- **Margins** specifies blank fields between the page boundaries and left, up, right, bottom edges of the page content. It can be obtained from PageConstants class.
 ```C#
 options.Margins = PageConstants.GetMargins(PageConstants.MARGINS_SMALL); // 20 points for each margin
 ```
@@ -91,7 +93,7 @@ options.BackgroundColor = Color.Yellow;
 Default value is "null" that means no background.
 <br>
 <br>
-- **EmbedFonts** controls behaviour of PsDocument while saving it to file. If "false" used fonts will not be written in PS file. In this case PostScript interpreter will throws an error if used font cannot be found in system folders on target host.
+- **EmbedFonts** controls behaviour of PsDocument while saving it to the file. If "false", used fonts will not be written in PS file. In this case PostScript interpreter will throws an error if used font cannot be found in system folders on target host.
 
 - **EmbedFontsAs** controls a way how fonts will be embedded in PS file. At this moment two ways work: TrueType and Type3 font formats. The value can be set with help of [FontConstants](https://reference.aspose.com/page/net/aspose.page.eps/fontconstants/) class like following:
 ```C#

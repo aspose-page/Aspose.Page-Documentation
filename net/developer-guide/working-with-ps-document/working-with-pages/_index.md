@@ -5,6 +5,7 @@ type: docs
 weight: 30
 url: /net/ps/working-with-pages/
 description: How to add pages to PS file is a question answered by Aspose.Page API solution.  See how to use the functionality in .NET
+keywords: working with pages in PS .NET, working with pages in PostScript .NET, working with pages in EPS .NET
 aliases: /net/ps/add-pages-to-ps-document/
 ---
 
@@ -13,14 +14,14 @@ aliases: /net/ps/add-pages-to-ps-document/
 Aspose.Page for .NET offers two ways of adding pages to [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) object.
 <br>
 Following code snippet creates 2-paged PS document by 8 steps:
-1. Create output stream for resulting PS file.
+1. Create an output stream for resulting PS file.
 2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/) object with default options.
 3. Create 2-paged PsDocument with already created output stream and save options.
-4. Open the first page with default page size of document (A4 in Portrait orientation).
+4. Open the first page with default page size of the document (A4 in Portrait orientation).
 5. Close the page.
 6. Open the second page with new size.
 7. Close the page.
-8. Save document.
+8. Save the document.
 
 ```C#
 //Create output stream for PostScript document
@@ -59,15 +60,15 @@ See working with pages in PS document in [Java](/page/java/ps/working-with-pages
 Following code snippet creates also 2-paged PS document, but by 7 steps:
 1. Create output stream for resulting PS file.
 2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/) object with default options.
-3. Create multi-paged PsDocument with already created output stream and save options. In this case the first page is already opened and it's size is default page size of document (A4 in Portrait orientation).
+3. Create multi-paged PsDocument with already created output stream and save options. In this case the first page is already opened and it's size is default page size of the document (A4 in Portrait orientation).
 4. Close the page.
 5. Open the second page with new size.
 6. Close the page.
-7. Save document.
+7. Save the document.
 This way of adding pages is usefull when document has 1 page or it is uknown if it will be 1- or 2-paged document.
 
 ```C#
-//Create output stream for PostScript document
+//Create an output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "document2.ps", FileMode.Create))
 {
     //Create save options with A4 size

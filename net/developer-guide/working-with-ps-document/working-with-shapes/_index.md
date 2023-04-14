@@ -5,6 +5,7 @@ type: docs
 weight: 40
 url: /net/ps/working-with-shapes/
 description: How to add shapes to PS file is a question answered by Aspose.Page API solution.  See how to use the functionality in .NET
+keywords: working with shapes in PS .NET, working with shapes in PostScript .NET, working with shapes in EPS .NET
 aliases: /net/ps/add-shapes-in-ps-document/
 ---
 
@@ -12,14 +13,14 @@ aliases: /net/ps/add-shapes-in-ps-document/
 
 ### **Add Rectangle to PS**
 In order to add rectangle to [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) with Aspose.Page for .NET library we should do following steps:
-1. Create output stream for resulting PS file.
+1. Create an output stream for resulting PS file.
 2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/) object with default options.
 3. Create 1-paged PsDocument with already created output stream and save options.
 4. Create rectangle **System.Drawing.Drawing2D.GraphicsPath** from the rectangle.
-5. Set paint to the current graphics state of PsDocument.
+5. Set a paint to the current graphics state of PsDocument.
 6. Fill the rectangle path.
-7. Close page.
-8. Save document.
+7. Close the page.
+8. Save the document.
 
 If we need to stroke (outline) a rectangle the first 4 and the last 2 steps will be the same, but points 5 and 6 will be:
 <br>
@@ -29,7 +30,7 @@ If we need to stroke (outline) a rectangle the first 4 and the last 2 steps will
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Stroke (outline) the rectangle path.
 
 ```C#
-//Create output stream for PostScript document
+//Create an output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 {
     //Create save options with A4 size
@@ -68,21 +69,21 @@ See working with shapes in PS document in [Java](/page/java/ps/working-with-shap
 The result of running this code is appeared as
 </br></br></br>
 <p align="center">
-	<img src="AddRectangle_outPS.png">
+	<img src="AddRectangle.png">
 </p>
 </br></br></br>
 
 ### **Add Ellipse to PS**
 
 In order to add ellipse to [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) also 8 steps are required:
-1. Create output stream for resulting PS file.
+1. Create an output stream for resulting PS file.
 2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/) object with default options.
 3. Create 1-paged PsDocument with already created output stream and save options.
 4. Create ellipse **System.Drawing.Drawing2D.GraphicsPath** from the rectangle.
 5. Set paint to the current graphics state of PsDocument.
 6. Fill the ellipse path.
-7. Close page.
-8. Save document.
+7. Close the page.
+8. Save the document.
 
 If we need to stroke (outline) an ellipse the first 4 and the last 2 steps will be the same, but points 5 and 6 will be:
 <br>
@@ -91,7 +92,7 @@ If we need to stroke (outline) an ellipse the first 4 and the last 2 steps will 
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Stroke (outline) the ellipse path.
 ```C#
-//Create output stream for PostScript document
+//Create an output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddEllipse_outPS.ps", FileMode.Create))
 {
     //Create save options with A4 size
@@ -126,7 +127,7 @@ using (Stream outPsStream = new FileStream(dataDir + "AddEllipse_outPS.ps", File
 The result of running this code is appeared as
 </br></br></br>
 <p align="center">
-	<img src="AddEllipse_outPS.png">
+	<img src="AddEllipse.png">
 </p>
 </br></br></br>
 
