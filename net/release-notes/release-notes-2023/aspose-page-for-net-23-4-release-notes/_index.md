@@ -10,6 +10,10 @@ description: C# .NET API Solution for developers to manipulate and process PS, E
 
 This page contains release notes information for Aspose.Page for .NET 23.4.
 
+{{% /alert %}}
+## **Improvements and Changes**
+**Warning!** In this realease we stop to  continue delivering libraries for .NET Framework 2.0, 3.5 and 3.5CP, .Net Core 3.0 and .NET 5.0.
+
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |PAGENET-497|SVG to EPS: Filling graphics path with Alternative FillMode is converted incorrectly|Bug|
