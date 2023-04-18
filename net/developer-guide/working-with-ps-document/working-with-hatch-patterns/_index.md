@@ -11,29 +11,28 @@ aliases: /net/ps/add-hatch-pattern-in-ps-document/
 
 ## **Add Hatch Pattern in PS Document**
 
-Hatch pattern is a texture tiling pattern usually represented by small 2-colors (usually black&white) simple image. Mainly content of these small images is various hatches. 
-For painting by hatches .NET platform has a separate class, derived from **System.Drawing.Brush**, **System.Drawing.HatchBrush**. Its difference from **System.Drawing.TextureBrush** is 
-that it has named predefined styles defining what an image to use for a tiling. .NET platform offers 52 hatch styles and all 52 styles can be used for a filling or a stroking (outlining) in PsDocument.
+Hatch pattern is a texture tiling pattern usually represented by small 2-colors (usually black&white) simple image. The main content of these small images is various hatches. 
+
+For painting by hatches, the .NET platform has a separate class, derived from **System.Drawing.Brush**, **System.Drawing.HatchBrush**. Its difference from **System.Drawing.TextureBrush** is 
+that it has named predefined styles defining what image to use for tiling. .NET platform offers 52 hatch styles and all 52 styles can be used for filling or stroking (outlining) in PsDocument.
 <br>
 <br>
-In order to *paint* graphics objects with a hatch pattern in Aspose.Page for .NET library it is enough simply to pass **System.Drawing.HatchBrush** to **SetPaint()** or one of the **FillText()** or 
-**FillAndStrokeText()** methods which accepts **System.Drawing.Brush** as a parameter.
+In order to *paint* graphics objects with a hatch pattern in Aspose.Page for .NET library it is enough simply to pass **System.Drawing.HatchBrush** to **SetPaint()** or one of the **FillText()** or **FillAndStrokeText()** methods that accept **System.Drawing.Brush** as a parameter.
 <br>
-In order to *outline* graphics objects with a hatch pattern in Aspose.Page for .NET library someone should create new **System.Drawing.Pen** with **System.Drawing.HacthBrush** and 
-pass it to **SetStroke()** or one of the **OutlineText()** or **FillAndStrokeText()** methods which accepts **System.Drawing.Pen** as a parameter.
+In order to *outline* graphics objects with a hatch pattern in Aspose.Page for .NET library someone should create new **System.Drawing.Pen** with **System.Drawing.HacthBrush** and pass it to **SetStroke()** or one of the **OutlineText()** or **FillAndStrokeText()** methods that accept **System.Drawing.Pen** as a parameter.
 <br>
 <br>
-In the example below we demonstrate, firtsly, how to fill a shape with a hatch pattern, than all variety of hatch styles in .NET and, finally, how to fill and outline a text with a hatch pattern.
+In the example below we demonstrate, firstly, how to fill a shape with a hatch pattern, then all variety of hatch styles in .NET, and, finally, how to fill and outline a text with a hatch pattern.
 <br>
 
-An algorythm of *painting* graphics objects with a hatch pattern in new PS document includes following steps:
-1. Create an output stream for resulting PS file.
+An algorithm for *painting* graphics objects with a hatch pattern in a new PS document includes the following steps:
+1. Create an output stream for the resulting PS file.
 2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/).
-3. Create [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) with already created output stream and save options.
-4. Create necessary graphics path or font in dependence on what object we are going to fill or outline.
+3. Create [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) with the already created output stream and save options.
+4. Create the necessary graphics path or font in dependence on what object we are going to fill or outline.
 5. Create an object of **System.Drawing.HatchBrush** with wishful style.
 6. Set the hatch brush as current paint in PsDocument
-7. Fill the graphics path with current paint or fill a text. If we use one of the methods for filling a text that accepts **System.Drawing.Brush** as a parameter, previous point can be ignored.
+7. Fill the graphics path with current paint or fill a text. If we use one of the methods for filling a text that accepts **System.Drawing.Brush** as a parameter, the previous point can be ignored.
 8. Close the page.
 9. Save the document.
 

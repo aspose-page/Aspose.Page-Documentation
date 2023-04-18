@@ -4,37 +4,37 @@ linktitle: Working with Clips
 type: docs
 weight: 60
 url: /net/ps/working-with-clips/
-description: How to add clip to PS file is a question answered by Aspose.Page API solution.  See how to use the functionality in .NET
+description: Adding clips to PS files is a functionality supported by Aspose.Page API solution. See how to use the functionality in .NET
 keywords: working with clips in PS .NET, working with clips in PostScript .NET, working with clips in EPS .NET
 aliases: /net/ps/add-clip-in-ps-document/
 ---
 
 ## **Add Clip in PS Document**
 
-A clip in PS document is a path that bounds a content of current graphics state that will be shown in PS viewer or editor. The content that is left beyond the bounds will be cut off.
+A clip in a PS document is a path that bounds the content of the current graphics state that will be shown in the PS viewer or editor. The content that is left beyond the bounds will be cut off.
 <br>
-A clipping path in .NET can be assigned by three ways:
+A clipping path in .NET can be assigned in three ways:
 
 - by **System.Drawing.Drawing2D.GraphicsPath** that can contain any closed shapes;
 - by text outline;
-- by 1 bpp (bits per pixel) 2-colors image as a stencil mask;
+- by 1 bpp (bits per pixel) 2-color image as a stencil mask;
 
 At this moment Aspose.Page for .NET library offers only the first way of clipping.
-In the example below we obtain a circle **System.Drawing.Drawing2D.GraphicsPath** from a rectangle as a clipping path and cut off blue filled rectangle in the same graphics state.
+In the example below we obtain a circle **System.Drawing.Drawing2D.GraphicsPath** from a rectangle as a clipping path and cut off a blue-filled rectangle in the same graphics state.
 <br>
 
-In order to add a clip to new [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) with Aspose.Page for .NET library in this example we do following steps:
-1. Create an output stream for resulting PS file.
+In order to add a clip to the new [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) with Aspose.Page for .NET library in this example we do the following steps:
+1. Create an output stream for the resulting PS file.
 2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/) object with default options.
-3. Create 1-paged PsDocument with already created output stream and save options.
-4. Create new graphics state.
+3. Create a 1-paged PsDocument with an already created output stream and save options.
+4. Create a new graphics state.
 5. Create a circle **System.Drawing.Drawing2D.GraphicsPath** from the rectangle.
 6. Set a clip with this path.
 7. Set a paint to the current graphics state of PsDocument.
-8. Fill the rectangle path with current paint.
-9. Exit from current graphics state to upper level one.
-10. Translate to the place of filled rectangle.
-11. Stroke with a dashed line the bounds of the same rectangle above filled one to show the bounds of the clipped filled rectangle.
+8. Fill the rectangle path with the current paint.
+9. Exit from the current graphics state to upper level one.
+10. Translate to the place of the filled rectangle.
+11. Stroke with a dashed line the bounds of the same rectangle above the filled one to show the bounds of the clipped filled rectangle.
 10. Close the page.
 11. Save the document.
 
@@ -93,7 +93,7 @@ using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMo
 }
 ```
 {{% alert color="primary" %}}
-See working with clips in PS document in [Java](/page/java/ps/working-with-clips/) and [C++](/page/cpp/ps/working-with-clips/).
+See working with clips in PS documents in [Java](/page/java/ps/working-with-clips/) and [C++](/page/cpp/ps/working-with-clips/).
 {{% /alert %}}
 
 The result of running this code is appeared as

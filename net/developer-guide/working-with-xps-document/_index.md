@@ -13,7 +13,7 @@ description: There are articles on how to work with text, gradient, image, trans
 
 XPS file is a ZIP archive that has next elemens: Fpages (pages of the file's document), document parts, and a folder with relationships of the pages. The trick here is that an XPS file can be viewed by changing its extension to `.zip` and using any archiver software available on your device.
 
-This chapter includes information about working with XPS files using Aspose.Page API solution for .NET. There you will find the next articles with the code examples on how the functionality works.
+This chapter includes information about working with XPS files using Aspose.Page API solution for .NET. There you will find the next articles with the code examples of how the functionality works.
 
 
 - [Working with Text](https://docs.aspose.com/page/net/working-with-text/)

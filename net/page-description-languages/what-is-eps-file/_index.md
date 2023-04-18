@@ -144,7 +144,7 @@ The quickest way to convert EPS files to JPG is to use
 [Aspose.Page Conversion](https://products.aspose.app/page/conversion/eps) web application. Aspose EPS converter supports EPS to PDF, DOC, DOCX, HTML,
 TEX, SVG, PNG, JPG, TIFF, BMP, EMF, WMF conversions.
 If you are a developer and want to use our library for such conversions, learn [PDLs converters](/page/net/convert/) article 
-to find the illustrated with code snippets examples on how to do the conversion.
+to find the illustrated with code snippets examples of how to do the conversion.
 
 ## Is an EPS file the same as a PDF one?
 

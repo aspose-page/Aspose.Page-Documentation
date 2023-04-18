@@ -423,7 +423,7 @@ An Alternative way is to view the XPS file with [Aspose.Page XPS Viewer](https:/
 The quickest way to convert XPS files to PDF is to use
 [Aspose.Page Conversion](https://products.aspose.app/page/conversion/xps) web application. Aspose XPS converter supports XPS to PDF, DOC, DOCX, HTML, TEX, SVG, PNG, JPG, TIFF, BMP conversions.
 If you are a developer and want to use our library for such conversions, learn [PDLs converters](/page/net/convert/) article 
-to find the illustrated with code snippets examples on how to do the conversion.
+to find the illustrated with code snippets examples of how to do the conversion.
 
 ## Can I open an XPS file in Word?
 

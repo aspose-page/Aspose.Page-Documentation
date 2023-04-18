@@ -111,7 +111,7 @@ It is claimed that OXPS files cannot be opened with Windows standard XPS Viewer 
 The conversion is possible by using online or desktop converter applications. The quickest way to convert OXPS files to PDF is to use
 [Aspose.Page Conversion](https://products.aspose.app/page/conversion/oxps) web application. Aspose OXPS converter supports XPS to PDF, DOC, DOCX, HTML, TEX, SVG, PNG, JPG, TIFF, BMP conversions.
 If you are a developer and want to use our library for such conversions, learn [PDLs converters](/page/net/convert/) article 
-to find the illustrated with code snippets examples on how to do the conversion.
+to find the illustrated with code snippets examples of how to do the conversion.
 
 
 ## Can I open an OXPS file in Word?

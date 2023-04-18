@@ -4,62 +4,58 @@ linktitle: Working with Gradient
 type: docs
 weight: 100
 url: /net/ps/working-with-gradient/
-description: How to add gradient in PS file is a question answered by Aspose.Page API solution.  See how to use the functionality in .NET
+description: Adding gradient in PS file is a functionality supported by Aspose.Page API solution.  See how to use the functionality in .NET
 keywords: working with gradient in PS .NET, working with gradient in PostScript .NET, working with gradient in EPS .NET
 aliases: /net/ps/add-gradient-in-ps-document/
 ---
 
 ## **Add Gradient in PS Document**
-In this article we consider the ways how a gradient can be used in PS document.
+In this article, we consider the ways how a gradient can be used in PS documents.
 <br>
-Gradient is a smooth transition of one color to another. It is used for making drawn picture more realistic.
-As gradient is a kind of paint, it is expectedly that in .NET it is implemented as a subclass of **System.Drawing.Brush**. Actually, .NET platform has two such brushes:
+The gradient is a smooth transition of one color to another. It is used for making the drawn pictures more realistic.
+As gradient is a kind of paint, it is expectedly that in .NET it is implemented as a subclass of  **System.Drawing.Brush**. Actually, .NET platform has two such brushes:
 
 - **System.Drawing.LinearGradientBrush**
 - **System.Drawing.PathGradientBrush**
 
-In order to set a paint or a stroke in [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) we must pass an object of **System.Drawing.Brush** class for a painting and
-an object of **System.Drawing.Pen** for a stroking into respective methods. Aspose.Page for .NET library processes all subclasses of **System.Drawing.Brush** that are offered by .NET platform. These are **System.Drawing.SolidBrush**,
-**System.Drawing.TextureBrush**, **System.Drawing.LinearGradientBrush**, **System.Drawing.PathGradientBrush** and **System.Drawing.HatchBrush**. **System.Drawing.Pen** class cannot be extended because it is sealed,
-but it contains **System.Drawing.Brush** as a property and, thus, Aspose.Page for .NET library can also use complete set of brushes also for drawing lines and outlining shapes and text.
+In order to set paint or a stroke in [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) we must pass an object of **System.Drawing.Brush** class for a painting and
+an object of **System.Drawing.Pen** for stroking into respective methods. Aspose.Page for .NET library processes all subclasses of **System.Drawing.Brush** that are offered by the .NET platform. These are **System.Drawing.SolidBrush**, **System.Drawing.TextureBrush**, **System.Drawing.LinearGradientBrush**, **System.Drawing.PathGradientBrush** and **System.Drawing.HatchBrush**. **System.Drawing.Pen** class cannot be extended because it is sealed, but it contains **System.Drawing.Brush** as a property and, thus, Aspose.Page for .NET library can also use a complete set of brushes also for drawing lines and outlining shapes and text.
 <br>
 <br>
-In order to *paint* graphics objects with a gradient in Aspose.Page for .NET library it is necessary to create **System.Drawing.LinearGradientBrush** or 
-**System.Drawing.PathGradientBrush** and pass it to **SetPaint()** or one of the **FillText()** or **FillAndStrokeText()** methods which accepts **System.Drawing.Brush** as a parameter.
+In order to *paint* graphics objects with a gradient in Aspose.Page for .NET library it is necessary to create **System.Drawing.LinearGradientBrush** or **System.Drawing.PathGradientBrush** and pass it to **SetPaint()** or one of the **FillText()** or **FillAndStrokeText()** methods which accept **System.Drawing.Brush** as a parameter.
 <br>
-In order to *outline* graphics objects with a gradient in Aspose.Page for .NET library someone should create **System.Drawing.LinearGradientBrush** or 
-**System.Drawing.PathGradientBrush**, than create **System.Drawing.Pen** with this brush and, finally,
-pass it to **SetStroke()** or one of the **OutlineText()** or **FillAndStrokeText()** methods which accepts **System.Drawing.Pen** as a parameter.
+In order to *outline* graphics objects with a gradient in Aspose.Page for .NET library someone should create **System.Drawing.LinearGradientBrush** or **System.Drawing.PathGradientBrush**, then create **System.Drawing.Pen** with this brush and, finally, pass it to **SetStroke()** or one of the **OutlineText()** or **FillAndStrokeText()** methods which accepts **System.Drawing.Pen** as a parameter.
 <br>
 <br>
-In the example below we demonstrate how to fill a shape and a text and outline a text with a gradient.
+In the example below we demonstrate how to fill a shape and a text and outline the text with a gradient.
 <br>
 <br>
-An algorythm of *painting* graphics objects with a gradient in new PS document includes following steps:
-1. Create an output stream for resulting PS file.
+An algorithm for *painting* graphics objects with a gradient in a new PS document includes the following steps:
+1. Create an output stream for the resulting PS file.
 2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/).
-3. Create [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) with already created output stream and save options.
-4. Create necessary graphics path or font in dependence on what object we are going to fill or outline.
-5. Create an object of **System.Drawing.LinearGradientBrush** or **System.Drawing.PathGradientBrush** in dependence on wishfull form of a gradient.
-6. Set necessary transformation on this brush.
-8. Set the gradient brush as current paint in PsDocument
-9. Fill the graphics path with current paint or fill a text. If we use one of the methods for filling the text that accepts **System.Drawing.Brush** as a parameter, previous point can be ignored.
-10. Close the page.
-11. Save the document.
+3. Create [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) with the already created output stream and save options.
+4. Create the necessary graphics path or font in dependence on what object we are going to fill or outline.
+5. Create an object of **System.Drawing.LinearGradientBrush** or **System.Drawing.PathGradientBrush** in dependence on the wishful form of a gradient.
+6. Set the necessary transformation on this brush.
+7. Set the gradient brush as the current paint in PsDocument
+8. Fill the graphics path with current paint or fill a text. If we use one of the methods for filling the text that accepts **System.Drawing.Brush** as a parameter, the previous point can be ignored.
+9. Close the page.
+10. Save the document.
 
 If we need *stroking (outlining)* graphics objects with a gradient instead of the last 4 points following will be:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. Create **System.Drawing.Pen** object with the gradient brush.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9. Set this pen as current stroke in PsDocument.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10. Outline the graphics path with current stroke or outline the text. If we use one of the methods for outlining the text that accepts **System.Drawing.Pen**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. Create the **System.Drawing.Pen** object with the gradient brush.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9. Set this pen as the current stroke in PsDocument.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10. Outline the graphics path with the current stroke or outline the text. If we use one of the methods for outlining the text that accepts **System.Drawing.Pen**
 as a parameter, previous point can be ignored.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11. Close the page.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12. Save the document.<br>
 
-We offer 5 code snippets that demonstrate a usage of different gradients
+We offer 5 code snippets that demonstrate a usage of different gradients.
 <br>
 <br>
 In this code snippet we create horizontal linear gradient from two colors, fill a rectangle, fill a text, outline a text with this gradient.
+
 ```C#
 //Create an output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.ps", FileMode.Create))
@@ -117,7 +113,8 @@ The result of running this code is appeared as
 </p>
 </br></br></br>
 
-In this code snippet we create vertical linear gradient from 5 colors and fill a rectangle with this gradient.
+In this code snippet we create a vertical linear gradient from 5 colors and fill a rectangle with this gradient.
+
 ```C#
 //Create an output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "VerticalGradient_outPS.ps", FileMode.Create))
@@ -169,14 +166,15 @@ using (Stream outPsStream = new FileStream(dataDir + "VerticalGradient_outPS.ps"
     document.Save();
 }
 ```
-The result
+Here comes the result
 </br></br></br>
 <p align="center">
 	<img src="VerticalGradient.png">
 </p>
 </br></br></br> 
 
-In this code snippet we create diagonal linear gradient from 2 colors and fill a rectangle with this gradient.
+In this code snippet we create a diagonal linear gradient from 2 colors and fill a rectangle with this gradient.
+
 ```C#
 //Create an output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps", FileMode.Create))
@@ -226,14 +224,15 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
     document.Save();
 }
 ```
-The result
+Here comes the result
 </br></br></br>
 <p align="center">
 	<img src="DiagonaGradient.png">
 </p>
 </br></br></br>
 
-In this code snippet we create radial gradient from 2 colors and fill a circle with this gradient.
+In this code snippet we create a radial gradient from 2 colors and fill a circle with this gradient.
+
 ```C#
 //Create an output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "RadialGradient1_outPS.ps", FileMode.Create))
@@ -294,7 +293,8 @@ The result
 </p>
 </br></br></br>
 
-In this code snippet we create radial gradient from 6 colors and fill a rectangle with this gradient.
+In this code snippet we create a radial gradient from 6 colors and fill a rectangle with this gradient.
+
 ```C#
 //Create an output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "RadialGradient2_outPS.ps", FileMode.Create))
@@ -356,7 +356,7 @@ The result
 </br></br></br>
 
 {{% alert color="primary" %}}
-See working with gradient in PS document in [Java](/page/java/ps/working-with-gradient/) and [C++](/page/cpp/ps/working-with-gradient/).
+See working with gradient in PS documents in [Java](/page/java/ps/working-with-gradient/) and [C++](/page/cpp/ps/working-with-gradient/).
 {{% /alert %}}
 
 

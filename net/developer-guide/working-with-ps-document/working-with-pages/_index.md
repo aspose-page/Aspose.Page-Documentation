@@ -13,13 +13,13 @@ aliases: /net/ps/add-pages-to-ps-document/
 
 Aspose.Page for .NET offers two ways of adding pages to [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) object.
 <br>
-Following code snippet creates 2-paged PS document by 8 steps:
-1. Create an output stream for resulting PS file.
+The following code snippet creates a 2-paged PS document in 8 steps:
+1. Create an output stream for the resulting PS file.
 2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/) object with default options.
-3. Create 2-paged PsDocument with already created output stream and save options.
-4. Open the first page with default page size of the document (A4 in Portrait orientation).
+3. Create a 2-paged PsDocument with an already created output stream and save options.
+4. Open the first page with the default page size of the document (A4 in Portrait orientation).
 5. Close the page.
-6. Open the second page with new size.
+6. Open the second page with a new size.
 7. Close the page.
 8. Save the document.
 
@@ -54,18 +54,18 @@ using (Stream outPsStream = new FileStream(dataDir + "document1.ps", FileMode.Cr
 }
 ```
 {{% alert color="primary" %}}
-See working with pages in PS document in [Java](/page/java/ps/working-with-pages/) and [C++](/page/cpp/ps/working-with-pages/).
+See working with the pages in PS documents in [Java](/page/java/ps/working-with-pages/) and [C++](/page/cpp/ps/working-with-pages/).
 {{% /alert %}}
 
-Following code snippet creates also 2-paged PS document, but by 7 steps:
-1. Create output stream for resulting PS file.
+The following code snippet creates also a 2-paged PS document, but with 7 steps:
+1. Create an output stream for the resulting PS file.
 2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/) object with default options.
-3. Create multi-paged PsDocument with already created output stream and save options. In this case the first page is already opened and it's size is default page size of the document (A4 in Portrait orientation).
+3. Create multi-paged PsDocument with already created output stream and save options. In this case, the first page is already opened and its size is the default page size of the document (A4 in Portrait orientation).
 4. Close the page.
-5. Open the second page with new size.
+5. Open the second page with a new size.
 6. Close the page.
 7. Save the document.
-This way of adding pages is usefull when document has 1 page or it is uknown if it will be 1- or 2-paged document.
+This way of adding pages is useful when the document has 1 page or it is unknown if it will be a 1- or 2-paged document.
 
 ```C#
 //Create an output stream for PostScript document

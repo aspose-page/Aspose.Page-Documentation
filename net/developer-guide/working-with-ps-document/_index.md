@@ -8,14 +8,13 @@ description: These articles is about working with text, shapes, tiling patterns,
 keywords: working with PS document .NET, working with PostScript document .NET, working with EPS file .NET
 ---
 
-`PS` and `EPS` extensions are linked to the PostScript and Encapsulated PostScript languages respectively that were developed by Adobe.
+`PS` and `EPS` extensions are linked to the PostScript and Encapsulated PostScript languages respectively that Adobe developed.
 
 [PS](https://docs.aspose.com/page/net/what-is-ps-file/) is a dynamic Page description language. It uses graphics operators, procedures, control operators and variables.
-[EPS](https://docs.aspose.com/page/net/what-is-eps-file/) is a restricted PostScript. Some PostScript operators are prohibited to use in EPS file. At the same time EPS file must conform PostScript Document
-Structuring Conventions Specifications that supposes to use structural comments. Generally, EPS was intended for description of 1-paged graphics that can be encapsulated in PostScript files and it's derivations.
+[EPS](https://docs.aspose.com/page/net/what-is-eps-file/) is a restricted PostScript. Some PostScript operators are prohibited from using EPS files. At the same time, the EPS file must conform to PostScript Document Structuring Conventions Specifications that suppose to use structural comments. Generally, EPS was intended for the description of 1-paged graphics that can be encapsulated in PostScript files and their derivations.
 
-Aspose.Page library allows creation of both PS or EPS file with proper graphics elements, but in this guid we will use only PS file type.
-So we use for creation of PS file such code:
+Aspose.Page library allows the creation of both PS or EPS files with proper graphics elements, but in this guide, we will use only the PS file type. 
+So we use for the creation of PS file such code:
 ```C#
 using (Stream outPsStream = new FileStream(dir + "document.ps", FileMode.Create))
 {
@@ -26,7 +25,7 @@ using (Stream outPsStream = new FileStream(dir + "document.ps", FileMode.Create)
     PsDocument document = new PsDocument(outPsStream, options, true);
 }
 ```
-If someone wish to creat EPS file he/she should use following code:
+If someone wish to create EPS file they should use the following code:
 ```C#
 using (Stream outPsStream = new FileStream(dir + "document.eps", FileMode.Create))
 {
@@ -40,18 +39,18 @@ using (Stream outPsStream = new FileStream(dir + "document.eps", FileMode.Create
 }
 ```
 {{% alert color="primary" %}}
-See working with PS document in [Java](/page/java/ps/working-with-document/) and [C++](/page/cpp/ps/working-with-document/).
+See working with PS documents in [Java](/page/java/ps/working-with-document/) and [C++](/page/cpp/ps/working-with-document/).
 {{% /alert %}}
 
 {{% alert color="primary" %}}
-**Aspose.Page library can create only static PS/EPS document. Control operators are not supported.**{{% /alert %}}
+**Aspose.Page library can create only static PS/EPS documents. Control operators are not supported.**{{% /alert %}}
 
 {{% alert color="primary" %}}
 At this moment Aspose.Page library can only create PostScript documents, not edit it.
 {{% /alert %}}
 
 
-This chapter includes information about working with PS files using Aspose.Page API solution for .NET. There you will find the next articles with the code examples on how the functionality works.
+This chapter includes information about working with PS files using Aspose.Page API solution for .NET. There you will find the next articles with the code examples of how the functionality works.
 
 
 - [Working with Document](https://docs.aspose.com/page/net/ps/working-with-document/)

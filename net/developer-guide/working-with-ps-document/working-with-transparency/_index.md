@@ -10,32 +10,32 @@ aliases: /net/ps/add-transparency-in-ps-document/
 ---
 
 ## **Add transparency in PS document**
-PostScript doesn't support a transparency in painting vector graphics objects. However, translucent (partially transparent) images can be rendered as a set of fully transparent and fully opaque pixels.
+PostScript doesn't support transparency in painting vector graphics objects. However, translucent (partially transparent) images can be rendered as a set of fully transparent and fully opaque pixels.
 Such images are called **masks**.
 <br>
-Aspose.Page for .NET library offers a method that adds transparent image to PS document. As for painting vector graphics: shapes or text, we offer **"pseudo-transparency"**.
-**"Pseudo-transparency"** is a process of paling colors that have Alpha component less than 255. It is reached by specific blending of Red, Green and Blue components with Alpha one.
-**"Pseudo-transparency"**, of course, doesn't allow to see the lower colored layer from under upper transparent layer, but make an illusion of a transparency if the bottom layer is white.
+Aspose.Page for .NET library offers a method that adds the transparent image to the PS document. As for painting vector graphics: shapes or text, we offer **"pseudo-transparency"**.
+**"Pseudo-transparency"** is a process of paling colors that have an Alpha component of less than 255. It is reached by the specific blending of Red, Green, and Blue components with Alpha one.
+**"Pseudo-transparency"**, of course, doesn't allow us to see the lower colored layer from under the upper transparent layer, but makes an illusion of transparency if the bottom layer is white.
 
 ### **Add transparent image in PS document**
-As we wrote earlier transparent image can be added to PS document as a **mask** and Aspose.Page for .NET library offers for this purpose a method **AddTransparentImage()**.
+
+As we wrote earlier transparent images can be added to the PS document as a **mask** and Aspose.Page for .NET library offers for this purpose a method **AddTransparentImage()**.
 This method recognizes whether the image is fully opaque or fully transparent or translucent. If it is fully opaque it is added as the opaque image in **AddImage()** method,
-if it is fully transparent it is not added to document at all, if it is tranclucent image it is added as PostScript image **mask**.
+if it is fully transparent it is not added to the document at all, if it is the translucent image it is added as a PostScript image **mask**.
 <br>
 <br>
-In the example below we demonstrate a difference of adding transparent image in PS document with **AddImage()** and **AddTransparentImage()**. In order to see the white tranclucent image we set page background color
-to non-white.
+In the example below we demonstrate the difference between adding a transparent image in a PS document with **AddImage()** and **AddTransparentImage()**. In order to see the white translucent image we set the page background color to non-white.
 <br>
 <br>
-In order to add any image to new [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) with Aspose.Page for .NET library in this example we do following steps:
-1. Create an output stream for resulting PS file.
-2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/) object with default options. Change background color if it is required.
-3. Create 1-paged PsDocument with already created output stream and save options.
-4. Create new graphics state.
+In order to add any image to a new [PsDocument](https://reference.aspose.com/page/net/aspose.page.eps/psdocument/) with Aspose.Page for .NET library in this example we do the following steps:
+1. Create an output stream for the resulting PS file.
+2. Create [PsSaveOptions](https://reference.aspose.com/page/net/aspose.page.eps.device/pssaveoptions/) object with default options. Change the background color if it is required.
+3. Create a 1-paged PsDocument with an already created output stream and save options.
+4. Create a new graphics state.
 5. Create **System.Drawing.Bitmap** from image file.
-6. Create necessary transformation for the image.
-7. Add the image to PsDocument as fully opaque image (using **AddImage()** method) if we sure that the image is opaque or add one as transparent image (using **AddTransparentImage()** method) if we not sure that the image is opaque.
-9. Exit from current graphics state to upper level one.
+6. Create the necessary transformation for the image.
+7. Add the image to PsDocument as a fully opaque image (using **AddImage()** method) if we are sure that the image is opaque or add one as a transparent image (using **AddTransparentImage()** method) if we are not sure that the image is opaque.
+9. Exit from the current graphics state to upper level one.
 10. Close the page.
 11. Save the document.
 
@@ -79,10 +79,10 @@ using (Stream outPsStream = new FileStream(dataDir + "AddTransparentImage_outPS.
 }
 ```
 {{% alert color="primary" %}}
-See working with images in PS document in [Java](/page/java/ps/working-with-transparency/) and [C++](/page/cpp/ps/working-with-transparency/).
+See working with images in PS documentі in [Java](/page/java/ps/working-with-transparency/) and [C++](/page/cpp/ps/working-with-transparency/).
 {{% /alert %}}
 
-The result of running this code is appeared as
+The result of running this code is next
 </br></br></br>
 <p align="center">
 	<img src="AddTransparentImage.png">
@@ -90,8 +90,8 @@ The result of running this code is appeared as
 </br></br></br>
 
 ### **Adding transparent vector graphics object**
-Earlier we wrote that Aspose.Page for .NET library uses paling algorythm for transparent shapes and text, that we called **"pseudo-transparency"**.
-In the example below we demonstrate  a difference between two shapes painted with the same color, but in the first shape without Alpha component and in the second case with Alpha component.
+Earlier we wrote that Aspose.Page for .NET library uses a paling algorithm for transparent shapes and text, which we called **"pseudo-transparency"**.
+In the example below we demonstrate a difference between two shapes painted with the same color, but in the first shape without the Alpha component and in the second case with the Alpha component.
 
 ```C#
 //Create an output stream for PostScript document
@@ -152,7 +152,7 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 }
 ```
 {{% alert color="primary" %}}
-See working with transparency in PS document in [Java](/page/java/ps/working-with-transparency/) and [C++](/page/cpp/ps/working-with-transparency/).
+See working with transparency in PS documents in [Java](/page/java/ps/working-with-transparency/) and [C++](/page/cpp/ps/working-with-transparency/).
 {{% /alert %}}
 
 The result of running this code is appeared as
