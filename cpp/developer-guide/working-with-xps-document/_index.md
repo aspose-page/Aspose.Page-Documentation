@@ -13,7 +13,7 @@ XPS is a static Page description language as well as PDF. It uses vector inconsi
 
 XPS file is a ZIP archive that has next elemens: Fpages (pages of the file's document), document parts, and a folder with relationships of the pages. The trick here is that an XPS file can be viewed by changing its extension to `.zip` and using any archiver software available on your device.
 
-This chapter includes information about working with XPS files using Aspose.Page C++ API solution for. There you will find the next articles with the code examples on how the functionality works.
+This chapter includes information about working with XPS files using Aspose.Page C++ API solution for. There you will find the next articles with the code examples of how the functionality works.
 
 
 - [Working with Text](https://docs.aspose.com/page/cpp/working-with-text/)

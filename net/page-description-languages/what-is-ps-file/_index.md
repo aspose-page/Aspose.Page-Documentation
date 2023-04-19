@@ -167,7 +167,7 @@ The quickest way to convert PS file to JPG or PDF is to use
 [Aspose.Page Conversion](https://products.aspose.app/page/conversion/ps) web application. Aspose PS converter supports PS to PDF, DOC, DOCX, HTML,
 TEX, SVG, PNG, JPG, TIFF, BMP, EMF, WMF conversions.
 If you are a developer and want to use our library for such conversions, learn [PDLs converters](https://docs.aspose.com/page/net/convert/) article 
-to find the illustrated with code snippets examples on how to do the conversion.
+to find the illustrated with code snippets examples of how to do the conversion.
 
 ## How do I merge PS files?
 
